@@ -1,0 +1,75 @@
+///////////////////////////////////////////////////////////////
+//////////////// FILE ANALYSIS PROCESS CHECKER ////////////////
+///////////////////////////////////////////////////////////////
+
+
+WORKING DIRECTORY: /home/virus/Downloads/Benign_left
+OUTPUT DIRECTORY: /home/virus/Downloads/Result_left
+
+
+
+/home/virus/Downloads/Benign_left/4b8c7ce81c14beecad3ab84f2b12763a651ccfaff91b7ab7a6ab3ad172497628.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/2f758dd14ae34d4ec5bf1274debafab412066ec472cc887ba6cc26f0ba208d1a.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/e56770b3d494ff7bda141d995ebb4910f86efb74309031d62442ad1575ab3d0a.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/2c169fcb16b1572b631fa6e029b8ced75a7158351519d4ee045076292a9b2e76.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/f3562c09cc20fffe17307a51c9d548bf290c343d7aabf45711b426b601f966e1.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/8201113d7dd42be40661f4576b7c6742e6cd499e9d9fa73f25cb03ac901a8641.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/efa50db0b9035846b2fe302262b6266a67f53939a9b232547741001b8e797baf.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/a09cc5ce5892b12ae0f31736f919e1d66e107a45c806d9e5f747cc6b44dfd6e1.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/7c96ba05659a5f2b8947187996a4ad48221ff6fa973e32b927a948028805fbd1.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/16061512472f96783f9335f57bf46060156efe7b71a0b30ecc4660346474514c.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/11b0092c119f750472456abc16f61de83de2c8424da29f7c83fe248c89d94830.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/aa8a2714f8048a60481699abf5443f20715c9ee0dbdb3eab3d069c9363537ae5.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/3661f1317e9d404888f44f8542492157cc35e3fa57db68f60c5d897c480e102b.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/ceb633ded1d6322a931afd88b6d18e9c072aaa07c771c2eba08a3ec5008e8ee5.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/3135a25fc87e417cbf969c22fd9f34f90439e5d5fb640a10168c470afcad5edd.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/254c9e286d430f4c2f335292d02230793faf533f1e4ccaaad08cb7f6072eb9f2.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/cc724986e00bb0e3c0c765e20e7161187860dae6f3c1a555193d015ab2585ff1.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/253cb0c3b93608fcf1d2ff2ae00ade065512d9b55e46ccdf1db150187124ef2a.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/aeb6b3211629a455674f5b81a6881aa36f4c8d592038974a4b57fa152483511a.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/c27a4bbeff54592c027c212a366fa569839a54287a9866525de78bbda4e1befd.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/3f1c9d01458b0bc8d31aca2586caee914eea9db5eaede25ce423e169f7e99f55.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/2af13143a51f53aaae209b9bd0cbd0d7274c1e667754ef627cb1cba9ab9cb0d9.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/a2332351291c78268d332d1235776d314ff206f61a323beb58a7156c1b333247.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/b507a1c5a6d561c4533f8db2d106b145e3448b42bfa4493db05ae0768b3f04e7.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/22ff3b3e6f62c8d4d290b90804f5802eca970c6765ff0ef7c843fa008ba662c1.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/c12fe85d4178458e8a01a905d1b55a1a72b4e6c7790ec2f7cfa852175cd240e1.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/5a8424e8ce563936b8fa610c558c96656a7696ea04ee2a55df9ce7a050970173.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/9789f6f1f47f5bb2fce1050c49bdfe559b0cca504340980a7778d045e344c6d0.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/737209837c52c2f03db5e1356861bba5dcd7a4e3318652859b597e261e90811c.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/467c456d801089f1239fd61bd93ad0736246822e82521bc913bd42abef58bf7c.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/1a229c3fd8382924431e84241aadc73183db27f1a7941fb44e4c0032ad3e0b13.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/4fc5adbd075cff7e5530357201a4830818dfb1f1f3d920abb10db0ea4520c8e3.txt: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/ad9c7bcfd9f81b3f293d3394e8c4ffacf59e27fb75c9fd116bb5bb1d2a52fff6.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/6a880268639648653f23d7eb453b347b778726353e743fe4aa93b857d1fd60bc.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/5b56e83814fad2f9b3ee2267a8592cf4133787ec8ae721f0a96ac56709fad30c.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/1b14a8e768d88d1e5010d69cf382aab00d1deabc64ab800bf4db56ac268f058d.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/92245b1e27d3f531c730571eec10a89e7a71a39e09b3a70fe2c3fb4fef904330.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/b20c32686d4c2d574394a33e50393976b634ba7ea17bbb47c2ddd900bfa8fe0d.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/17254ba9cbf71d8a2f5b3a0c83c82fa989fc5513894200a1c252624619754f4c.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/74808891a93822e9357782cff552a0034d58ba17ddea9a3d0dd681ff6447e61c.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/dd9757df56af16e1842e08f70cada7038a695fe496cf275473a3856c409e27cd.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/3e815e895406f760b28e3beaa781ad3b19fa40a8c9bdce639134a40e5f021e2c.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/bc60e4eec317f27c4cd06c2651f481782b143d7ef59512696c6d7268e9587ebc.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/54b0fa4586b6faba31c50b25ef38d83cee579a985e7ed82fb892d98e8390a695.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/ca63f13d10e7e8dd74fa3a79926214d061ea9db5b972c06b88d4fdf72789b19a.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/615a0fd31a71cf1a8788eb761e7013b33a6836207a3e9770beed305c2a73c886.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/458055e6386756830e708e60e3b040c75056e95272d7fd17c1edb9d466f10dd2.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/81b94388056abf0c2b06ea7f86954f1cad95438ba020445be98b999755eef500.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/9fa6c940f77696f4d4a95fe716ae2dd1f431a94baab5a678563f17cfe4686e73.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/bf50db4fab0bf8ce8227c35d912a5f78d33d3eafa0ebb5991fe67f7dc2a7e53f.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/dfa14e2e455a4212aa680d1d1f95ec5d2d07e54695a97c9ea0c67ba491fd63cc.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/0563ff99f825cd244c73555b96b6447cdaa2416f4e1de14e83c2aeb79821ce80.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/1ba4a4363b5dbae4906a14f154bbd1fca0d1bc43c2c611327f6d0ecc5ac204f5.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/16475019afd8485a29cdf3af26b4c8c6ecb2312fbf9f6fb396ecefc7a223a079.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/fd2dfbd8263a594d00ca0e78c5b921a175dcf05fb28f1cc316c7c92338480f6b.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/e3b9ee624e346b7eb953191cd98f166b3bf8c109595a0697612a6c43fbc4413d.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/34e27de9c542cc49172066ef9f60fdafdd29c4cd9d5990d1d727b9657ae79e9f.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/607a281824eedc0718fb06b7c9be631fa218e10f3258952915d183b8f9a1e215.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/e45e397bbdc288f91869979c0da9d67a51c201b46c1787fdc3bea1b815dc702e.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/0b91916bc5ee7636f88d5f5ea5eac0397c5dbcab7da9cba59893485c129f8081.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/73ea989ae16b9692e087d5bceaca42787f7d01f0b6998a8a978caed36eb079e8.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/bc4a7cd14661e8d02f1a9c74c5c3bb27e2713ffc5bd5210b5c8bc2ca8239b9c4.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/c67c51c6ed24416549128abb1f80494675ea73fc8c9d8b4ec0afc5315e429035.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/73df33cf400a6d41245b7944c6ffcdc477f08a97bba9f323d8126daec8475e76.apk: FAILED - Empty folder detected !!!
+/home/virus/Downloads/Benign_left/5954402a8e36690f3da503228eda70c9c9889a0df7703160a663cfca7eb7329a.apk: FAILED - Empty folder detected !!!

@@ -1,0 +1,3183 @@
+{
+    "Pre_static_analysis": {
+        "Filename": "BW/cb203dc9e0b876a78718ddf96119f097d7460cc0dd72006d69edd2327b83092d.apk", 
+        "md5": "96e33f4b5ad609dbae62c227c8ae3f99", 
+        "sha256": "cb203dc9e0b876a78718ddf96119f097d7460cc0dd72006d69edd2327b83092d", 
+        "sha1": "388d1a31c90b41ddf6eab5eccc8bf6eab1d0abfa", 
+        "VT_positives": 0, 
+        "VT_engines": 58, 
+        "avclass": "None"
+    }, 
+    "Static_analysis": {
+        "Package name": "com.qello.handheld", 
+        "Permissions": [
+            "android.permission.INTERNET", 
+            "android.permission.ACCESS_NETWORK_STATE", 
+            "android.permission.ACCESS_WIFI_STATE", 
+            "android.permission.VIBRATE", 
+            "android.permission.WRITE_EXTERNAL_STORAGE", 
+            "android.permission.READ_EXTERNAL_STORAGE", 
+            "android.permission.READ_PHONE_STATE", 
+            "android.permission.GET_ACCOUNTS", 
+            "com.android.vending.BILLING", 
+            "android.permission.WAKE_LOCK", 
+            "com.google.android.c2dm.permission.RECEIVE", 
+            "com.qello.handheld.permission.C2D_MESSAGE", 
+            "android.permission.NETWORK", 
+            "android.permission.USE_CREDENTIALS"
+        ], 
+        "Opcodes": {
+            "rem-float/2addr": 4, 
+            "mul-float/2addr": 393, 
+            "rem-int/2addr": 7, 
+            "array-length": 1098, 
+            "div-int/lit8": 200, 
+            "sub-float/2addr": 120, 
+            "move": 7006, 
+            "if-eqz": 17283, 
+            "and-int/lit8": 292, 
+            "and-int": 21, 
+            "int-to-long": 202, 
+            "cmpg-double": 24, 
+            "invoke-interface/range": 125, 
+            "mul-int/lit8": 170, 
+            "xor-long": 1, 
+            "sparse-switch": 202, 
+            "return-wide": 349, 
+            "xor-int/lit8": 3007, 
+            "const": 517, 
+            "sput-object": 2855, 
+            "if-le": 441, 
+            "add-long/2addr": 100, 
+            "int-to-double": 49, 
+            "iget-byte": 4, 
+            "iget-boolean": 3142, 
+            "mul-float": 35, 
+            "iput-byte": 4, 
+            "if-lt": 744, 
+            "invoke-direct/range": 748, 
+            "sub-long/2addr": 92, 
+            "neg-float": 40, 
+            "return": 6305, 
+            "neg-double": 1, 
+            "sub-long": 77, 
+            "iput": 15642, 
+            "const-string": 23310, 
+            "iput-object": 12607, 
+            "float-to-int": 400, 
+            "if-nez": 7627, 
+            "aput": 565, 
+            "ushr-int/lit8": 288, 
+            "move-result": 22638, 
+            "div-long/2addr": 21, 
+            "sput": 110, 
+            "nop": 369, 
+            "or-int": 12, 
+            "new-array": 2218, 
+            "sget-object": 9104, 
+            "if-gt": 222, 
+            "fill-array-data-payload": 253, 
+            "const-wide/32": 75, 
+            "long-to-int": 81, 
+            "rsub-int": 7, 
+            "sub-double/2addr": 5, 
+            "return-object": 11540, 
+            "if-ge": 1868, 
+            "aput-byte": 344, 
+            "move-wide/from16": 126, 
+            "xor-int": 1, 
+            "if-gez": 316, 
+            "long-to-double": 13, 
+            "invoke-super/range": 16, 
+            "aput-wide": 15, 
+            "const/4": 26963, 
+            "instance-of": 1051, 
+            "shl-long": 6, 
+            "double-to-long": 9, 
+            "iput-char": 26, 
+            "and-int/lit16": 428, 
+            "aput-object": 2957, 
+            "iput-wide": 692, 
+            "move-wide": 137, 
+            "const-wide/high16": 102, 
+            "div-int": 24, 
+            "add-int/lit8": 2749, 
+            "invoke-super": 1549, 
+            "sub-double": 7, 
+            "and-long/2addr": 62, 
+            "rsub-int/lit8": 9, 
+            "const/16": 4568, 
+            "cmpl-float": 276, 
+            "goto": 18038, 
+            "and-long": 2, 
+            "or-long/2addr": 23, 
+            "mul-int/2addr": 72, 
+            "cmp-long": 414, 
+            "and-int/2addr": 4668, 
+            "iput-boolean": 3051, 
+            "add-long": 14, 
+            "if-eq": 1308, 
+            "shr-long": 1, 
+            "add-double/2addr": 23, 
+            "throw": 4069, 
+            "div-double": 7, 
+            "div-double/2addr": 31, 
+            "goto/16": 2030, 
+            "rem-float": 1, 
+            "sget-wide": 29, 
+            "add-float/2addr": 251, 
+            "invoke-static/range": 305, 
+            "move-object": 5020, 
+            "sput-wide": 25, 
+            "sparse-switch-payload": 202, 
+            "return-void": 21338, 
+            "float-to-double": 68, 
+            "ushr-long": 11, 
+            "invoke-static": 27466, 
+            "long-to-float": 24, 
+            "double-to-float": 27, 
+            "aget-byte": 405, 
+            "div-int/lit16": 19, 
+            "add-float": 34, 
+            "iget": 30478, 
+            "shl-int/2addr": 9, 
+            "sub-float": 135, 
+            "add-int/lit16": 21, 
+            "sput-boolean": 164, 
+            "shl-long/2addr": 24, 
+            "aget-wide": 27, 
+            "packed-switch-payload": 519, 
+            "rem-int": 14, 
+            "move/from16": 624, 
+            "mul-long/2addr": 31, 
+            "move-result-object": 51643, 
+            "shr-long/2addr": 4, 
+            "or-long": 3, 
+            "move-result-wide": 1395, 
+            "invoke-interface": 11735, 
+            "aput-boolean": 11, 
+            "add-int/2addr": 1274, 
+            "aget-boolean": 11, 
+            "rem-long/2addr": 16, 
+            "int-to-short": 6, 
+            "if-lez": 887, 
+            "invoke-direct": 26092, 
+            "aget-char": 34, 
+            "sub-int/2addr": 751, 
+            "const/high16": 810, 
+            "iget-wide": 884, 
+            "mul-long": 4, 
+            "rem-long": 6, 
+            "if-ltz": 543, 
+            "or-int/lit8": 63, 
+            "sget": 3268, 
+            "aput-short": 2, 
+            "if-gtz": 181, 
+            "int-to-float": 898, 
+            "iget-char": 35, 
+            "div-int/2addr": 15, 
+            "const-class": 1125, 
+            "aget-object": 1009, 
+            "check-cast": 7728, 
+            "aget": 434, 
+            "aput-char": 14, 
+            "const-wide/16": 824, 
+            "shr-int/2addr": 1, 
+            "mul-double": 1, 
+            "div-long": 4, 
+            "cmpl-double": 35, 
+            "move-object/from16": 3042, 
+            "if-ne": 2061, 
+            "shr-int/lit8": 59, 
+            "xor-long/2addr": 13, 
+            "monitor-enter": 1409, 
+            "sub-int": 556, 
+            "mul-int/lit16": 20, 
+            "sget-boolean": 317, 
+            "neg-long": 4, 
+            "rem-int/lit8": 13, 
+            "invoke-virtual": 74095, 
+            "xor-int/2addr": 5339, 
+            "invoke-virtual/range": 723, 
+            "div-float/2addr": 189, 
+            "mul-double/2addr": 50, 
+            "int-to-byte": 331, 
+            "double-to-int": 49, 
+            "new-instance": 14920, 
+            "packed-switch": 519, 
+            "mul-int": 34, 
+            "shl-int": 16, 
+            "move-exception": 5055, 
+            "cmpg-float": 95, 
+            "rem-int/lit16": 5, 
+            "ushr-long/2addr": 6, 
+            "monitor-exit": 3008, 
+            "div-float": 86, 
+            "shl-int/lit8": 312, 
+            "iget-object": 76099, 
+            "int-to-char": 16, 
+            "or-int/lit16": 25, 
+            "aget-short": 4, 
+            "fill-array-data": 253, 
+            "const-wide": 71, 
+            "add-int": 268, 
+            "neg-int": 119, 
+            "or-int/2addr": 1678, 
+            "float-to-long": 3
+        }, 
+        "Main activity": "com.qello.core.CastActivity", 
+        "API calls": {}, 
+        "Strings": {}, 
+        "API packages": {}, 
+        "System commands": {}, 
+        "Intents": {
+            "Failed to extract intents": 0
+        }, 
+        "Activities": {
+            "com.facebook.LoginActivity": [
+                ""
+            ], 
+            "com.qello.cast.custom.DummyActivity": [
+                ""
+            ], 
+            "com.qello.core.RoboActivity": [
+                ""
+            ], 
+            "com.qello.core.CastActivity": [
+                ""
+            ], 
+            "com.qello.handheld.setlist.AddToSetlistDialog": [
+                ""
+            ], 
+            "com.qello.utils.SubscriptionPurchasedDialogActivity": [
+                ""
+            ], 
+            "com.google.android.gms.ads.AdActivity": [
+                ""
+            ], 
+            "com.amazon.identity.auth.device.authorization.AuthorizationActivity": [
+                ""
+            ], 
+            "com.google.android.gms.ads.purchase.InAppPurchaseActivity": [
+                ""
+            ]
+        }, 
+        "Services": {
+            "com.qello.services.GCMIntentService": [
+                ""
+            ], 
+            "com.qello.cast.notification.VideoCastNotificationService": [
+                ""
+            ], 
+            "com.qello.cast.reconnection.ReconnectionService": [
+                ""
+            ]
+        }, 
+        "Receivers": {
+            "com.qello.utils.GCMCustomBroadcastReceiver": [
+                ""
+            ], 
+            "com.qello.utils.CustomInstallReferrerReceiver": [
+                ""
+            ], 
+            "com.qello.cast.remotecontrol.VideoIntentReceiver": [
+                ""
+            ]
+        }, 
+        "FlowDroid": {
+            "SMS_MMS": {
+                "SMS_MMS": 0, 
+                "FILE_INFORMATION": 0, 
+                "UNIQUE_IDENTIFIER": 0, 
+                "FILE": 0, 
+                "SYNCHRONIZATION_DATA": 0, 
+                "BLUETOOTH_INFORMATION": 0, 
+                "EMAIL": 0, 
+                "VOIP": 0, 
+                "LOG": 0, 
+                "IMAGE": 0, 
+                "DATABASE_INFORMATION": 0, 
+                "ACCOUNT_SETTINGS": 0, 
+                "VIDEO": 0, 
+                "PHONE_CONNECTION": 0, 
+                "CALENDAR_INFORMATION": 0, 
+                "WIDGET": 0, 
+                "NFC": 0, 
+                "LOCATION_INFORMATION": 0, 
+                "BUNDLE": 0, 
+                "BROWSER_INFORMATION": 0, 
+                "SYSTEM_SETTINGS": 0, 
+                "AUDIO": 0, 
+                "PHONE_STATE": 0, 
+                "IPC": 0, 
+                "NOT_EXISTING": 0, 
+                "ACCOUNT_INFORMATION": 0, 
+                "BLUETOOTH": 0, 
+                "CONTACT_INFORMATION": 0, 
+                "NO_CATEGORY": 0, 
+                "NETWORK_INFORMATION": 0, 
+                "NETWORK": 0
+            }, 
+            "FILE_INFORMATION": {
+                "SMS_MMS": 0, 
+                "FILE_INFORMATION": 0, 
+                "UNIQUE_IDENTIFIER": 0, 
+                "FILE": 0, 
+                "SYNCHRONIZATION_DATA": 0, 
+                "BLUETOOTH_INFORMATION": 0, 
+                "EMAIL": 0, 
+                "VOIP": 0, 
+                "LOG": 0, 
+                "IMAGE": 0, 
+                "DATABASE_INFORMATION": 0, 
+                "ACCOUNT_SETTINGS": 0, 
+                "VIDEO": 0, 
+                "PHONE_CONNECTION": 0, 
+                "CALENDAR_INFORMATION": 0, 
+                "WIDGET": 0, 
+                "NFC": 0, 
+                "LOCATION_INFORMATION": 0, 
+                "BUNDLE": 0, 
+                "BROWSER_INFORMATION": 0, 
+                "SYSTEM_SETTINGS": 0, 
+                "AUDIO": 0, 
+                "PHONE_STATE": 0, 
+                "IPC": 0, 
+                "NOT_EXISTING": 0, 
+                "ACCOUNT_INFORMATION": 0, 
+                "BLUETOOTH": 0, 
+                "CONTACT_INFORMATION": 0, 
+                "NO_CATEGORY": 0, 
+                "NETWORK_INFORMATION": 0, 
+                "NETWORK": 0
+            }, 
+            "UNIQUE_IDENTIFIER": {
+                "SMS_MMS": 0, 
+                "FILE_INFORMATION": 0, 
+                "UNIQUE_IDENTIFIER": 0, 
+                "FILE": 0, 
+                "SYNCHRONIZATION_DATA": 0, 
+                "BLUETOOTH_INFORMATION": 0, 
+                "EMAIL": 0, 
+                "VOIP": 0, 
+                "LOG": 0, 
+                "IMAGE": 0, 
+                "DATABASE_INFORMATION": 0, 
+                "ACCOUNT_SETTINGS": 0, 
+                "VIDEO": 0, 
+                "PHONE_CONNECTION": 0, 
+                "CALENDAR_INFORMATION": 0, 
+                "WIDGET": 0, 
+                "NFC": 0, 
+                "LOCATION_INFORMATION": 0, 
+                "BUNDLE": 0, 
+                "BROWSER_INFORMATION": 0, 
+                "SYSTEM_SETTINGS": 0, 
+                "AUDIO": 0, 
+                "PHONE_STATE": 0, 
+                "IPC": 0, 
+                "NOT_EXISTING": 0, 
+                "ACCOUNT_INFORMATION": 0, 
+                "BLUETOOTH": 0, 
+                "CONTACT_INFORMATION": 0, 
+                "NO_CATEGORY": 0, 
+                "NETWORK_INFORMATION": 0, 
+                "NETWORK": 0
+            }, 
+            "FILE": {
+                "SMS_MMS": 0, 
+                "FILE_INFORMATION": 0, 
+                "UNIQUE_IDENTIFIER": 0, 
+                "FILE": 0, 
+                "SYNCHRONIZATION_DATA": 0, 
+                "BLUETOOTH_INFORMATION": 0, 
+                "EMAIL": 0, 
+                "VOIP": 0, 
+                "LOG": 0, 
+                "IMAGE": 0, 
+                "DATABASE_INFORMATION": 0, 
+                "ACCOUNT_SETTINGS": 0, 
+                "VIDEO": 0, 
+                "PHONE_CONNECTION": 0, 
+                "CALENDAR_INFORMATION": 0, 
+                "WIDGET": 0, 
+                "NFC": 0, 
+                "LOCATION_INFORMATION": 0, 
+                "BUNDLE": 0, 
+                "BROWSER_INFORMATION": 0, 
+                "SYSTEM_SETTINGS": 0, 
+                "AUDIO": 0, 
+                "PHONE_STATE": 0, 
+                "IPC": 0, 
+                "NOT_EXISTING": 0, 
+                "ACCOUNT_INFORMATION": 0, 
+                "BLUETOOTH": 0, 
+                "CONTACT_INFORMATION": 0, 
+                "NO_CATEGORY": 0, 
+                "NETWORK_INFORMATION": 0, 
+                "NETWORK": 0
+            }, 
+            "SYNCHRONIZATION_DATA": {
+                "SMS_MMS": 0, 
+                "FILE_INFORMATION": 0, 
+                "UNIQUE_IDENTIFIER": 0, 
+                "FILE": 0, 
+                "SYNCHRONIZATION_DATA": 0, 
+                "BLUETOOTH_INFORMATION": 0, 
+                "EMAIL": 0, 
+                "VOIP": 0, 
+                "LOG": 0, 
+                "IMAGE": 0, 
+                "DATABASE_INFORMATION": 0, 
+                "ACCOUNT_SETTINGS": 0, 
+                "VIDEO": 0, 
+                "PHONE_CONNECTION": 0, 
+                "CALENDAR_INFORMATION": 0, 
+                "WIDGET": 0, 
+                "NFC": 0, 
+                "LOCATION_INFORMATION": 0, 
+                "BUNDLE": 0, 
+                "BROWSER_INFORMATION": 0, 
+                "SYSTEM_SETTINGS": 0, 
+                "AUDIO": 0, 
+                "PHONE_STATE": 0, 
+                "IPC": 0, 
+                "NOT_EXISTING": 0, 
+                "ACCOUNT_INFORMATION": 0, 
+                "BLUETOOTH": 0, 
+                "CONTACT_INFORMATION": 0, 
+                "NO_CATEGORY": 0, 
+                "NETWORK_INFORMATION": 0, 
+                "NETWORK": 0
+            }, 
+            "BLUETOOTH_INFORMATION": {
+                "SMS_MMS": 0, 
+                "FILE_INFORMATION": 0, 
+                "UNIQUE_IDENTIFIER": 0, 
+                "FILE": 0, 
+                "SYNCHRONIZATION_DATA": 0, 
+                "BLUETOOTH_INFORMATION": 0, 
+                "EMAIL": 0, 
+                "VOIP": 0, 
+                "LOG": 0, 
+                "IMAGE": 0, 
+                "DATABASE_INFORMATION": 0, 
+                "ACCOUNT_SETTINGS": 0, 
+                "VIDEO": 0, 
+                "PHONE_CONNECTION": 0, 
+                "CALENDAR_INFORMATION": 0, 
+                "WIDGET": 0, 
+                "NFC": 0, 
+                "LOCATION_INFORMATION": 0, 
+                "BUNDLE": 0, 
+                "BROWSER_INFORMATION": 0, 
+                "SYSTEM_SETTINGS": 0, 
+                "AUDIO": 0, 
+                "PHONE_STATE": 0, 
+                "IPC": 0, 
+                "NOT_EXISTING": 0, 
+                "ACCOUNT_INFORMATION": 0, 
+                "BLUETOOTH": 0, 
+                "CONTACT_INFORMATION": 0, 
+                "NO_CATEGORY": 0, 
+                "NETWORK_INFORMATION": 0, 
+                "NETWORK": 0
+            }, 
+            "EMAIL": {
+                "SMS_MMS": 0, 
+                "FILE_INFORMATION": 0, 
+                "UNIQUE_IDENTIFIER": 0, 
+                "FILE": 0, 
+                "SYNCHRONIZATION_DATA": 0, 
+                "BLUETOOTH_INFORMATION": 0, 
+                "EMAIL": 0, 
+                "VOIP": 0, 
+                "LOG": 0, 
+                "IMAGE": 0, 
+                "DATABASE_INFORMATION": 0, 
+                "ACCOUNT_SETTINGS": 0, 
+                "VIDEO": 0, 
+                "PHONE_CONNECTION": 0, 
+                "CALENDAR_INFORMATION": 0, 
+                "WIDGET": 0, 
+                "NFC": 0, 
+                "LOCATION_INFORMATION": 0, 
+                "BUNDLE": 0, 
+                "BROWSER_INFORMATION": 0, 
+                "SYSTEM_SETTINGS": 0, 
+                "AUDIO": 0, 
+                "PHONE_STATE": 0, 
+                "IPC": 0, 
+                "NOT_EXISTING": 0, 
+                "ACCOUNT_INFORMATION": 0, 
+                "BLUETOOTH": 0, 
+                "CONTACT_INFORMATION": 0, 
+                "NO_CATEGORY": 0, 
+                "NETWORK_INFORMATION": 0, 
+                "NETWORK": 0
+            }, 
+            "VOIP": {
+                "SMS_MMS": 0, 
+                "FILE_INFORMATION": 0, 
+                "UNIQUE_IDENTIFIER": 0, 
+                "FILE": 0, 
+                "SYNCHRONIZATION_DATA": 0, 
+                "BLUETOOTH_INFORMATION": 0, 
+                "EMAIL": 0, 
+                "VOIP": 0, 
+                "LOG": 0, 
+                "IMAGE": 0, 
+                "DATABASE_INFORMATION": 0, 
+                "ACCOUNT_SETTINGS": 0, 
+                "VIDEO": 0, 
+                "PHONE_CONNECTION": 0, 
+                "CALENDAR_INFORMATION": 0, 
+                "WIDGET": 0, 
+                "NFC": 0, 
+                "LOCATION_INFORMATION": 0, 
+                "BUNDLE": 0, 
+                "BROWSER_INFORMATION": 0, 
+                "SYSTEM_SETTINGS": 0, 
+                "AUDIO": 0, 
+                "PHONE_STATE": 0, 
+                "IPC": 0, 
+                "NOT_EXISTING": 0, 
+                "ACCOUNT_INFORMATION": 0, 
+                "BLUETOOTH": 0, 
+                "CONTACT_INFORMATION": 0, 
+                "NO_CATEGORY": 0, 
+                "NETWORK_INFORMATION": 0, 
+                "NETWORK": 0
+            }, 
+            "LOG": {
+                "SMS_MMS": 0, 
+                "FILE_INFORMATION": 0, 
+                "UNIQUE_IDENTIFIER": 0, 
+                "FILE": 0, 
+                "SYNCHRONIZATION_DATA": 0, 
+                "BLUETOOTH_INFORMATION": 0, 
+                "EMAIL": 0, 
+                "VOIP": 0, 
+                "LOG": 0, 
+                "IMAGE": 0, 
+                "DATABASE_INFORMATION": 0, 
+                "ACCOUNT_SETTINGS": 0, 
+                "VIDEO": 0, 
+                "PHONE_CONNECTION": 0, 
+                "CALENDAR_INFORMATION": 0, 
+                "WIDGET": 0, 
+                "NFC": 0, 
+                "LOCATION_INFORMATION": 0, 
+                "BUNDLE": 0, 
+                "BROWSER_INFORMATION": 0, 
+                "SYSTEM_SETTINGS": 0, 
+                "AUDIO": 0, 
+                "PHONE_STATE": 0, 
+                "IPC": 0, 
+                "NOT_EXISTING": 0, 
+                "ACCOUNT_INFORMATION": 0, 
+                "BLUETOOTH": 0, 
+                "CONTACT_INFORMATION": 0, 
+                "NO_CATEGORY": 0, 
+                "NETWORK_INFORMATION": 0, 
+                "NETWORK": 0
+            }, 
+            "IMAGE": {
+                "SMS_MMS": 0, 
+                "FILE_INFORMATION": 0, 
+                "UNIQUE_IDENTIFIER": 0, 
+                "FILE": 0, 
+                "SYNCHRONIZATION_DATA": 0, 
+                "BLUETOOTH_INFORMATION": 0, 
+                "EMAIL": 0, 
+                "VOIP": 0, 
+                "LOG": 0, 
+                "IMAGE": 0, 
+                "DATABASE_INFORMATION": 0, 
+                "ACCOUNT_SETTINGS": 0, 
+                "VIDEO": 0, 
+                "PHONE_CONNECTION": 0, 
+                "CALENDAR_INFORMATION": 0, 
+                "WIDGET": 0, 
+                "NFC": 0, 
+                "LOCATION_INFORMATION": 0, 
+                "BUNDLE": 0, 
+                "BROWSER_INFORMATION": 0, 
+                "SYSTEM_SETTINGS": 0, 
+                "AUDIO": 0, 
+                "PHONE_STATE": 0, 
+                "IPC": 0, 
+                "NOT_EXISTING": 0, 
+                "ACCOUNT_INFORMATION": 0, 
+                "BLUETOOTH": 0, 
+                "CONTACT_INFORMATION": 0, 
+                "NO_CATEGORY": 0, 
+                "NETWORK_INFORMATION": 0, 
+                "NETWORK": 0
+            }, 
+            "DATABASE_INFORMATION": {
+                "SMS_MMS": 0, 
+                "FILE_INFORMATION": 0, 
+                "UNIQUE_IDENTIFIER": 0, 
+                "FILE": 0, 
+                "SYNCHRONIZATION_DATA": 0, 
+                "BLUETOOTH_INFORMATION": 0, 
+                "EMAIL": 0, 
+                "VOIP": 0, 
+                "LOG": 0, 
+                "IMAGE": 0, 
+                "DATABASE_INFORMATION": 0, 
+                "ACCOUNT_SETTINGS": 0, 
+                "VIDEO": 0, 
+                "PHONE_CONNECTION": 0, 
+                "CALENDAR_INFORMATION": 0, 
+                "WIDGET": 0, 
+                "NFC": 0, 
+                "LOCATION_INFORMATION": 0, 
+                "BUNDLE": 0, 
+                "BROWSER_INFORMATION": 0, 
+                "SYSTEM_SETTINGS": 0, 
+                "AUDIO": 0, 
+                "PHONE_STATE": 0, 
+                "IPC": 0, 
+                "NOT_EXISTING": 0, 
+                "ACCOUNT_INFORMATION": 0, 
+                "BLUETOOTH": 0, 
+                "CONTACT_INFORMATION": 0, 
+                "NO_CATEGORY": 0, 
+                "NETWORK_INFORMATION": 0, 
+                "NETWORK": 0
+            }, 
+            "ACCOUNT_SETTINGS": {
+                "SMS_MMS": 0, 
+                "FILE_INFORMATION": 0, 
+                "UNIQUE_IDENTIFIER": 0, 
+                "FILE": 0, 
+                "SYNCHRONIZATION_DATA": 0, 
+                "BLUETOOTH_INFORMATION": 0, 
+                "EMAIL": 0, 
+                "VOIP": 0, 
+                "LOG": 0, 
+                "IMAGE": 0, 
+                "DATABASE_INFORMATION": 0, 
+                "ACCOUNT_SETTINGS": 0, 
+                "VIDEO": 0, 
+                "PHONE_CONNECTION": 0, 
+                "CALENDAR_INFORMATION": 0, 
+                "WIDGET": 0, 
+                "NFC": 0, 
+                "LOCATION_INFORMATION": 0, 
+                "BUNDLE": 0, 
+                "BROWSER_INFORMATION": 0, 
+                "SYSTEM_SETTINGS": 0, 
+                "AUDIO": 0, 
+                "PHONE_STATE": 0, 
+                "IPC": 0, 
+                "NOT_EXISTING": 0, 
+                "ACCOUNT_INFORMATION": 0, 
+                "BLUETOOTH": 0, 
+                "CONTACT_INFORMATION": 0, 
+                "NO_CATEGORY": 0, 
+                "NETWORK_INFORMATION": 0, 
+                "NETWORK": 0
+            }, 
+            "VIDEO": {
+                "SMS_MMS": 0, 
+                "FILE_INFORMATION": 0, 
+                "UNIQUE_IDENTIFIER": 0, 
+                "FILE": 0, 
+                "SYNCHRONIZATION_DATA": 0, 
+                "BLUETOOTH_INFORMATION": 0, 
+                "EMAIL": 0, 
+                "VOIP": 0, 
+                "LOG": 0, 
+                "IMAGE": 0, 
+                "DATABASE_INFORMATION": 0, 
+                "ACCOUNT_SETTINGS": 0, 
+                "VIDEO": 0, 
+                "PHONE_CONNECTION": 0, 
+                "CALENDAR_INFORMATION": 0, 
+                "WIDGET": 0, 
+                "NFC": 0, 
+                "LOCATION_INFORMATION": 0, 
+                "BUNDLE": 0, 
+                "BROWSER_INFORMATION": 0, 
+                "SYSTEM_SETTINGS": 0, 
+                "AUDIO": 0, 
+                "PHONE_STATE": 0, 
+                "IPC": 0, 
+                "NOT_EXISTING": 0, 
+                "ACCOUNT_INFORMATION": 0, 
+                "BLUETOOTH": 0, 
+                "CONTACT_INFORMATION": 0, 
+                "NO_CATEGORY": 0, 
+                "NETWORK_INFORMATION": 0, 
+                "NETWORK": 0
+            }, 
+            "PHONE_CONNECTION": {
+                "SMS_MMS": 0, 
+                "FILE_INFORMATION": 0, 
+                "UNIQUE_IDENTIFIER": 0, 
+                "FILE": 0, 
+                "SYNCHRONIZATION_DATA": 0, 
+                "BLUETOOTH_INFORMATION": 0, 
+                "EMAIL": 0, 
+                "VOIP": 0, 
+                "LOG": 0, 
+                "IMAGE": 0, 
+                "DATABASE_INFORMATION": 0, 
+                "ACCOUNT_SETTINGS": 0, 
+                "VIDEO": 0, 
+                "PHONE_CONNECTION": 0, 
+                "CALENDAR_INFORMATION": 0, 
+                "WIDGET": 0, 
+                "NFC": 0, 
+                "LOCATION_INFORMATION": 0, 
+                "BUNDLE": 0, 
+                "BROWSER_INFORMATION": 0, 
+                "SYSTEM_SETTINGS": 0, 
+                "AUDIO": 0, 
+                "PHONE_STATE": 0, 
+                "IPC": 0, 
+                "NOT_EXISTING": 0, 
+                "ACCOUNT_INFORMATION": 0, 
+                "BLUETOOTH": 0, 
+                "CONTACT_INFORMATION": 0, 
+                "NO_CATEGORY": 0, 
+                "NETWORK_INFORMATION": 0, 
+                "NETWORK": 0
+            }, 
+            "CALENDAR_INFORMATION": {
+                "SMS_MMS": 0, 
+                "FILE_INFORMATION": 0, 
+                "UNIQUE_IDENTIFIER": 0, 
+                "FILE": 0, 
+                "SYNCHRONIZATION_DATA": 0, 
+                "BLUETOOTH_INFORMATION": 0, 
+                "EMAIL": 0, 
+                "VOIP": 0, 
+                "LOG": 0, 
+                "IMAGE": 0, 
+                "DATABASE_INFORMATION": 0, 
+                "ACCOUNT_SETTINGS": 0, 
+                "VIDEO": 0, 
+                "PHONE_CONNECTION": 0, 
+                "CALENDAR_INFORMATION": 0, 
+                "WIDGET": 0, 
+                "NFC": 0, 
+                "LOCATION_INFORMATION": 0, 
+                "BUNDLE": 0, 
+                "BROWSER_INFORMATION": 0, 
+                "SYSTEM_SETTINGS": 0, 
+                "AUDIO": 0, 
+                "PHONE_STATE": 0, 
+                "IPC": 0, 
+                "NOT_EXISTING": 0, 
+                "ACCOUNT_INFORMATION": 0, 
+                "BLUETOOTH": 0, 
+                "CONTACT_INFORMATION": 0, 
+                "NO_CATEGORY": 0, 
+                "NETWORK_INFORMATION": 0, 
+                "NETWORK": 0
+            }, 
+            "WIDGET": {
+                "SMS_MMS": 0, 
+                "FILE_INFORMATION": 0, 
+                "UNIQUE_IDENTIFIER": 0, 
+                "FILE": 0, 
+                "SYNCHRONIZATION_DATA": 0, 
+                "BLUETOOTH_INFORMATION": 0, 
+                "EMAIL": 0, 
+                "VOIP": 0, 
+                "LOG": 0, 
+                "IMAGE": 0, 
+                "DATABASE_INFORMATION": 0, 
+                "ACCOUNT_SETTINGS": 0, 
+                "VIDEO": 0, 
+                "PHONE_CONNECTION": 0, 
+                "CALENDAR_INFORMATION": 0, 
+                "WIDGET": 0, 
+                "NFC": 0, 
+                "LOCATION_INFORMATION": 0, 
+                "BUNDLE": 0, 
+                "BROWSER_INFORMATION": 0, 
+                "SYSTEM_SETTINGS": 0, 
+                "AUDIO": 0, 
+                "PHONE_STATE": 0, 
+                "IPC": 0, 
+                "NOT_EXISTING": 0, 
+                "ACCOUNT_INFORMATION": 0, 
+                "BLUETOOTH": 0, 
+                "CONTACT_INFORMATION": 0, 
+                "NO_CATEGORY": 0, 
+                "NETWORK_INFORMATION": 0, 
+                "NETWORK": 0
+            }, 
+            "NFC": {
+                "SMS_MMS": 0, 
+                "FILE_INFORMATION": 0, 
+                "UNIQUE_IDENTIFIER": 0, 
+                "FILE": 0, 
+                "SYNCHRONIZATION_DATA": 0, 
+                "BLUETOOTH_INFORMATION": 0, 
+                "EMAIL": 0, 
+                "VOIP": 0, 
+                "LOG": 0, 
+                "IMAGE": 0, 
+                "DATABASE_INFORMATION": 0, 
+                "ACCOUNT_SETTINGS": 0, 
+                "VIDEO": 0, 
+                "PHONE_CONNECTION": 0, 
+                "CALENDAR_INFORMATION": 0, 
+                "WIDGET": 0, 
+                "NFC": 0, 
+                "LOCATION_INFORMATION": 0, 
+                "BUNDLE": 0, 
+                "BROWSER_INFORMATION": 0, 
+                "SYSTEM_SETTINGS": 0, 
+                "AUDIO": 0, 
+                "PHONE_STATE": 0, 
+                "IPC": 0, 
+                "NOT_EXISTING": 0, 
+                "ACCOUNT_INFORMATION": 0, 
+                "BLUETOOTH": 0, 
+                "CONTACT_INFORMATION": 0, 
+                "NO_CATEGORY": 0, 
+                "NETWORK_INFORMATION": 0, 
+                "NETWORK": 0
+            }, 
+            "LOCATION_INFORMATION": {
+                "SMS_MMS": 0, 
+                "FILE_INFORMATION": 0, 
+                "UNIQUE_IDENTIFIER": 0, 
+                "FILE": 0, 
+                "SYNCHRONIZATION_DATA": 0, 
+                "BLUETOOTH_INFORMATION": 0, 
+                "EMAIL": 0, 
+                "VOIP": 0, 
+                "LOG": 0, 
+                "IMAGE": 0, 
+                "DATABASE_INFORMATION": 0, 
+                "ACCOUNT_SETTINGS": 0, 
+                "VIDEO": 0, 
+                "PHONE_CONNECTION": 0, 
+                "CALENDAR_INFORMATION": 0, 
+                "WIDGET": 0, 
+                "NFC": 0, 
+                "LOCATION_INFORMATION": 0, 
+                "BUNDLE": 0, 
+                "BROWSER_INFORMATION": 0, 
+                "SYSTEM_SETTINGS": 0, 
+                "AUDIO": 0, 
+                "PHONE_STATE": 0, 
+                "IPC": 0, 
+                "NOT_EXISTING": 0, 
+                "ACCOUNT_INFORMATION": 0, 
+                "BLUETOOTH": 0, 
+                "CONTACT_INFORMATION": 0, 
+                "NO_CATEGORY": 0, 
+                "NETWORK_INFORMATION": 0, 
+                "NETWORK": 0
+            }, 
+            "BUNDLE": {
+                "SMS_MMS": 0, 
+                "FILE_INFORMATION": 0, 
+                "UNIQUE_IDENTIFIER": 0, 
+                "FILE": 0, 
+                "SYNCHRONIZATION_DATA": 0, 
+                "BLUETOOTH_INFORMATION": 0, 
+                "EMAIL": 0, 
+                "VOIP": 0, 
+                "LOG": 0, 
+                "IMAGE": 0, 
+                "DATABASE_INFORMATION": 0, 
+                "ACCOUNT_SETTINGS": 0, 
+                "VIDEO": 0, 
+                "PHONE_CONNECTION": 0, 
+                "CALENDAR_INFORMATION": 0, 
+                "WIDGET": 0, 
+                "NFC": 0, 
+                "LOCATION_INFORMATION": 0, 
+                "BUNDLE": 0, 
+                "BROWSER_INFORMATION": 0, 
+                "SYSTEM_SETTINGS": 0, 
+                "AUDIO": 0, 
+                "PHONE_STATE": 0, 
+                "IPC": 0, 
+                "NOT_EXISTING": 0, 
+                "ACCOUNT_INFORMATION": 0, 
+                "BLUETOOTH": 0, 
+                "CONTACT_INFORMATION": 0, 
+                "NO_CATEGORY": 0, 
+                "NETWORK_INFORMATION": 0, 
+                "NETWORK": 0
+            }, 
+            "BROWSER_INFORMATION": {
+                "SMS_MMS": 0, 
+                "FILE_INFORMATION": 0, 
+                "UNIQUE_IDENTIFIER": 0, 
+                "FILE": 0, 
+                "SYNCHRONIZATION_DATA": 0, 
+                "BLUETOOTH_INFORMATION": 0, 
+                "EMAIL": 0, 
+                "VOIP": 0, 
+                "LOG": 0, 
+                "IMAGE": 0, 
+                "DATABASE_INFORMATION": 0, 
+                "ACCOUNT_SETTINGS": 0, 
+                "VIDEO": 0, 
+                "PHONE_CONNECTION": 0, 
+                "CALENDAR_INFORMATION": 0, 
+                "WIDGET": 0, 
+                "NFC": 0, 
+                "LOCATION_INFORMATION": 0, 
+                "BUNDLE": 0, 
+                "BROWSER_INFORMATION": 0, 
+                "SYSTEM_SETTINGS": 0, 
+                "AUDIO": 0, 
+                "PHONE_STATE": 0, 
+                "IPC": 0, 
+                "NOT_EXISTING": 0, 
+                "ACCOUNT_INFORMATION": 0, 
+                "BLUETOOTH": 0, 
+                "CONTACT_INFORMATION": 0, 
+                "NO_CATEGORY": 0, 
+                "NETWORK_INFORMATION": 0, 
+                "NETWORK": 0
+            }, 
+            "SYSTEM_SETTINGS": {
+                "SMS_MMS": 0, 
+                "FILE_INFORMATION": 0, 
+                "UNIQUE_IDENTIFIER": 0, 
+                "FILE": 0, 
+                "SYNCHRONIZATION_DATA": 0, 
+                "BLUETOOTH_INFORMATION": 0, 
+                "EMAIL": 0, 
+                "VOIP": 0, 
+                "LOG": 0, 
+                "IMAGE": 0, 
+                "DATABASE_INFORMATION": 0, 
+                "ACCOUNT_SETTINGS": 0, 
+                "VIDEO": 0, 
+                "PHONE_CONNECTION": 0, 
+                "CALENDAR_INFORMATION": 0, 
+                "WIDGET": 0, 
+                "NFC": 0, 
+                "LOCATION_INFORMATION": 0, 
+                "BUNDLE": 0, 
+                "BROWSER_INFORMATION": 0, 
+                "SYSTEM_SETTINGS": 0, 
+                "AUDIO": 0, 
+                "PHONE_STATE": 0, 
+                "IPC": 0, 
+                "NOT_EXISTING": 0, 
+                "ACCOUNT_INFORMATION": 0, 
+                "BLUETOOTH": 0, 
+                "CONTACT_INFORMATION": 0, 
+                "NO_CATEGORY": 0, 
+                "NETWORK_INFORMATION": 0, 
+                "NETWORK": 0
+            }, 
+            "AUDIO": {
+                "SMS_MMS": 0, 
+                "FILE_INFORMATION": 0, 
+                "UNIQUE_IDENTIFIER": 0, 
+                "FILE": 0, 
+                "SYNCHRONIZATION_DATA": 0, 
+                "BLUETOOTH_INFORMATION": 0, 
+                "EMAIL": 0, 
+                "VOIP": 0, 
+                "LOG": 0, 
+                "IMAGE": 0, 
+                "DATABASE_INFORMATION": 0, 
+                "ACCOUNT_SETTINGS": 0, 
+                "VIDEO": 0, 
+                "PHONE_CONNECTION": 0, 
+                "CALENDAR_INFORMATION": 0, 
+                "WIDGET": 0, 
+                "NFC": 0, 
+                "LOCATION_INFORMATION": 0, 
+                "BUNDLE": 0, 
+                "BROWSER_INFORMATION": 0, 
+                "SYSTEM_SETTINGS": 0, 
+                "AUDIO": 0, 
+                "PHONE_STATE": 0, 
+                "IPC": 0, 
+                "NOT_EXISTING": 0, 
+                "ACCOUNT_INFORMATION": 0, 
+                "BLUETOOTH": 0, 
+                "CONTACT_INFORMATION": 0, 
+                "NO_CATEGORY": 0, 
+                "NETWORK_INFORMATION": 0, 
+                "NETWORK": 0
+            }, 
+            "PHONE_STATE": {
+                "SMS_MMS": 0, 
+                "FILE_INFORMATION": 0, 
+                "UNIQUE_IDENTIFIER": 0, 
+                "FILE": 0, 
+                "SYNCHRONIZATION_DATA": 0, 
+                "BLUETOOTH_INFORMATION": 0, 
+                "EMAIL": 0, 
+                "VOIP": 0, 
+                "LOG": 0, 
+                "IMAGE": 0, 
+                "DATABASE_INFORMATION": 0, 
+                "ACCOUNT_SETTINGS": 0, 
+                "VIDEO": 0, 
+                "PHONE_CONNECTION": 0, 
+                "CALENDAR_INFORMATION": 0, 
+                "WIDGET": 0, 
+                "NFC": 0, 
+                "LOCATION_INFORMATION": 0, 
+                "BUNDLE": 0, 
+                "BROWSER_INFORMATION": 0, 
+                "SYSTEM_SETTINGS": 0, 
+                "AUDIO": 0, 
+                "PHONE_STATE": 0, 
+                "IPC": 0, 
+                "NOT_EXISTING": 0, 
+                "ACCOUNT_INFORMATION": 0, 
+                "BLUETOOTH": 0, 
+                "CONTACT_INFORMATION": 0, 
+                "NO_CATEGORY": 0, 
+                "NETWORK_INFORMATION": 0, 
+                "NETWORK": 0
+            }, 
+            "IPC": {
+                "SMS_MMS": 0, 
+                "FILE_INFORMATION": 0, 
+                "UNIQUE_IDENTIFIER": 0, 
+                "FILE": 0, 
+                "SYNCHRONIZATION_DATA": 0, 
+                "BLUETOOTH_INFORMATION": 0, 
+                "EMAIL": 0, 
+                "VOIP": 0, 
+                "LOG": 0, 
+                "IMAGE": 0, 
+                "DATABASE_INFORMATION": 0, 
+                "ACCOUNT_SETTINGS": 0, 
+                "VIDEO": 0, 
+                "PHONE_CONNECTION": 0, 
+                "CALENDAR_INFORMATION": 0, 
+                "WIDGET": 0, 
+                "NFC": 0, 
+                "LOCATION_INFORMATION": 0, 
+                "BUNDLE": 0, 
+                "BROWSER_INFORMATION": 0, 
+                "SYSTEM_SETTINGS": 0, 
+                "AUDIO": 0, 
+                "PHONE_STATE": 0, 
+                "IPC": 0, 
+                "NOT_EXISTING": 0, 
+                "ACCOUNT_INFORMATION": 0, 
+                "BLUETOOTH": 0, 
+                "CONTACT_INFORMATION": 0, 
+                "NO_CATEGORY": 0, 
+                "NETWORK_INFORMATION": 0, 
+                "NETWORK": 0
+            }, 
+            "NOT_EXISTING": {
+                "SMS_MMS": 0, 
+                "FILE_INFORMATION": 0, 
+                "UNIQUE_IDENTIFIER": 0, 
+                "FILE": 0, 
+                "SYNCHRONIZATION_DATA": 0, 
+                "BLUETOOTH_INFORMATION": 0, 
+                "EMAIL": 0, 
+                "VOIP": 0, 
+                "LOG": 0, 
+                "IMAGE": 0, 
+                "DATABASE_INFORMATION": 0, 
+                "ACCOUNT_SETTINGS": 0, 
+                "VIDEO": 0, 
+                "PHONE_CONNECTION": 0, 
+                "CALENDAR_INFORMATION": 0, 
+                "WIDGET": 0, 
+                "NFC": 0, 
+                "LOCATION_INFORMATION": 0, 
+                "BUNDLE": 0, 
+                "BROWSER_INFORMATION": 0, 
+                "SYSTEM_SETTINGS": 0, 
+                "AUDIO": 0, 
+                "PHONE_STATE": 0, 
+                "IPC": 0, 
+                "NOT_EXISTING": 0, 
+                "ACCOUNT_INFORMATION": 0, 
+                "BLUETOOTH": 0, 
+                "CONTACT_INFORMATION": 0, 
+                "NO_CATEGORY": 0, 
+                "NETWORK_INFORMATION": 0, 
+                "NETWORK": 0
+            }, 
+            "ACCOUNT_INFORMATION": {
+                "SMS_MMS": 0, 
+                "FILE_INFORMATION": 0, 
+                "UNIQUE_IDENTIFIER": 0, 
+                "FILE": 0, 
+                "SYNCHRONIZATION_DATA": 0, 
+                "BLUETOOTH_INFORMATION": 0, 
+                "EMAIL": 0, 
+                "VOIP": 0, 
+                "LOG": 0, 
+                "IMAGE": 0, 
+                "DATABASE_INFORMATION": 0, 
+                "ACCOUNT_SETTINGS": 0, 
+                "VIDEO": 0, 
+                "PHONE_CONNECTION": 0, 
+                "CALENDAR_INFORMATION": 0, 
+                "WIDGET": 0, 
+                "NFC": 0, 
+                "LOCATION_INFORMATION": 0, 
+                "BUNDLE": 0, 
+                "BROWSER_INFORMATION": 0, 
+                "SYSTEM_SETTINGS": 0, 
+                "AUDIO": 0, 
+                "PHONE_STATE": 0, 
+                "IPC": 0, 
+                "NOT_EXISTING": 0, 
+                "ACCOUNT_INFORMATION": 0, 
+                "BLUETOOTH": 0, 
+                "CONTACT_INFORMATION": 0, 
+                "NO_CATEGORY": 0, 
+                "NETWORK_INFORMATION": 0, 
+                "NETWORK": 0
+            }, 
+            "BLUETOOTH": {
+                "SMS_MMS": 0, 
+                "FILE_INFORMATION": 0, 
+                "UNIQUE_IDENTIFIER": 0, 
+                "FILE": 0, 
+                "SYNCHRONIZATION_DATA": 0, 
+                "BLUETOOTH_INFORMATION": 0, 
+                "EMAIL": 0, 
+                "VOIP": 0, 
+                "LOG": 0, 
+                "IMAGE": 0, 
+                "DATABASE_INFORMATION": 0, 
+                "ACCOUNT_SETTINGS": 0, 
+                "VIDEO": 0, 
+                "PHONE_CONNECTION": 0, 
+                "CALENDAR_INFORMATION": 0, 
+                "WIDGET": 0, 
+                "NFC": 0, 
+                "LOCATION_INFORMATION": 0, 
+                "BUNDLE": 0, 
+                "BROWSER_INFORMATION": 0, 
+                "SYSTEM_SETTINGS": 0, 
+                "AUDIO": 0, 
+                "PHONE_STATE": 0, 
+                "IPC": 0, 
+                "NOT_EXISTING": 0, 
+                "ACCOUNT_INFORMATION": 0, 
+                "BLUETOOTH": 0, 
+                "CONTACT_INFORMATION": 0, 
+                "NO_CATEGORY": 0, 
+                "NETWORK_INFORMATION": 0, 
+                "NETWORK": 0
+            }, 
+            "CONTACT_INFORMATION": {
+                "SMS_MMS": 0, 
+                "FILE_INFORMATION": 0, 
+                "UNIQUE_IDENTIFIER": 0, 
+                "FILE": 0, 
+                "SYNCHRONIZATION_DATA": 0, 
+                "BLUETOOTH_INFORMATION": 0, 
+                "EMAIL": 0, 
+                "VOIP": 0, 
+                "LOG": 0, 
+                "IMAGE": 0, 
+                "DATABASE_INFORMATION": 0, 
+                "ACCOUNT_SETTINGS": 0, 
+                "VIDEO": 0, 
+                "PHONE_CONNECTION": 0, 
+                "CALENDAR_INFORMATION": 0, 
+                "WIDGET": 0, 
+                "NFC": 0, 
+                "LOCATION_INFORMATION": 0, 
+                "BUNDLE": 0, 
+                "BROWSER_INFORMATION": 0, 
+                "SYSTEM_SETTINGS": 0, 
+                "AUDIO": 0, 
+                "PHONE_STATE": 0, 
+                "IPC": 0, 
+                "NOT_EXISTING": 0, 
+                "ACCOUNT_INFORMATION": 0, 
+                "BLUETOOTH": 0, 
+                "CONTACT_INFORMATION": 0, 
+                "NO_CATEGORY": 0, 
+                "NETWORK_INFORMATION": 0, 
+                "NETWORK": 0
+            }, 
+            "NO_CATEGORY": {
+                "SMS_MMS": 0, 
+                "FILE_INFORMATION": 0, 
+                "UNIQUE_IDENTIFIER": 0, 
+                "FILE": 0, 
+                "SYNCHRONIZATION_DATA": 0, 
+                "BLUETOOTH_INFORMATION": 0, 
+                "EMAIL": 0, 
+                "VOIP": 0, 
+                "LOG": 0, 
+                "IMAGE": 0, 
+                "DATABASE_INFORMATION": 0, 
+                "ACCOUNT_SETTINGS": 0, 
+                "VIDEO": 0, 
+                "PHONE_CONNECTION": 0, 
+                "CALENDAR_INFORMATION": 0, 
+                "WIDGET": 0, 
+                "NFC": 0, 
+                "LOCATION_INFORMATION": 0, 
+                "BUNDLE": 0, 
+                "BROWSER_INFORMATION": 0, 
+                "SYSTEM_SETTINGS": 0, 
+                "AUDIO": 0, 
+                "PHONE_STATE": 0, 
+                "IPC": 0, 
+                "NOT_EXISTING": 0, 
+                "ACCOUNT_INFORMATION": 0, 
+                "BLUETOOTH": 0, 
+                "CONTACT_INFORMATION": 0, 
+                "NO_CATEGORY": 0, 
+                "NETWORK_INFORMATION": 0, 
+                "NETWORK": 0
+            }, 
+            "NETWORK_INFORMATION": {
+                "SMS_MMS": 0, 
+                "FILE_INFORMATION": 0, 
+                "UNIQUE_IDENTIFIER": 0, 
+                "FILE": 0, 
+                "SYNCHRONIZATION_DATA": 0, 
+                "BLUETOOTH_INFORMATION": 0, 
+                "EMAIL": 0, 
+                "VOIP": 0, 
+                "LOG": 0, 
+                "IMAGE": 0, 
+                "DATABASE_INFORMATION": 0, 
+                "ACCOUNT_SETTINGS": 0, 
+                "VIDEO": 0, 
+                "PHONE_CONNECTION": 0, 
+                "CALENDAR_INFORMATION": 0, 
+                "WIDGET": 0, 
+                "NFC": 0, 
+                "LOCATION_INFORMATION": 0, 
+                "BUNDLE": 0, 
+                "BROWSER_INFORMATION": 0, 
+                "SYSTEM_SETTINGS": 0, 
+                "AUDIO": 0, 
+                "PHONE_STATE": 0, 
+                "IPC": 0, 
+                "NOT_EXISTING": 0, 
+                "ACCOUNT_INFORMATION": 0, 
+                "BLUETOOTH": 0, 
+                "CONTACT_INFORMATION": 0, 
+                "NO_CATEGORY": 0, 
+                "NETWORK_INFORMATION": 0, 
+                "NETWORK": 0
+            }, 
+            "NETWORK": {
+                "SMS_MMS": 0, 
+                "FILE_INFORMATION": 0, 
+                "UNIQUE_IDENTIFIER": 0, 
+                "FILE": 0, 
+                "SYNCHRONIZATION_DATA": 0, 
+                "BLUETOOTH_INFORMATION": 0, 
+                "EMAIL": 0, 
+                "VOIP": 0, 
+                "LOG": 0, 
+                "IMAGE": 0, 
+                "DATABASE_INFORMATION": 0, 
+                "ACCOUNT_SETTINGS": 0, 
+                "VIDEO": 0, 
+                "PHONE_CONNECTION": 0, 
+                "CALENDAR_INFORMATION": 0, 
+                "WIDGET": 0, 
+                "NFC": 0, 
+                "LOCATION_INFORMATION": 0, 
+                "BUNDLE": 0, 
+                "BROWSER_INFORMATION": 0, 
+                "SYSTEM_SETTINGS": 0, 
+                "AUDIO": 0, 
+                "PHONE_STATE": 0, 
+                "IPC": 0, 
+                "NOT_EXISTING": 0, 
+                "ACCOUNT_INFORMATION": 0, 
+                "BLUETOOTH": 0, 
+                "CONTACT_INFORMATION": 0, 
+                "NO_CATEGORY": 0, 
+                "NETWORK_INFORMATION": 0, 
+                "NETWORK": 0
+            }
+        }
+    }, 
+    "Dynamic_analysis": {
+        "Droidbox": {
+            "apkName": "/apks/samples//BW/cb203dc9e0b876a78718ddf96119f097d7460cc0dd72006d69edd2327b83092d.apk", 
+            "enfperm": [
+                "com.qello.handheld.permission.C2D_MESSAGE"
+            ], 
+            "recvnet": {}, 
+            "cryptousage": {
+                "0.012610912322998047": {
+                    "operation": "keyalgo", 
+                    "type": "crypto", 
+                    "key": "48, 49, 55, 100, 54, 97, 100, 55, 57, 52, 99, 102, 53, 50, 53, 48, 97, 57, 51, 48, 52, 97, 98, 57, 57, 98, 54, 101, 57, 55, 56, 51", 
+                    "algorithm": "AES"
+                }, 
+                "126.92294597625732": {
+                    "type": "crypto", 
+                    "operation": "encryption", 
+                    "data": "connection_type=mobile&android_id=f51ee7d10092736f&app_name=Qello+Concerts&app_version=20545&country_code=us&currency_code=USD&device_brand=unknown&device_carrier=Android&device_cpu_type=armv7l&device_model=Full+Android+on+Emulator&existing_user=0&insdate=1683517470&language=English&mat_id=91aa021f-f97c-4de0-9d61-0012895e05fd&mobile_country_code=310&mobile_network_code=260&os_version=4.1.1&revenue=0.0&screen_density=1.5&screen_layout_size=480x800&sdk_version=3.3.1&user_id=f51ee7d10092736f&system_date=1683517631            ", 
+                    "algorithm": "AES/CBC/NoPadding"
+                }, 
+                "35.72552299499512": {
+                    "type": "crypto", 
+                    "operation": "encryption", 
+                    "data": "connection_type=mobile&android_id=f51ee7d10092736f&app_name=Qello+Concerts&app_version=20545&country_code=us&currency_code=USD&device_brand=unknown&device_carrier=Android&device_cpu_type=armv7l&device_model=Full+Android+on+Emulator&existing_user=0&insdate=1683517470&language=English&mat_id=91aa021f-f97c-4de0-9d61-0012895e05fd&mobile_country_code=310&mobile_network_code=260&os_version=4.1.1&revenue=0.0&screen_density=1.5&screen_layout_size=480x800&sdk_version=3.3.1&user_id=f51ee7d10092736f&system_date=1683517540            ", 
+                    "algorithm": "AES/CBC/NoPadding"
+                }, 
+                "2.1111600399017334": {
+                    "type": "crypto", 
+                    "operation": "encryption", 
+                    "data": "connection_type=mobile&android_id=f51ee7d10092736f&app_name=Qello+Concerts&app_version=20545&country_code=us&currency_code=USD&device_brand=unknown&device_carrier=Android&device_cpu_type=armv7l&device_model=Full+Android+on+Emulator&existing_user=0&insdate=1683517470&language=English&mat_id=91aa021f-f97c-4de0-9d61-0012895e05fd&mobile_country_code=310&mobile_network_code=260&os_version=4.1.1&revenue=0.0&screen_density=1.5&screen_layout_size=480x800&sdk_version=3.3.1&user_id=f51ee7d10092736f&system_date=1683517506            ", 
+                    "algorithm": "AES/CBC/NoPadding"
+                }
+            }, 
+            "recvsaction": {
+                "com.qello.cast.remotecontrol.VideoIntentReceiver": "com.qello.cast.action.stop", 
+                "com.qello.utils.CustomInstallReferrerReceiver": "com.android.vending.INSTALL_REFERRER", 
+                "com.qello.utils.GCMCustomBroadcastReceiver": "com.google.android.c2dm.intent.REGISTRATION"
+            }, 
+            "servicestart": {
+                "42.37834692001343": {
+                    "type": "service", 
+                    "name": "com.android.music.MediaPlaybackService"
+                }, 
+                "142.51282405853271": {
+                    "type": "service", 
+                    "name": "com.android.music.MediaPlaybackService"
+                }, 
+                "142.50658798217773": {
+                    "type": "service", 
+                    "name": "com.android.music.MediaPlaybackService"
+                }, 
+                "133.555890083313": {
+                    "type": "service", 
+                    "name": "com.android.music.MediaPlaybackService"
+                }, 
+                "45.024758100509644": {
+                    "type": "service", 
+                    "name": "com.android.music.MediaPlaybackService"
+                }, 
+                "21.22561502456665": {
+                    "type": "service", 
+                    "name": "com.android.music.MediaPlaybackService"
+                }, 
+                "33.655282974243164": {
+                    "type": "service", 
+                    "name": "com.android.music.MediaPlaybackService"
+                }, 
+                "82.9380669593811": {
+                    "type": "service", 
+                    "name": "com.android.music.MediaPlaybackService"
+                }, 
+                "146.2860460281372": {
+                    "type": "service", 
+                    "name": "com.android.music.MediaPlaybackService"
+                }, 
+                "146.2917640209198": {
+                    "type": "service", 
+                    "name": "com.android.music.MediaPlaybackService"
+                }, 
+                "69.51264500617981": {
+                    "type": "service", 
+                    "name": "com.android.music.MediaPlaybackService"
+                }, 
+                "82.92994499206543": {
+                    "type": "service", 
+                    "name": "com.android.music.MediaPlaybackService"
+                }, 
+                "69.5181131362915": {
+                    "type": "service", 
+                    "name": "com.android.music.MediaPlaybackService"
+                }, 
+                "133.55599403381348": {
+                    "type": "service", 
+                    "name": "com.android.music.MediaPlaybackService"
+                }, 
+                "45.005626916885376": {
+                    "type": "service", 
+                    "name": "com.android.music.MediaPlaybackService"
+                }, 
+                "33.66647291183472": {
+                    "type": "service", 
+                    "name": "com.android.music.MediaPlaybackService"
+                }, 
+                "110.36205792427063": {
+                    "type": "service", 
+                    "name": "com.android.music.MediaPlaybackService"
+                }, 
+                "42.372887134552": {
+                    "type": "service", 
+                    "name": "com.android.music.MediaPlaybackService"
+                }, 
+                "110.36726808547974": {
+                    "type": "service", 
+                    "name": "com.android.music.MediaPlaybackService"
+                }, 
+                "21.20941400527954": {
+                    "type": "service", 
+                    "name": "com.android.music.MediaPlaybackService"
+                }
+            }, 
+            "sendnet": {}, 
+            "sendsms": {}, 
+            "accessedfiles": {
+                "503804916": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsMain", 
+                "1468413600": "/proc/223/net/xt_qtaguid/stats", 
+                "973086349": "/proc/223/net/xt_qtaguid/iface_stat_fmt", 
+                "490329673": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsMain", 
+                "858434734": "/proc/meminfo", 
+                "629926569": "/proc/meminfo", 
+                "449366882": "/proc/223/net/xt_qtaguid/iface_stat_all", 
+                "925876951": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsData_DV3EJZD6WSWRSCQL75FP_226", 
+                "1166745686": "/proc/meminfo", 
+                "1485475007": "/proc/meminfo", 
+                "2078932973": "/proc/meminfo", 
+                "200273305": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsMain", 
+                "1730289040": "/proc/meminfo", 
+                "1884778541": "/proc/223/net/xt_qtaguid/stats", 
+                "1554787129": "/data/data/com.qello.handheld/shared_prefs/castSp.xml", 
+                "1573270427": "/proc/meminfo", 
+                "1727535766": "/proc/meminfo", 
+                "808916710": "/proc/meminfo", 
+                "890290806": "/proc/meminfo", 
+                "1292066796": "/proc/986/cmdline", 
+                "1577559864": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsData_DV3EJZD6WSWRSCQL75FP_226", 
+                "17111463": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsData_DV3EJZD6WSWRSCQL75FP_226", 
+                "1130170674": "/proc/meminfo", 
+                "1559253313": "/data/data/com.qello.handheld/shared_prefs/come.yozio.android.PREFERENCES.xml", 
+                "1230594695": "/data/data/com.qello.handheld/shared_prefs/castSp.xml", 
+                "1101083020": "/data/data/com.qello.handheld/files/.yflurrydatasenderblock.a2b4247a-f1a8-4fb4-be3a-6b6ecf287a7e", 
+                "1956148710": "/proc/meminfo", 
+                "1797133046": "/dev/input/event0", 
+                "1255774295": "/data/data/com.qello.handheld/files/.yflurryreport.5ffeac38c5f5bb75", 
+                "304659944": "/proc/975/cmdline", 
+                "1327200691": "/proc/meminfo", 
+                "2115441752": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsData_DV3EJZD6WSWRSCQL75FP_226", 
+                "325868637": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsData_DV3EJZD6WSWRSCQL75FP_226", 
+                "37248738": "/dev/urandom", 
+                "1005152498": "/proc/meminfo", 
+                "421187579": "/proc/meminfo", 
+                "1533072485": "/proc/meminfo", 
+                "526235690": "/proc/meminfo", 
+                "2057864291": "/proc/meminfo", 
+                "1937327949": "/data/data/com.qello.handheld/files/.yflurrydatasenderblock.a2b4247a-f1a8-4fb4-be3a-6b6ecf287a7e", 
+                "1197161067": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsMain", 
+                "1551259852": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsData_DV3EJZD6WSWRSCQL75FP_226", 
+                "1404196137": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsMain", 
+                "9476188": "/proc/974/cmdline", 
+                "403983391": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsData_DV3EJZD6WSWRSCQL75FP_226", 
+                "1524944481": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsMain", 
+                "1547557256": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsMain", 
+                "6924750": "/data/data/com.qello.handheld/shared_prefs/mat_user_ids.xml", 
+                "1291999562": "/proc/meminfo", 
+                "1554506473": "/proc/970/cmdline", 
+                "1774107345": "/proc/meminfo", 
+                "1884619519": "/proc/meminfo", 
+                "261897087": "/proc/223/net/xt_qtaguid/iface_stat_fmt", 
+                "604216990": "/proc/meminfo", 
+                "546176121": "/data/data/com.qello.handheld/files/.yflurrydatasenderblock.a2b4247a-f1a8-4fb4-be3a-6b6ecf287a7e", 
+                "1079349905": "/data/data/com.qello.handheld/files/.yflurrydatasenderblock.a2b4247a-f1a8-4fb4-be3a-6b6ecf287a7e", 
+                "1468109687": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsMain", 
+                "262846143": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsData_DV3EJZD6WSWRSCQL75FP_226", 
+                "1954417254": "/proc/meminfo", 
+                "838944596": "/proc/meminfo", 
+                "61461419": "/data/data/com.qello.handheld/files/.yflurrydatasenderblock.a2b4247a-f1a8-4fb4-be3a-6b6ecf287a7e", 
+                "1037971423": "/data/data/com.qello.handheld/files/.yflurryreport.5ffeac38c5f5bb75", 
+                "1385833775": "/data/data/com.qello.handheld/files/.yflurrydatasenderblock.a2b4247a-f1a8-4fb4-be3a-6b6ecf287a7e", 
+                "1357231575": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsData_DV3EJZD6WSWRSCQL75FP_226", 
+                "1758402711": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsData_DV3EJZD6WSWRSCQL75FP_226", 
+                "1171352020": "/data/data/com.qello.handheld/files/.yflurrydatasenderblock.a2b4247a-f1a8-4fb4-be3a-6b6ecf287a7e", 
+                "1248970595": "/proc/972/cmdline", 
+                "617159810": "/data/data/com.qello.handheld/files/.yflurrydatasenderblock.a2b4247a-f1a8-4fb4-be3a-6b6ecf287a7e", 
+                "1245021298": "/proc/meminfo", 
+                "1201496321": "/data/data/com.qello.handheld/shared_prefs/castSp.xml", 
+                "127414784": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsMain", 
+                "1174947197": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsMain", 
+                "1804561878": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsData_DV3EJZD6WSWRSCQL75FP_226", 
+                "1364661130": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsMain", 
+                "645374986": "/data/data/com.qello.handheld/shared_prefs/castSp.xml", 
+                "1739249981": "/data/data/com.qello.handheld/files/.yflurrydatasenderblock.a2b4247a-f1a8-4fb4-be3a-6b6ecf287a7e", 
+                "1262120267": "/proc/meminfo", 
+                "1992752800": "/proc/223/net/xt_qtaguid/iface_stat_all", 
+                "947838290": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsMain", 
+                "429951364": "/data/data/com.qello.handheld/files/.yflurryreport.5ffeac38c5f5bb75", 
+                "738658720": "/data/data/com.qello.handheld/files/.yflurrydatasenderblock.a2b4247a-f1a8-4fb4-be3a-6b6ecf287a7e", 
+                "1927462256": "/proc/1088/cmdline", 
+                "2100402949": "/dev/input/event0", 
+                "1106896117": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsData_DV3EJZD6WSWRSCQL75FP_226", 
+                "1163122230": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsMain", 
+                "1184687988": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsMain", 
+                "1653698221": "/data/data/com.qello.handheld/files/.yflurryreport.5ffeac38c5f5bb75", 
+                "2115400956": "/proc/meminfo", 
+                "1324107011": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsData_DV3EJZD6WSWRSCQL75FP_226", 
+                "1755690619": "/proc/meminfo", 
+                "864644643": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsMain", 
+                "649723081": "/proc/meminfo", 
+                "11549656": "/data/data/com.qello.handheld/files/.yflurrydatasenderblock.a2b4247a-f1a8-4fb4-be3a-6b6ecf287a7e", 
+                "1993282231": "/proc/meminfo", 
+                "1371381881": "/dev/input/event0", 
+                "1785108131": "/proc/223/net/xt_qtaguid/iface_stat_all", 
+                "1741950945": "/proc/meminfo", 
+                "1840942968": "/data/data/com.android.gallery3d/shared_prefs/com.android.gallery3d_preferences.xml", 
+                "1468227046": "/data/data/com.qello.handheld/shared_prefs/mat_id.xml", 
+                "1014851081": "/dev/input/event0", 
+                "1390032941": "/data/data/com.qello.handheld/files/.yflurrydatasenderblock.a2b4247a-f1a8-4fb4-be3a-6b6ecf287a7e", 
+                "107964168": "/proc/meminfo", 
+                "1777005575": "/proc/meminfo", 
+                "1346201293": "/proc/meminfo", 
+                "1204934473": "/proc/meminfo", 
+                "293451226": "/proc/meminfo", 
+                "1960515385": "/proc/meminfo", 
+                "4803246": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsData_DV3EJZD6WSWRSCQL75FP_226", 
+                "929868025": "/proc/meminfo", 
+                "1872869183": "/proc/meminfo", 
+                "1755575993": "/proc/meminfo", 
+                "1690037134": "/data/data/com.qello.handheld/files/.yflurrydatasenderblock.a2b4247a-f1a8-4fb4-be3a-6b6ecf287a7e", 
+                "75497159": "/proc/meminfo", 
+                "75576668": "/proc/meminfo", 
+                "1620239406": "/data/data/com.qello.handheld/files/.yflurrydatasenderblock.a2b4247a-f1a8-4fb4-be3a-6b6ecf287a7e", 
+                "542786319": "/proc/223/net/xt_qtaguid/iface_stat_all", 
+                "864175770": "/data/data/com.qello.handheld/files/.yflurrydatasenderblock.a2b4247a-f1a8-4fb4-be3a-6b6ecf287a7e", 
+                "1639165183": "/proc/meminfo", 
+                "1455381778": "/data/data/com.qello.handheld/files/.yflurrydatasenderblock.a2b4247a-f1a8-4fb4-be3a-6b6ecf287a7e", 
+                "1610258142": "/proc/meminfo", 
+                "648175322": "/proc/meminfo", 
+                "2145929785": "/proc/meminfo", 
+                "1970270332": "/proc/meminfo", 
+                "1694501128": "/proc/meminfo", 
+                "899347645": "/data/data/com.qello.handheld/shared_prefs/mat_queue.xml", 
+                "367545367": "/data/data/com.qello.handheld/shared_prefs/mat_queue.xml", 
+                "1088808906": "/proc/meminfo", 
+                "1505873264": "/proc/meminfo", 
+                "1086698188": "/proc/meminfo", 
+                "2018203282": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsData_DV3EJZD6WSWRSCQL75FP_226", 
+                "1626376400": "/data/data/com.qello.handheld/files/.yflurrydatasenderblock.a2b4247a-f1a8-4fb4-be3a-6b6ecf287a7e", 
+                "278463115": "/data/data/com.android.music/shared_prefs/Music.xml", 
+                "1532441835": "/proc/meminfo", 
+                "511629329": "/proc/meminfo", 
+                "147252152": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsMain", 
+                "255156291": "/data/data/com.qello.handheld/files/.yflurryreport.5ffeac38c5f5bb75", 
+                "446165267": "/dev/input/event0", 
+                "1587202022": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsMain", 
+                "1634648171": "/proc/meminfo", 
+                "188074382": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsData_DV3EJZD6WSWRSCQL75FP_226", 
+                "82242319": "/proc/948/cmdline", 
+                "1626190036": "/proc/meminfo", 
+                "962259821": "/data/data/com.qello.handheld/shared_prefs/FLURRY_SHARED_PREFERENCES.xml", 
+                "1425159275": "/proc/934/cmdline", 
+                "189018158": "/proc/meminfo", 
+                "258968776": "/proc/meminfo", 
+                "2130278649": "/proc/meminfo", 
+                "1033999186": "/proc/meminfo", 
+                "1516199107": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsMain", 
+                "589631646": "/proc/968/cmdline", 
+                "952610916": "/proc/meminfo", 
+                "1043032893": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsData_DV3EJZD6WSWRSCQL75FP_226", 
+                "536246215": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsData_DV3EJZD6WSWRSCQL75FP_226", 
+                "1229835970": "/data/data/com.qello.handheld/files/.yflurrydatasenderblock.a2b4247a-f1a8-4fb4-be3a-6b6ecf287a7e", 
+                "1865011983": "/data/data/com.qello.handheld/files/.yflurrydatasenderblock.a2b4247a-f1a8-4fb4-be3a-6b6ecf287a7e", 
+                "1500427703": "/proc/meminfo", 
+                "363750842": "/proc/meminfo", 
+                "857396393": "/proc/meminfo", 
+                "1613690396": "/proc/meminfo", 
+                "1085846489": "/proc/meminfo", 
+                "1509785647": "/data/data/com.qello.handheld/files/.yflurrydatasenderblock.a2b4247a-f1a8-4fb4-be3a-6b6ecf287a7e", 
+                "150128496": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsData_DV3EJZD6WSWRSCQL75FP_226", 
+                "2062025034": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsMain", 
+                "1251101520": "/data/data/com.qello.handheld/files/.yflurrydatasenderblock.a2b4247a-f1a8-4fb4-be3a-6b6ecf287a7e", 
+                "214401451": "/proc/meminfo", 
+                "1562456400": "/data/data/com.qello.handheld/shared_prefs/com.qello.handheld_preferences.xml"
+            }, 
+            "fdaccess": {
+                "0.01960897445678711": {
+                    "path": "/data/data/com.qello.handheld/files/.yflurrydatasenderblock.a2b4247a-f1a8-4fb4-be3a-6b6ecf287a7e", 
+                    "operation": "write", 
+                    "data": "00", 
+                    "id": "1626376400", 
+                    "type": "file write"
+                }, 
+                "120.39838290214539": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343133373932206b420a427566666572733a20202020202020202020202035393634206b420a4361636865643a202020202020202020", 
+                    "id": "858434734", 
+                    "type": "file read"
+                }, 
+                "20.833297967910767": {
+                    "path": "/proc/223/net/xt_qtaguid/iface_stat_all", 
+                    "operation": "read", 
+                    "data": "34370a362034370a34370a362034370a370a370a370a370a370a34370a362034370a3433362034370a362034370a20333433362034370a370a370a370a370a370a362034370a000000000000000000000000000000000000000000000000000000000000", 
+                    "id": "1992752800", 
+                    "type": "file read"
+                }, 
+                "0.033431053161621094": {
+                    "path": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsData_DV3EJZD6WSWRSCQL75FP_226", 
+                    "operation": "write", 
+                    "data": "00", 
+                    "id": "262846143", 
+                    "type": "file write"
+                }, 
+                "57.693212032318115": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343131373030206b420a427566666572733a20202020202020202020202035393430206b420a4361636865643a202020202020202020", 
+                    "id": "363750842", 
+                    "type": "file read"
+                }, 
+                "72.43236804008484": {
+                    "path": "/dev/input/event0", 
+                    "operation": "write", 
+                    "data": "7f060000efbfbd3901000500000001000000", 
+                    "id": "1371381881", 
+                    "type": "file write"
+                }, 
+                "94.70213103294373": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343134303438206b420a427566666572733a20202020202020202020202035393536206b420a4361636865643a202020202020202020", 
+                    "id": "629926569", 
+                    "type": "file read"
+                }, 
+                "69.68819212913513": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343133333132206b420a427566666572733a20202020202020202020202035393438206b420a4361636865643a202020202020202020", 
+                    "id": "1741950945", 
+                    "type": "file read"
+                }, 
+                "0.022794008255004883": {
+                    "path": "/data/data/com.qello.handheld/files/.yflurrydatasenderblock.a2b4247a-f1a8-4fb4-be3a-6b6ecf287a7e", 
+                    "operation": "write", 
+                    "data": "6e", 
+                    "id": "1390032941", 
+                    "type": "file write"
+                }, 
+                "145.67218708992004": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343132313838206b420a427566666572733a20202020202020202020202035393732206b420a4361636865643a202020202020202020", 
+                    "id": "1954417254", 
+                    "type": "file read"
+                }, 
+                "0.023556947708129883": {
+                    "path": "/data/data/com.qello.handheld/files/.yflurrydatasenderblock.a2b4247a-f1a8-4fb4-be3a-6b6ecf287a7e", 
+                    "operation": "write", 
+                    "data": "44", 
+                    "id": "617159810", 
+                    "type": "file write"
+                }, 
+                "16.987942934036255": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343230393830206b420a427566666572733a20202020202020202020202035393034206b420a4361636865643a202020202020202020", 
+                    "id": "526235690", 
+                    "type": "file read"
+                }, 
+                "95.24657893180847": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343132363834206b420a427566666572733a20202020202020202020202035393536206b420a4361636865643a202020202020202020", 
+                    "id": "1088808906", 
+                    "type": "file read"
+                }, 
+                "114.94689106941223": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343130323034206b420a427566666572733a20202020202020202020202035393634206b420a4361636865643a202020202020202020", 
+                    "id": "1085846489", 
+                    "type": "file read"
+                }, 
+                "15.765110969543457": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343232323132206b420a427566666572733a20202020202020202020202035383838206b420a4361636865643a202020202020202020", 
+                    "id": "1694501128", 
+                    "type": "file read"
+                }, 
+                "53.2596480846405": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343133383030206b420a427566666572733a20202020202020202020202035393430206b420a4361636865643a202020202020202020", 
+                    "id": "952610916", 
+                    "type": "file read"
+                }, 
+                "10.077744960784912": {
+                    "path": "/proc/223/net/xt_qtaguid/iface_stat_fmt", 
+                    "operation": "read", 
+                    "data": "30203020302030203020302030203020302030203020300a300a300a300a300a20300a2035323920382032313920330a6c6f20302030203020302030203020302030203020302030203020302030203020300a203020300a2030203020300a203020300a", 
+                    "id": "261897087", 
+                    "type": "file read"
+                }, 
+                "0.01914501190185547": {
+                    "path": "/data/data/com.qello.handheld/files/.yflurrydatasenderblock.a2b4247a-f1a8-4fb4-be3a-6b6ecf287a7e", 
+                    "operation": "write", 
+                    "data": "00", 
+                    "id": "738658720", 
+                    "type": "file write"
+                }, 
+                "69.46586608886719": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343134363736206b420a427566666572733a20202020202020202020202035393438206b420a4361636865643a202020202020202020", 
+                    "id": "1166745686", 
+                    "type": "file read"
+                }, 
+                "0.12567806243896484": {
+                    "path": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsMain", 
+                    "operation": "write", 
+                    "data": "26", 
+                    "id": "1364661130", 
+                    "type": "file write"
+                }, 
+                "0.00451207160949707": {
+                    "path": "/data/data/com.qello.handheld/shared_prefs/castSp.xml", 
+                    "operation": "write", 
+                    "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c737472696e67206e616d653d226170706c69636174696f6e2d6964223e34453932393234", 
+                    "id": "1201496321", 
+                    "type": "file write"
+                }, 
+                "96.42350792884827": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343132363834206b420a427566666572733a20202020202020202020202035393536206b420a4361636865643a202020202020202020", 
+                    "id": "1613690396", 
+                    "type": "file read"
+                }, 
+                "21.9760479927063": {
+                    "path": "/data/data/com.android.music/shared_prefs/Music.xml", 
+                    "operation": "write", 
+                    "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c737472696e67206e616d653d227175657565223e3c2f737472696e673e0a3c696e74206e", 
+                    "id": "278463115", 
+                    "type": "file write"
+                }, 
+                "94.77572202682495": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343134303438206b420a427566666572733a20202020202020202020202035393536206b420a4361636865643a202020202020202020", 
+                    "id": "1884619519", 
+                    "type": "file read"
+                }, 
+                "0.03592109680175781": {
+                    "path": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsMain", 
+                    "operation": "write", 
+                    "data": "00", 
+                    "id": "1516199107", 
+                    "type": "file write"
+                }, 
+                "0.026818037033081055": {
+                    "path": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsData_DV3EJZD6WSWRSCQL75FP_226", 
+                    "operation": "write", 
+                    "data": "00", 
+                    "id": "4803246", 
+                    "type": "file write"
+                }, 
+                "24.292680025100708": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343133343434206b420a427566666572733a20202020202020202020202035393238206b420a4361636865643a202020202020202020", 
+                    "id": "1346201293", 
+                    "type": "file read"
+                }, 
+                "96.71590995788574": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343132343336206b420a427566666572733a20202020202020202020202035393536206b420a4361636865643a202020202020202020", 
+                    "id": "258968776", 
+                    "type": "file read"
+                }, 
+                "24.007690906524658": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343134383038206b420a427566666572733a20202020202020202020202035393238206b420a4361636865643a202020202020202020", 
+                    "id": "1626190036", 
+                    "type": "file read"
+                }, 
+                "0.02568197250366211": {
+                    "path": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsData_DV3EJZD6WSWRSCQL75FP_226", 
+                    "operation": "write", 
+                    "data": "08", 
+                    "id": "1357231575", 
+                    "type": "file write"
+                }, 
+                "0.023135900497436523": {
+                    "path": "/data/data/com.qello.handheld/files/.yflurrydatasenderblock.a2b4247a-f1a8-4fb4-be3a-6b6ecf287a7e", 
+                    "operation": "write", 
+                    "data": "06", 
+                    "id": "1101083020", 
+                    "type": "file write"
+                }, 
+                "0.030586957931518555": {
+                    "path": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsData_DV3EJZD6WSWRSCQL75FP_226", 
+                    "operation": "write", 
+                    "data": "63efbfbdd48b74efbfbd292d2aefbfbd0c4eefbfbd4b492defbfbd0412157aefbfbd7969efbfbd7a0c0c0cefbfbd60efbfbdefbfbd68efbfbd64626462efbfbdefbfbdefbfbd66efbfbd68efbfbd6befbfbdefbfbd64efbfbdefbfbdefbfbd6aefbfbdefbfbd6befbfbd64efbfbdefbfbdefbfbd666461efbfbd68efbfbd0a00", 
+                    "id": "150128496", 
+                    "type": "file write"
+                }, 
+                "0.0008699893951416016": {
+                    "path": "/dev/input/event0", 
+                    "operation": "write", 
+                    "data": "efbfbd060000efbfbdefbfbd0c000500000000000000", 
+                    "id": "446165267", 
+                    "type": "file write"
+                }, 
+                "0.25505995750427246": {
+                    "path": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsMain", 
+                    "operation": "write", 
+                    "data": "00", 
+                    "id": "864644643", 
+                    "type": "file write"
+                }, 
+                "0.031167984008789062": {
+                    "path": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsData_DV3EJZD6WSWRSCQL75FP_226", 
+                    "operation": "write", 
+                    "data": "efbfbd", 
+                    "id": "1804561878", 
+                    "type": "file write"
+                }, 
+                "0.03622293472290039": {
+                    "path": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsMain", 
+                    "operation": "write", 
+                    "data": "00", 
+                    "id": "1468109687", 
+                    "type": "file write"
+                }, 
+                "0.033782005310058594": {
+                    "path": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsData_DV3EJZD6WSWRSCQL75FP_226", 
+                    "operation": "write", 
+                    "data": "00", 
+                    "id": "1106896117", 
+                    "type": "file write"
+                }, 
+                "16.67725396156311": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343232343638206b420a427566666572733a20202020202020202020202035393034206b420a4361636865643a202020202020202020", 
+                    "id": "293451226", 
+                    "type": "file read"
+                }, 
+                "0.37270402908325195": {
+                    "path": "/data/data/com.qello.handheld/files/.yflurrydatasenderblock.a2b4247a-f1a8-4fb4-be3a-6b6ecf287a7e", 
+                    "operation": "read", 
+                    "data": "4defbfbdefbfbd4aefbfbd5010efbfbd4fd0b6efbfbd55415d7425efbfbdefbfbd4b7e6c43efbfbdc5b4efbfbd22efbfbdefbfbd60efbfbd5defbfbd3befbfbdefbfbd7befbfbd6d12efbfbd13efbfbd20efbfbd48efbfbdc5b770efbfbd0defbfbdefbfbd6c66efbfbdefbfbd30670e066cefbfbdefbfbd4aefbfbd2defbfbdefbfbd7843efbfbdefbfbd4eefbfbd4aefbfbd1900cbbaefbfbd15efbfbdefbfbd01efbfbd0defbfbdefbfbd75efbfbdefbfbdefbfbdefbfbd", 
+                    "id": "1251101520", 
+                    "type": "file read"
+                }, 
+                "0.2066650390625": {
+                    "path": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsMain", 
+                    "operation": "write", 
+                    "data": "3f", 
+                    "id": "127414784", 
+                    "type": "file write"
+                }, 
+                "0.0200350284576416": {
+                    "path": "/data/data/com.qello.handheld/files/.yflurrydatasenderblock.a2b4247a-f1a8-4fb4-be3a-6b6ecf287a7e", 
+                    "operation": "write", 
+                    "data": "00", 
+                    "id": "1509785647", 
+                    "type": "file write"
+                }, 
+                "0.2112720012664795": {
+                    "path": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsMain", 
+                    "operation": "write", 
+                    "data": "00", 
+                    "id": "503804916", 
+                    "type": "file write"
+                }, 
+                "0.013365030288696289": {
+                    "path": "/data/data/com.qello.handheld/shared_prefs/mat_user_ids.xml", 
+                    "operation": "write", 
+                    "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c737472696e67206e616d653d22757365725f6964223e6635316565376431303039323733", 
+                    "id": "6924750", 
+                    "type": "file write"
+                }, 
+                "113.384526014328": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343133303536206b420a427566666572733a20202020202020202020202035393634206b420a4361636865643a202020202020202020", 
+                    "id": "890290806", 
+                    "type": "file read"
+                }, 
+                "78.30591011047363": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343135303332206b420a427566666572733a20202020202020202020202035393536206b420a4361636865643a202020202020202020", 
+                    "id": "1573270427", 
+                    "type": "file read"
+                }, 
+                "0.025331974029541016": {
+                    "path": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsData_DV3EJZD6WSWRSCQL75FP_226", 
+                    "operation": "write", 
+                    "data": "efbfbd", 
+                    "id": "325868637", 
+                    "type": "file write"
+                }, 
+                "0.03682398796081543": {
+                    "path": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsMain", 
+                    "operation": "write", 
+                    "data": "00", 
+                    "id": "1404196137", 
+                    "type": "file write"
+                }, 
+                "0.037423133850097656": {
+                    "path": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsMain", 
+                    "operation": "write", 
+                    "data": "00", 
+                    "id": "490329673", 
+                    "type": "file write"
+                }, 
+                "95.06192302703857": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343132393332206b420a427566666572733a20202020202020202020202035393536206b420a4361636865643a202020202020202020", 
+                    "id": "1956148710", 
+                    "type": "file read"
+                }, 
+                "15.595293045043945": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343233353736206b420a427566666572733a20202020202020202020202035383838206b420a4361636865643a202020202020202020", 
+                    "id": "1755575993", 
+                    "type": "file read"
+                }, 
+                "0.06309700012207031": {
+                    "path": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsMain", 
+                    "operation": "write", 
+                    "data": "efbfbd", 
+                    "id": "947838290", 
+                    "type": "file write"
+                }, 
+                "0.02390313148498535": {
+                    "path": "/data/data/com.qello.handheld/files/.yflurrydatasenderblock.a2b4247a-f1a8-4fb4-be3a-6b6ecf287a7e", 
+                    "operation": "write", 
+                    "data": "01", 
+                    "id": "546176121", 
+                    "type": "file write"
+                }, 
+                "27.015799045562744": {
+                    "path": "/proc/1088/cmdline", 
+                    "operation": "read", 
+                    "data": "636f6d2e616e64726f69642e6d75736963000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000030303664363965646432333237623833303932642e61706b", 
+                    "id": "1927462256", 
+                    "type": "file read"
+                }, 
+                "162.70196795463562": {
+                    "path": "/data/data/com.qello.handheld/files/.yflurryreport.5ffeac38c5f5bb75", 
+                    "operation": "write", 
+                    "data": "08", 
+                    "id": "1653698221", 
+                    "type": "file write"
+                }, 
+                "96.31850600242615": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343132363834206b420a427566666572733a20202020202020202020202035393536206b420a4361636865643a202020202020202020", 
+                    "id": "1533072485", 
+                    "type": "file read"
+                }, 
+                "0.020376920700073242": {
+                    "path": "/data/data/com.qello.handheld/files/.yflurrydatasenderblock.a2b4247a-f1a8-4fb4-be3a-6b6ecf287a7e", 
+                    "operation": "write", 
+                    "data": "00", 
+                    "id": "864175770", 
+                    "type": "file write"
+                }, 
+                "94.87022113800049": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343134303438206b420a427566666572733a20202020202020202020202035393536206b420a4361636865643a202020202020202020", 
+                    "id": "1485475007", 
+                    "type": "file read"
+                }, 
+                "19.537385940551758": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343139333638206b420a427566666572733a20202020202020202020202035393034206b420a4361636865643a202020202020202020", 
+                    "id": "1500427703", 
+                    "type": "file read"
+                }, 
+                "0.016926050186157227": {
+                    "path": "/data/data/com.qello.handheld/shared_prefs/mat_queue.xml", 
+                    "operation": "write", 
+                    "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c696e74206e616d653d22717565756573697a65222076616c75653d223122202f3e0a3c2f", 
+                    "id": "367545367", 
+                    "type": "file write"
+                }, 
+                "0.03426313400268555": {
+                    "path": "/data/data/com.android.gallery3d/shared_prefs/com.android.gallery3d_preferences.xml", 
+                    "operation": "write", 
+                    "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c696e74206e616d653d227061636b616765732d76657273696f6e222076616c75653d2237", 
+                    "id": "1840942968", 
+                    "type": "file write"
+                }, 
+                "145.8329620361328": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343130393438206b420a427566666572733a20202020202020202020202035393732206b420a4361636865643a202020202020202020", 
+                    "id": "2130278649", 
+                    "type": "file read"
+                }, 
+                "0.026040077209472656": {
+                    "path": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsData_DV3EJZD6WSWRSCQL75FP_226", 
+                    "operation": "write", 
+                    "data": "00", 
+                    "id": "536246215", 
+                    "type": "file write"
+                }, 
+                "20.722635984420776": {
+                    "path": "/proc/223/net/xt_qtaguid/iface_stat_all", 
+                    "operation": "read", 
+                    "data": "657468302031203020302030203020313032353333313120393937382038393738373020363532360a6c6f20312030203020302030203334333620343720333433362034370a000000000000000000000000000000000000000000000000000000000000", 
+                    "id": "542786319", 
+                    "type": "file read"
+                }, 
+                "69.32847499847412": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343136313634206b420a427566666572733a20202020202020202020202035393438206b420a4361636865643a202020202020202020", 
+                    "id": "604216990", 
+                    "type": "file read"
+                }, 
+                "0.03456997871398926": {
+                    "path": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsMain", 
+                    "operation": "write", 
+                    "data": "1f", 
+                    "id": "200273305", 
+                    "type": "file write"
+                }, 
+                "0.011096000671386719": {
+                    "path": "/proc/986/cmdline", 
+                    "operation": "read", 
+                    "data": "636f6d2e71656c6c6f2e68616e6468656c640000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000030303664363965646432333237623833303932642e61706b", 
+                    "id": "1292066796", 
+                    "type": "file read"
+                }, 
+                "0.021069049835205078": {
+                    "path": "/data/data/com.qello.handheld/files/.yflurrydatasenderblock.a2b4247a-f1a8-4fb4-be3a-6b6ecf287a7e", 
+                    "operation": "write", 
+                    "data": "00", 
+                    "id": "1079349905", 
+                    "type": "file write"
+                }, 
+                "0.006803035736083984": {
+                    "path": "/data/data/com.qello.handheld/shared_prefs/castSp.xml", 
+                    "operation": "write", 
+                    "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c737472696e67206e616d653d22636173742d637573746f6d2d646174612d6e616d657370", 
+                    "id": "645374986", 
+                    "type": "file write"
+                }, 
+                "24.187685012817383": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343134383030206b420a427566666572733a20202020202020202020202035393238206b420a4361636865643a202020202020202020", 
+                    "id": "1970270332", 
+                    "type": "file read"
+                }, 
+                "108.26759505271912": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343135313438206b420a427566666572733a20202020202020202020202035393536206b420a4361636865643a202020202020202020", 
+                    "id": "2057864291", 
+                    "type": "file read"
+                }, 
+                "19.825159072875977": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343138383234206b420a427566666572733a20202020202020202020202035393034206b420a4361636865643a202020202020202020", 
+                    "id": "1960515385", 
+                    "type": "file read"
+                }, 
+                "0.024981975555419922": {
+                    "path": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsData_DV3EJZD6WSWRSCQL75FP_226", 
+                    "operation": "write", 
+                    "data": "1f", 
+                    "id": "1551259852", 
+                    "type": "file write"
+                }, 
+                "0.010006904602050781": {
+                    "path": "/proc/972/cmdline", 
+                    "operation": "read", 
+                    "data": "2f73797374656d2f62696e2f7368002d63007368202e2f7364636172642f65786563757465537472616365496e2e736800000000000000000000000000000000000000000000000000000000000000000000000000000000000037366137383731386464", 
+                    "id": "1248970595", 
+                    "type": "file read"
+                }, 
+                "0.005999088287353516": {
+                    "path": "/data/data/com.qello.handheld/shared_prefs/castSp.xml", 
+                    "operation": "write", 
+                    "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c737472696e67206e616d653d22636173742d637573746f6d2d646174612d6e616d657370", 
+                    "id": "1554787129", 
+                    "type": "file write"
+                }, 
+                "0.03159308433532715": {
+                    "path": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsData_DV3EJZD6WSWRSCQL75FP_226", 
+                    "operation": "write", 
+                    "data": "1a", 
+                    "id": "2018203282", 
+                    "type": "file write"
+                }, 
+                "0.024245023727416992": {
+                    "path": "/data/data/com.qello.handheld/files/.yflurrydatasenderblock.a2b4247a-f1a8-4fb4-be3a-6b6ecf287a7e", 
+                    "operation": "write", 
+                    "data": "00", 
+                    "id": "1229835970", 
+                    "type": "file write"
+                }, 
+                "24.121253967285156": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343134383030206b420a427566666572733a20202020202020202020202035393238206b420a4361636865643a202020202020202020", 
+                    "id": "857396393", 
+                    "type": "file read"
+                }, 
+                "0.029222965240478516": {
+                    "path": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsData_DV3EJZD6WSWRSCQL75FP_226", 
+                    "operation": "write", 
+                    "data": "00", 
+                    "id": "1043032893", 
+                    "type": "file write"
+                }, 
+                "0.02992105484008789": {
+                    "path": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsData_DV3EJZD6WSWRSCQL75FP_226", 
+                    "operation": "write", 
+                    "data": "00", 
+                    "id": "403983391", 
+                    "type": "file write"
+                }, 
+                "16.30957293510437": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343232383136206b420a427566666572733a20202020202020202020202035383838206b420a4361636865643a202020202020202020", 
+                    "id": "1327200691", 
+                    "type": "file read"
+                }, 
+                "108.54419898986816": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343132303438206b420a427566666572733a20202020202020202020202035393536206b420a4361636865643a202020202020202020", 
+                    "id": "1262120267", 
+                    "type": "file read"
+                }, 
+                "0.036524057388305664": {
+                    "path": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsMain", 
+                    "operation": "write", 
+                    "data": "00", 
+                    "id": "1587202022", 
+                    "type": "file write"
+                }, 
+                "0.018798112869262695": {
+                    "path": "/data/data/com.qello.handheld/files/.yflurrydatasenderblock.a2b4247a-f1a8-4fb4-be3a-6b6ecf287a7e", 
+                    "operation": "write", 
+                    "data": "00", 
+                    "id": "1937327949", 
+                    "type": "file write"
+                }, 
+                "11.301433086395264": {
+                    "path": "/dev/input/event0", 
+                    "operation": "write", 
+                    "data": "7f060000efbfbd3901000500000001000000", 
+                    "id": "2100402949", 
+                    "type": "file write"
+                }, 
+                "162.69688391685486": {
+                    "path": "/data/data/com.qello.handheld/files/.yflurryreport.5ffeac38c5f5bb75", 
+                    "operation": "write", 
+                    "data": "efbfbd", 
+                    "id": "1255774295", 
+                    "type": "file write"
+                }, 
+                "78.14686393737793": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343133373932206b420a427566666572733a20202020202020202020202035393536206b420a4361636865643a202020202020202020", 
+                    "id": "648175322", 
+                    "type": "file read"
+                }, 
+                "0.032998085021972656": {
+                    "path": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsData_DV3EJZD6WSWRSCQL75FP_226", 
+                    "operation": "write", 
+                    "data": "00", 
+                    "id": "1758402711", 
+                    "type": "file write"
+                }, 
+                "0.007916927337646484": {
+                    "path": "/data/data/com.qello.handheld/shared_prefs/com.qello.handheld_preferences.xml", 
+                    "operation": "write", 
+                    "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c737472696e67206e616d653d22707265666572726564436f646563223e6d656469756d3c", 
+                    "id": "1562456400", 
+                    "type": "file write"
+                }, 
+                "0.024589061737060547": {
+                    "path": "/data/data/com.qello.handheld/files/.yflurrydatasenderblock.a2b4247a-f1a8-4fb4-be3a-6b6ecf287a7e", 
+                    "operation": "write", 
+                    "data": "00", 
+                    "id": "1171352020", 
+                    "type": "file write"
+                }, 
+                "114.75535798072815": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343130313936206b420a427566666572733a20202020202020202020202035393634206b420a4361636865643a202020202020202020", 
+                    "id": "808916710", 
+                    "type": "file read"
+                }, 
+                "0.00872802734375": {
+                    "path": "/proc/948/cmdline", 
+                    "operation": "read", 
+                    "data": "636f6d2e73766f782e7069636f000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000702f63623230336463396530623837366137383731386464", 
+                    "id": "82242319", 
+                    "type": "file read"
+                }, 
+                "0.035620927810668945": {
+                    "path": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsMain", 
+                    "operation": "write", 
+                    "data": "00", 
+                    "id": "1524944481", 
+                    "type": "file write"
+                }, 
+                "120.36807012557983": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343133393136206b420a427566666572733a20202020202020202020202035393634206b420a4361636865643a202020202020202020", 
+                    "id": "1505873264", 
+                    "type": "file read"
+                }, 
+                "0.020721912384033203": {
+                    "path": "/data/data/com.qello.handheld/files/.yflurrydatasenderblock.a2b4247a-f1a8-4fb4-be3a-6b6ecf287a7e", 
+                    "operation": "write", 
+                    "data": "00", 
+                    "id": "1620239406", 
+                    "type": "file write"
+                }, 
+                "162.62031507492065": {
+                    "path": "/data/data/com.qello.handheld/shared_prefs/FLURRY_SHARED_PREFERENCES.xml", 
+                    "operation": "write", 
+                    "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c626f6f6c65616e206e616d653d22636f6d2e666c757272792e73646b2e70726576696f75", 
+                    "id": "962259821", 
+                    "type": "file write"
+                }, 
+                "0.22446203231811523": {
+                    "path": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsMain", 
+                    "operation": "write", 
+                    "data": "00", 
+                    "id": "1547557256", 
+                    "type": "file write"
+                }, 
+                "0.03493499755859375": {
+                    "path": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsMain", 
+                    "operation": "write", 
+                    "data": "efbfbd", 
+                    "id": "2062025034", 
+                    "type": "file write"
+                }, 
+                "0.03787994384765625": {
+                    "path": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsMain", 
+                    "operation": "write", 
+                    "data": "63efbfbd75efbfbd4bcca92cefbfbd4c2eefbfbd4defbfbdefbfbd63606060046335efbfbdefbfbd4b624962efbfbd4befbfbdefbfbdefbfbd57efbfbdefbfbd5978707850efbfbd73efbfbdefbfbdefbfbdefbfbd5b40efbfbdefbfbdefbfbd1900", 
+                    "id": "1174947197", 
+                    "type": "file write"
+                }, 
+                "0.03264904022216797": {
+                    "path": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsData_DV3EJZD6WSWRSCQL75FP_226", 
+                    "operation": "write", 
+                    "data": "49", 
+                    "id": "2115441752", 
+                    "type": "file write"
+                }, 
+                "10.002620935440063": {
+                    "path": "/proc/223/net/xt_qtaguid/stats", 
+                    "operation": "read", 
+                    "data": "69647820696661636520616363745f7461675f686578207569645f7461675f696e7420636e745f7365742072785f62797465732072785f7061636b6574732074785f62797465732074785f7061636b6574732072785f7463705f62797465732072785f74", 
+                    "id": "1884778541", 
+                    "type": "file read"
+                }, 
+                "96.51023292541504": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343132343336206b420a427566666572733a20202020202020202020202035393536206b420a4361636865643a202020202020202020", 
+                    "id": "107964168", 
+                    "type": "file read"
+                }, 
+                "10.084244012832642": {
+                    "path": "/proc/223/net/xt_qtaguid/iface_stat_all", 
+                    "operation": "read", 
+                    "data": "657468302031203020302030203020313032313638323820393437342037353938353420363035320a6c6f20312030203020302030203334333620343720333433362034370a000000000000000000000000000000000000000000000000000000000000", 
+                    "id": "449366882", 
+                    "type": "file read"
+                }, 
+                "19.70613193511963": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343139303838206b420a427566666572733a20202020202020202020202035393034206b420a4361636865643a202020202020202020", 
+                    "id": "1639165183", 
+                    "type": "file read"
+                }, 
+                "108.40845894813538": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343133373834206b420a427566666572733a20202020202020202020202035393536206b420a4361636865643a202020202020202020", 
+                    "id": "1993282231", 
+                    "type": "file read"
+                }, 
+                "0.005396127700805664": {
+                    "path": "/data/data/com.qello.handheld/shared_prefs/castSp.xml", 
+                    "operation": "write", 
+                    "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c737472696e67206e616d653d22636173742d61637469766974792d6e616d65223e636f6d", 
+                    "id": "1230594695", 
+                    "type": "file write"
+                }, 
+                "69.296795129776": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343136313634206b420a427566666572733a20202020202020202020202035393438206b420a4361636865643a202020202020202020", 
+                    "id": "1777005575", 
+                    "type": "file read"
+                }, 
+                "96.54635810852051": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343132343336206b420a427566666572733a20202020202020202020202035393536206b420a4361636865643a202020202020202020", 
+                    "id": "1291999562", 
+                    "type": "file read"
+                }, 
+                "115.07527899742126": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343130323034206b420a427566666572733a20202020202020202020202035393634206b420a4361636865643a202020202020202020", 
+                    "id": "421187579", 
+                    "type": "file read"
+                }, 
+                "23.901780128479004": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343134383038206b420a427566666572733a20202020202020202020202035393238206b420a4361636865643a202020202020202020", 
+                    "id": "1245021298", 
+                    "type": "file read"
+                }, 
+                "0.011982917785644531": {
+                    "path": "/dev/urandom", 
+                    "operation": "read", 
+                    "data": "efbfbd0fd683efbfbd35efbfbd4befbfbd1b3eefbfbdefbfbd7c3fefbfbdefbfbdefbfbd42", 
+                    "id": "37248738", 
+                    "type": "file read"
+                }, 
+                "162.71152901649475": {
+                    "path": "/data/data/com.qello.handheld/files/.yflurryreport.5ffeac38c5f5bb75", 
+                    "operation": "write", 
+                    "data": "00", 
+                    "id": "429951364", 
+                    "type": "file write"
+                }, 
+                "10.033857107162476": {
+                    "path": "/proc/223/net/xt_qtaguid/iface_stat_fmt", 
+                    "operation": "read", 
+                    "data": "69666e616d6520746f74616c5f736b625f72785f627974657320746f74616c5f736b625f72785f7061636b65747320746f74616c5f736b625f74785f627974657320746f74616c5f736b625f74785f7061636b6574732072785f7463705f627974657320", 
+                    "id": "973086349", 
+                    "type": "file read"
+                }, 
+                "0.009643077850341797": {
+                    "path": "/proc/970/cmdline", 
+                    "operation": "read", 
+                    "data": "6c6f676361740044726f6964426f783a570064616c76696b766d3a570041637469766974794d616e616765723a49000000000000000000000000000000000000000000000000000000000000000000000000000000000000000037366137383731386464", 
+                    "id": "1554506473", 
+                    "type": "file read"
+                }, 
+                "0.03229999542236328": {
+                    "path": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsData_DV3EJZD6WSWRSCQL75FP_226", 
+                    "operation": "write", 
+                    "data": "efbfbd", 
+                    "id": "925876951", 
+                    "type": "file write"
+                }, 
+                "113.39944911003113": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343133303536206b420a427566666572733a20202020202020202020202035393634206b420a4361636865643a202020202020202020", 
+                    "id": "1005152498", 
+                    "type": "file read"
+                }, 
+                "0.03194999694824219": {
+                    "path": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsData_DV3EJZD6WSWRSCQL75FP_226", 
+                    "operation": "write", 
+                    "data": "efbfbd", 
+                    "id": "1324107011", 
+                    "type": "file write"
+                }, 
+                "0.19127106666564941": {
+                    "path": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsMain", 
+                    "operation": "write", 
+                    "data": "efbfbd", 
+                    "id": "1197161067", 
+                    "type": "file write"
+                }, 
+                "0.029567956924438477": {
+                    "path": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsData_DV3EJZD6WSWRSCQL75FP_226", 
+                    "operation": "write", 
+                    "data": "00", 
+                    "id": "17111463", 
+                    "type": "file write"
+                }, 
+                "15.798178911209106": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343232323132206b420a427566666572733a20202020202020202020202035383838206b420a4361636865643a202020202020202020", 
+                    "id": "2115400956", 
+                    "type": "file read"
+                }, 
+                "95.97281908988953": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343132363834206b420a427566666572733a20202020202020202020202035393536206b420a4361636865643a202020202020202020", 
+                    "id": "189018158", 
+                    "type": "file read"
+                }, 
+                "0.09067106246948242": {
+                    "path": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsMain", 
+                    "operation": "write", 
+                    "data": "65", 
+                    "id": "1184687988", 
+                    "type": "file write"
+                }, 
+                "0.010368108749389648": {
+                    "path": "/proc/974/cmdline", 
+                    "operation": "read", 
+                    "data": "7368002e2f7364636172642f65786563757465537472616365496e2e736800786563757465537472616365496e2e736800000000000000000000000000000000000000000000000000000000000000000000000000000000000037366137383731386464", 
+                    "id": "9476188", 
+                    "type": "file read"
+                }, 
+                "0.017713069915771484": {
+                    "path": "/data/data/com.qello.handheld/files/.yflurrydatasenderblock.a2b4247a-f1a8-4fb4-be3a-6b6ecf287a7e", 
+                    "operation": "write", 
+                    "data": "1f", 
+                    "id": "1455381778", 
+                    "type": "file write"
+                }, 
+                "0.02639293670654297": {
+                    "path": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsData_DV3EJZD6WSWRSCQL75FP_226", 
+                    "operation": "write", 
+                    "data": "00", 
+                    "id": "1577559864", 
+                    "type": "file write"
+                }, 
+                "162.67794013023376": {
+                    "path": "/data/data/com.qello.handheld/files/.yflurryreport.5ffeac38c5f5bb75", 
+                    "operation": "write", 
+                    "data": "1f", 
+                    "id": "1037971423", 
+                    "type": "file write"
+                }, 
+                "0.015851974487304688": {
+                    "path": "/data/data/com.qello.handheld/shared_prefs/come.yozio.android.PREFERENCES.xml", 
+                    "operation": "write", 
+                    "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c626f6f6c65616e206e616d653d22696e7374616c6c547261636b6564222076616c75653d", 
+                    "id": "1559253313", 
+                    "type": "file write"
+                }, 
+                "0.03527712821960449": {
+                    "path": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsMain", 
+                    "operation": "write", 
+                    "data": "08", 
+                    "id": "1163122230", 
+                    "type": "file write"
+                }, 
+                "0.022452116012573242": {
+                    "path": "/data/data/com.qello.handheld/files/.yflurrydatasenderblock.a2b4247a-f1a8-4fb4-be3a-6b6ecf287a7e", 
+                    "operation": "write", 
+                    "data": "efbfbd", 
+                    "id": "61461419", 
+                    "type": "file write"
+                }, 
+                "79.09146213531494": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343133373932206b420a427566666572733a20202020202020202020202035393536206b420a4361636865643a202020202020202020", 
+                    "id": "1730289040", 
+                    "type": "file read"
+                }, 
+                "96.63709092140198": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343132343336206b420a427566666572733a20202020202020202020202035393536206b420a4361636865643a202020202020202020", 
+                    "id": "1130170674", 
+                    "type": "file read"
+                }, 
+                "94.95788097381592": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343132393332206b420a427566666572733a20202020202020202020202035393536206b420a4361636865643a202020202020202020", 
+                    "id": "2145929785", 
+                    "type": "file read"
+                }, 
+                "107.90889000892639": {
+                    "path": "/dev/input/event0", 
+                    "operation": "write", 
+                    "data": "efbfbd060000efbfbdefbfbd0c000500000000000000", 
+                    "id": "1797133046", 
+                    "type": "file write"
+                }, 
+                "78.65844798088074": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343133373932206b420a427566666572733a20202020202020202020202035393536206b420a4361636865643a202020202020202020", 
+                    "id": "1610258142", 
+                    "type": "file read"
+                }, 
+                "145.73502397537231": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343132313838206b420a427566666572733a20202020202020202020202035393732206b420a4361636865643a202020202020202020", 
+                    "id": "75497159", 
+                    "type": "file read"
+                }, 
+                "78.47675490379333": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343135303332206b420a427566666572733a20202020202020202020202035393536206b420a4361636865643a202020202020202020", 
+                    "id": "929868025", 
+                    "type": "file read"
+                }, 
+                "94.58437895774841": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343133393234206b420a427566666572733a20202020202020202020202035393536206b420a4361636865643a202020202020202020", 
+                    "id": "214401451", 
+                    "type": "file read"
+                }, 
+                "95.34956312179565": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343132363834206b420a427566666572733a20202020202020202020202035393536206b420a4361636865643a202020202020202020", 
+                    "id": "1774107345", 
+                    "type": "file read"
+                }, 
+                "19.47847294807434": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343139333638206b420a427566666572733a20202020202020202020202035393034206b420a4361636865643a202020202020202020", 
+                    "id": "2078932973", 
+                    "type": "file read"
+                }, 
+                "96.1862359046936": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343132363834206b420a427566666572733a20202020202020202020202035393536206b420a4361636865643a202020202020202020", 
+                    "id": "1727535766", 
+                    "type": "file read"
+                }, 
+                "23.6857590675354": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343134393332206b420a427566666572733a20202020202020202020202035393238206b420a4361636865643a202020202020202020", 
+                    "id": "1634648171", 
+                    "type": "file read"
+                }, 
+                "110.52786207199097": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343133343132206b420a427566666572733a20202020202020202020202035393536206b420a4361636865643a202020202020202020", 
+                    "id": "1755690619", 
+                    "type": "file read"
+                }, 
+                "96.08377003669739": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343132363834206b420a427566666572733a20202020202020202020202035393536206b420a4361636865643a202020202020202020", 
+                    "id": "511629329", 
+                    "type": "file read"
+                }, 
+                "0.009239912033081055": {
+                    "path": "/proc/968/cmdline", 
+                    "operation": "read", 
+                    "data": "636f6d2e616e64726f69642e636f6d6d616e64732e6d6f6e6b657900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000037366137383731386464", 
+                    "id": "589631646", 
+                    "type": "file read"
+                }, 
+                "0.018095970153808594": {
+                    "path": "/data/data/com.qello.handheld/files/.yflurrydatasenderblock.a2b4247a-f1a8-4fb4-be3a-6b6ecf287a7e", 
+                    "operation": "write", 
+                    "data": "efbfbd", 
+                    "id": "11549656", 
+                    "type": "file write"
+                }, 
+                "95.16179704666138": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343132383038206b420a427566666572733a20202020202020202020202035393536206b420a4361636865643a202020202020202020", 
+                    "id": "1086698188", 
+                    "type": "file read"
+                }, 
+                "162.71827697753906": {
+                    "path": "/data/data/com.qello.handheld/files/.yflurryreport.5ffeac38c5f5bb75", 
+                    "operation": "write", 
+                    "data": "00", 
+                    "id": "255156291", 
+                    "type": "file write"
+                }, 
+                "0.017354965209960938": {
+                    "path": "/data/data/com.qello.handheld/shared_prefs/mat_queue.xml", 
+                    "operation": "write", 
+                    "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c737472696e67206e616d653d2231223e7b2671756f743b72756e5f646174652671756f74", 
+                    "id": "899347645", 
+                    "type": "file write"
+                }, 
+                "10.102963924407959": {
+                    "path": "/proc/223/net/xt_qtaguid/iface_stat_all", 
+                    "operation": "read", 
+                    "data": "34370a362034370a34370a362034370a370a370a370a370a370a34370a362034370a3433362034370a362034370a20333433362034370a370a370a370a370a370a362034370a000000000000000000000000000000000000000000000000000000000000", 
+                    "id": "1785108131", 
+                    "type": "file read"
+                }, 
+                "108.24064993858337": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343135313438206b420a427566666572733a20202020202020202020202035393536206b420a4361636865643a202020202020202020", 
+                    "id": "838944596", 
+                    "type": "file read"
+                }, 
+                "0.028872013092041016": {
+                    "path": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsData_DV3EJZD6WSWRSCQL75FP_226", 
+                    "operation": "write", 
+                    "data": "00", 
+                    "id": "188074382", 
+                    "type": "file write"
+                }, 
+                "57.50909209251404": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343133333132206b420a427566666572733a20202020202020202020202035393430206b420a4361636865643a202020202020202020", 
+                    "id": "1204934473", 
+                    "type": "file read"
+                }, 
+                "0.008322000503540039": {
+                    "path": "/proc/934/cmdline", 
+                    "operation": "read", 
+                    "data": "636f6d2e616e64726f69642e6d757369636678000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000702f63623230336463396530623837366137383731386464", 
+                    "id": "1425159275", 
+                    "type": "file read"
+                }, 
+                "79.29070901870728": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343133373932206b420a427566666572733a20202020202020202020202035393536206b420a4361636865643a202020202020202020", 
+                    "id": "1532441835", 
+                    "type": "file read"
+                }, 
+                "53.25570106506348": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343133383030206b420a427566666572733a20202020202020202020202035393430206b420a4361636865643a202020202020202020", 
+                    "id": "649723081", 
+                    "type": "file read"
+                }, 
+                "0.012406110763549805": {
+                    "path": "/data/data/com.qello.handheld/shared_prefs/mat_id.xml", 
+                    "operation": "write", 
+                    "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c737472696e67206e616d653d226d61745f6964223e39316161303231662d663937632d34", 
+                    "id": "1468227046", 
+                    "type": "file write"
+                }, 
+                "78.2620460987091": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343133373932206b420a427566666572733a20202020202020202020202035393536206b420a4361636865643a202020202020202020", 
+                    "id": "75576668", 
+                    "type": "file read"
+                }, 
+                "46.64343595504761": {
+                    "path": "/dev/input/event0", 
+                    "operation": "write", 
+                    "data": "efbfbd060000efbfbdefbfbd0c000500000000000000", 
+                    "id": "1014851081", 
+                    "type": "file write"
+                }, 
+                "0.31342411041259766": {
+                    "path": "/data/data/com.qello.handheld/files/.yflurrydatasenderblock.a2b4247a-f1a8-4fb4-be3a-6b6ecf287a7e", 
+                    "operation": "read", 
+                    "data": "1fefbfbd0800000000000000", 
+                    "id": "1385833775", 
+                    "type": "file read"
+                }, 
+                "110.3974609375": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343133343132206b420a427566666572733a20202020202020202020202035393536206b420a4361636865643a202020202020202020", 
+                    "id": "1033999186", 
+                    "type": "file read"
+                }, 
+                "0.037123918533325195": {
+                    "path": "/data/data/com.qello.handheld/files/.YFlurrySenderIndex.info.AnalyticsMain", 
+                    "operation": "write", 
+                    "data": "00", 
+                    "id": "147252152", 
+                    "type": "file write"
+                }, 
+                "10.028136968612671": {
+                    "path": "/proc/223/net/xt_qtaguid/stats", 
+                    "operation": "read", 
+                    "data": "30203020302030203020302030203020302030203020300a300a300a300a300a300a30203020300a3020300a203020300a300a203120302030203020302030203020302030203020302030203020302030203020300a20300a203020300a20300a203020", 
+                    "id": "1468413600", 
+                    "type": "file read"
+                }, 
+                "108.37043309211731": {
+                    "path": "/proc/meminfo", 
+                    "operation": "read", 
+                    "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343133373834206b420a427566666572733a20202020202020202020202035393536206b420a4361636865643a202020202020202020", 
+                    "id": "1872869183", 
+                    "type": "file read"
+                }, 
+                "0.021717071533203125": {
+                    "path": "/data/data/com.qello.handheld/files/.yflurrydatasenderblock.a2b4247a-f1a8-4fb4-be3a-6b6ecf287a7e", 
+                    "operation": "write", 
+                    "data": "4defbfbdefbfbd4aefbfbd5010efbfbd4fd0b6efbfbd55415d7425efbfbdefbfbd4b7e6c43efbfbdc5b4efbfbd22efbfbdefbfbd60efbfbd5defbfbd3befbfbdefbfbd7befbfbd6d12efbfbd13efbfbd20efbfbd48efbfbdc5b770efbfbd0defbfbdefbfbd6c66efbfbdefbfbd30670e066cefbfbdefbfbd4aefbfbd2defbfbdefbfbd7843efbfbdefbfbd4eefbfbd4aefbfbd1900cbbaefbfbd15efbfbdefbfbd01efbfbd0defbfbdefbfbd75efbfbdefbfbdefbfbdefbfbd", 
+                    "id": "1690037134", 
+                    "type": "file write"
+                }, 
+                "0.022068023681640625": {
+                    "path": "/data/data/com.qello.handheld/files/.yflurrydatasenderblock.a2b4247a-f1a8-4fb4-be3a-6b6ecf287a7e", 
+                    "operation": "write", 
+                    "data": "3f", 
+                    "id": "1739249981", 
+                    "type": "file write"
+                }, 
+                "0.010742902755737305": {
+                    "path": "/proc/975/cmdline", 
+                    "operation": "read", 
+                    "data": "737472616365002d70003539002d66002d747446002d6f002f7364636172642f636232303364633965306238373661373837313864646639363131396630393764373436306363306464373230303664363965646432333237623833303932642e61706b", 
+                    "id": "304659944", 
+                    "type": "file read"
+                }, 
+                "0.018453121185302734": {
+                    "path": "/data/data/com.qello.handheld/files/.yflurrydatasenderblock.a2b4247a-f1a8-4fb4-be3a-6b6ecf287a7e", 
+                    "operation": "write", 
+                    "data": "08", 
+                    "id": "1865011983", 
+                    "type": "file write"
+                }
+            }, 
+            "dataleaks": {}, 
+            "opennet": {
+                "2.5395679473876953": {
+                    "desthost": "108.157.30.55", 
+                    "fd": "36", 
+                    "destport": "443"
+                }, 
+                "2.3104920387268066": {
+                    "desthost": "52.38.28.117", 
+                    "fd": "34", 
+                    "destport": "443"
+                }, 
+                "132.22047090530396": {
+                    "desthost": "108.157.30.55", 
+                    "fd": "50", 
+                    "destport": "443"
+                }, 
+                "17.36549997329712": {
+                    "desthost": "52.38.28.117", 
+                    "fd": "43", 
+                    "destport": "443"
+                }, 
+                "35.93879008293152": {
+                    "desthost": "108.157.30.55", 
+                    "fd": "46", 
+                    "destport": "443"
+                }, 
+                "1.1228621006011963": {
+                    "desthost": "119.161.8.11", 
+                    "fd": "31", 
+                    "destport": "443"
+                }
+            }, 
+            "dexclass": {
+                "20.611207008361816": {
+                    "path": "/system/app/Music.apk", 
+                    "type": "dexload"
+                }, 
+                "0.0014469623565673828": {
+                    "path": "/data/app/com.qello.handheld-1.apk", 
+                    "type": "dexload"
+                }
+            }, 
+            "hashes": [
+                "96e33f4b5ad609dbae62c227c8ae3f99", 
+                "388d1a31c90b41ddf6eab5eccc8bf6eab1d0abfa", 
+                "cb203dc9e0b876a78718ddf96119f097d7460cc0dd72006d69edd2327b83092d"
+            ], 
+            "closenet": {}, 
+            "phonecalls": {}
+        }, 
+        "Strace": "/apks/Dynamic/Strace/cb203dc9e0b876a78718ddf96119f097d7460cc0dd72006d69edd2327b83092d.csv"
+    }, 
+    "VirusTotal": {
+        "scan_id": "cb203dc9e0b876a78718ddf96119f097d7460cc0dd72006d69edd2327b83092d-1568032992", 
+        "sha1": "388d1a31c90b41ddf6eab5eccc8bf6eab1d0abfa", 
+        "resource": "cb203dc9e0b876a78718ddf96119f097d7460cc0dd72006d69edd2327b83092d", 
+        "response_code": 1, 
+        "scan_date": "2019-09-09 12:43:12", 
+        "permalink": "https://www.virustotal.com/gui/file/cb203dc9e0b876a78718ddf96119f097d7460cc0dd72006d69edd2327b83092d/detection/f-cb203dc9e0b876a78718ddf96119f097d7460cc0dd72006d69edd2327b83092d-1568032992", 
+        "verbose_msg": "Scan finished, information embedded", 
+        "sha256": "cb203dc9e0b876a78718ddf96119f097d7460cc0dd72006d69edd2327b83092d", 
+        "positives": 0, 
+        "total": 58, 
+        "md5": "96e33f4b5ad609dbae62c227c8ae3f99", 
+        "scans": {
+            "Bkav": {
+                "detected": false, 
+                "version": "1.3.0.10239", 
+                "result": null, 
+                "update": "20190906"
+            }, 
+            "Lionic": {
+                "detected": false, 
+                "version": "4.2", 
+                "result": null, 
+                "update": "20190909"
+            }, 
+            "MicroWorld-eScan": {
+                "detected": false, 
+                "version": "14.0.297.0", 
+                "result": null, 
+                "update": "20190909"
+            }, 
+            "FireEye": {
+                "detected": false, 
+                "version": "29.7.0.0", 
+                "result": null, 
+                "update": "20190909"
+            }, 
+            "CAT-QuickHeal": {
+                "detected": false, 
+                "version": "14.00", 
+                "result": null, 
+                "update": "20190906"
+            }, 
+            "McAfee": {
+                "detected": false, 
+                "version": "6.0.6.653", 
+                "result": null, 
+                "update": "20190909"
+            }, 
+            "Malwarebytes": {
+                "detected": false, 
+                "version": "2.1.1.1115", 
+                "result": null, 
+                "update": "20190909"
+            }, 
+            "Trustlook": {
+                "detected": false, 
+                "version": "1.0", 
+                "result": null, 
+                "update": "20190909"
+            }, 
+            "BitDefender": {
+                "detected": false, 
+                "version": "7.2", 
+                "result": null, 
+                "update": "20190909"
+            }, 
+            "K7GW": {
+                "detected": false, 
+                "version": "11.66.31948", 
+                "result": null, 
+                "update": "20190909"
+            }, 
+            "K7AntiVirus": {
+                "detected": false, 
+                "version": "11.66.31948", 
+                "result": null, 
+                "update": "20190909"
+            }, 
+            "Baidu": {
+                "detected": false, 
+                "version": "1.0.0.2", 
+                "result": null, 
+                "update": "20190318"
+            }, 
+            "Cyren": {
+                "detected": false, 
+                "version": "6.2.0.1", 
+                "result": null, 
+                "update": "20190909"
+            }, 
+            "SymantecMobileInsight": {
+                "detected": false, 
+                "version": "2.0", 
+                "result": null, 
+                "update": "20190903"
+            }, 
+            "Symantec": {
+                "detected": false, 
+                "version": "1.10.0.0", 
+                "result": null, 
+                "update": "20190909"
+            }, 
+            "ESET-NOD32": {
+                "detected": false, 
+                "version": "19990", 
+                "result": null, 
+                "update": "20190909"
+            }, 
+            "TrendMicro-HouseCall": {
+                "detected": false, 
+                "version": "10.0.0.1040", 
+                "result": null, 
+                "update": "20190909"
+            }, 
+            "Avast": {
+                "detected": false, 
+                "version": "18.4.3895.0", 
+                "result": null, 
+                "update": "20190909"
+            }, 
+            "GData": {
+                "detected": false, 
+                "version": "A:25.23323B:26.15988", 
+                "result": null, 
+                "update": "20190909"
+            }, 
+            "Kaspersky": {
+                "detected": false, 
+                "version": "15.0.1.13", 
+                "result": null, 
+                "update": "20190909"
+            }, 
+            "Alibaba": {
+                "detected": false, 
+                "version": "0.3.0.5", 
+                "result": null, 
+                "update": "20190527"
+            }, 
+            "NANO-Antivirus": {
+                "detected": false, 
+                "version": "1.0.134.24859", 
+                "result": null, 
+                "update": "20190909"
+            }, 
+            "ViRobot": {
+                "detected": false, 
+                "version": "2014.3.20.0", 
+                "result": null, 
+                "update": "20190909"
+            }, 
+            "Rising": {
+                "detected": false, 
+                "version": "25.0.0.24", 
+                "result": null, 
+                "update": "20190909"
+            }, 
+            "Ad-Aware": {
+                "detected": false, 
+                "version": "3.0.5.370", 
+                "result": null, 
+                "update": "20190909"
+            }, 
+            "Sophos": {
+                "detected": false, 
+                "version": "4.98.0", 
+                "result": null, 
+                "update": "20190909"
+            }, 
+            "Comodo": {
+                "detected": false, 
+                "version": "31448", 
+                "result": null, 
+                "update": "20190909"
+            }, 
+            "F-Secure": {
+                "detected": false, 
+                "version": "12.0.86.52", 
+                "result": null, 
+                "update": "20190909"
+            }, 
+            "DrWeb": {
+                "detected": false, 
+                "version": "7.0.41.7240", 
+                "result": null, 
+                "update": "20190909"
+            }, 
+            "Zillya": {
+                "detected": false, 
+                "version": "2.0.0.3895", 
+                "result": null, 
+                "update": "20190906"
+            }, 
+            "TrendMicro": {
+                "detected": false, 
+                "version": "11.0.0.1006", 
+                "result": null, 
+                "update": "20190909"
+            }, 
+            "McAfee-GW-Edition": {
+                "detected": false, 
+                "version": "v2017.3010", 
+                "result": null, 
+                "update": "20190908"
+            }, 
+            "CMC": {
+                "detected": false, 
+                "version": "1.1.0.977", 
+                "result": null, 
+                "update": "20190321"
+            }, 
+            "Emsisoft": {
+                "detected": false, 
+                "version": "2018.12.0.1641", 
+                "result": null, 
+                "update": "20190909"
+            }, 
+            "Ikarus": {
+                "detected": false, 
+                "version": "0.1.5.2", 
+                "result": null, 
+                "update": "20190909"
+            }, 
+            "F-Prot": {
+                "detected": false, 
+                "version": "4.7.1.166", 
+                "result": null, 
+                "update": "20190909"
+            }, 
+            "Jiangmin": {
+                "detected": false, 
+                "version": "16.0.100", 
+                "result": null, 
+                "update": "20190909"
+            }, 
+            "Avira": {
+                "detected": false, 
+                "version": "8.3.3.8", 
+                "result": null, 
+                "update": "20190909"
+            }, 
+            "Antiy-AVL": {
+                "detected": false, 
+                "version": "3.0.0.1", 
+                "result": null, 
+                "update": "20190909"
+            }, 
+            "Kingsoft": {
+                "detected": false, 
+                "version": "2013.8.14.323", 
+                "result": null, 
+                "update": "20190909"
+            }, 
+            "Microsoft": {
+                "detected": false, 
+                "version": "1.1.16300.1", 
+                "result": null, 
+                "update": "20190909"
+            }, 
+            "Arcabit": {
+                "detected": false, 
+                "version": "1.0.0.856", 
+                "result": null, 
+                "update": "20190909"
+            }, 
+            "SUPERAntiSpyware": {
+                "detected": false, 
+                "version": "5.6.0.1032", 
+                "result": null, 
+                "update": "20190906"
+            }, 
+            "AhnLab-V3": {
+                "detected": false, 
+                "version": "3.16.1.25089", 
+                "result": null, 
+                "update": "20190909"
+            }, 
+            "ZoneAlarm": {
+                "detected": false, 
+                "version": "1.0", 
+                "result": null, 
+                "update": "20190909"
+            }, 
+            "Avast-Mobile": {
+                "detected": false, 
+                "version": "190909-00", 
+                "result": null, 
+                "update": "20190909"
+            }, 
+            "TotalDefense": {
+                "detected": false, 
+                "version": "37.1.62.1", 
+                "result": null, 
+                "update": "20190909"
+            }, 
+            "VBA32": {
+                "detected": false, 
+                "version": "4.0.0", 
+                "result": null, 
+                "update": "20190909"
+            }, 
+            "ALYac": {
+                "detected": false, 
+                "version": "1.1.1.5", 
+                "result": null, 
+                "update": "20190909"
+            }, 
+            "TACHYON": {
+                "detected": false, 
+                "version": "2019-09-09.02", 
+                "result": null, 
+                "update": "20190909"
+            }, 
+            "Zoner": {
+                "detected": false, 
+                "version": "1.0.0.1", 
+                "result": null, 
+                "update": "20190908"
+            }, 
+            "Tencent": {
+                "detected": false, 
+                "version": "1.0.0.1", 
+                "result": null, 
+                "update": "20190909"
+            }, 
+            "Yandex": {
+                "detected": false, 
+                "version": "5.5.2.24", 
+                "result": null, 
+                "update": "20190822"
+            }, 
+            "MAX": {
+                "detected": false, 
+                "version": "2018.9.12.1", 
+                "result": null, 
+                "update": "20190909"
+            }, 
+            "Fortinet": {
+                "detected": false, 
+                "version": "5.4.247.0", 
+                "result": null, 
+                "update": "20190909"
+            }, 
+            "AVG": {
+                "detected": false, 
+                "version": "18.4.3895.0", 
+                "result": null, 
+                "update": "20190909"
+            }, 
+            "Panda": {
+                "detected": false, 
+                "version": "4.6.4.2", 
+                "result": null, 
+                "update": "20190908"
+            }, 
+            "Qihoo-360": {
+                "detected": false, 
+                "version": "1.0.0.1120", 
+                "result": null, 
+                "update": "20190909"
+            }
+        }
+    }
+}

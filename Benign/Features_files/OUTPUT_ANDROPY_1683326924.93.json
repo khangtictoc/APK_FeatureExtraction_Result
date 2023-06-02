@@ -1,0 +1,3418 @@
+{
+    "BW/ed700935c8433ac680507f50c04acc08a7a526f8c3374fd1eb8f3b209bea7e9d": {
+        "Pre_static_analysis": {
+            "Filename": "BW/ed700935c8433ac680507f50c04acc08a7a526f8c3374fd1eb8f3b209bea7e9d.apk", 
+            "md5": "39a8fbd6be8016b56ccb4b73873f0d2f", 
+            "sha256": "ed700935c8433ac680507f50c04acc08a7a526f8c3374fd1eb8f3b209bea7e9d", 
+            "sha1": "d70bf805bb4d8dd665f6219e9433a54dec8554c3", 
+            "VT_positives": 0, 
+            "VT_engines": 62, 
+            "avclass": "None"
+        }, 
+        "Static_analysis": {
+            "Package name": "se.blunden.xbmclauncher", 
+            "Permissions": [], 
+            "Opcodes": {
+                "const/high16": 1, 
+                "invoke-interface": 1, 
+                "const": 2, 
+                "move-exception": 2, 
+                "const-class": 1, 
+                "return-void": 18, 
+                "const/4": 1, 
+                "const-string": 10, 
+                "new-instance": 5, 
+                "invoke-super": 3, 
+                "invoke-direct": 21, 
+                "invoke-virtual": 20, 
+                "invoke-static": 3, 
+                "move-result-object": 15, 
+                "goto": 2
+            }, 
+            "Main activity": "se.blunden.xbmclauncher.LauncherSettingsActivity", 
+            "API calls": {
+                "java.lang.StringBuilder.toString": 2, 
+                "android.app.Activity": 2, 
+                "android.util.Log": 2, 
+                "java.lang.StringBuilder": 8, 
+                "android.content.SharedPreferences": 1, 
+                "android.app.FragmentTransaction": 2, 
+                "android.app.FragmentManager": 1, 
+                "android.content.Intent.setComponent": 1, 
+                "android.preference.PreferenceFragment": 1, 
+                "android.content.Intent": 2, 
+                "android.app.FragmentTransaction.commit": 1, 
+                "android.content.ComponentName": 1
+            }, 
+            "Strings": {
+                "xbmc_variant": 1, 
+                "se.blunden.xbmclauncher_preferences": 1, 
+                "XBMCLauncher": 2, 
+                "due to an exception. Launching settings activity...": 1, 
+                "android.intent.category.HOME": 1, 
+                "Unable to launch": 1, 
+                "Activity": 1, 
+                "not found. Launching settings activity...": 1, 
+                "android.intent.action.MAIN": 1
+            }, 
+            "API packages": {
+                "java.lang": 10, 
+                "android.app": 6, 
+                "android.util": 2, 
+                "android.content": 5, 
+                "android.preference": 1
+            }, 
+            "System commands": {}, 
+            "Intents": {
+                "android.intent.action.MAIN": 2
+            }, 
+            "Activities": {
+                "se.blunden.xbmclauncher.MainActivity": [
+                    "android.intent.action.MAIN"
+                ], 
+                "se.blunden.xbmclauncher.LauncherSettingsActivity": [
+                    "android.intent.action.MAIN"
+                ]
+            }, 
+            "Services": {}, 
+            "Receivers": {}, 
+            "FlowDroid": {
+                "SMS_MMS": {
+                    "SMS_MMS": 0, 
+                    "FILE_INFORMATION": 0, 
+                    "UNIQUE_IDENTIFIER": 0, 
+                    "FILE": 0, 
+                    "SYNCHRONIZATION_DATA": 0, 
+                    "BLUETOOTH_INFORMATION": 0, 
+                    "EMAIL": 0, 
+                    "VOIP": 0, 
+                    "LOG": 0, 
+                    "IMAGE": 0, 
+                    "DATABASE_INFORMATION": 0, 
+                    "ACCOUNT_SETTINGS": 0, 
+                    "VIDEO": 0, 
+                    "PHONE_CONNECTION": 0, 
+                    "CALENDAR_INFORMATION": 0, 
+                    "WIDGET": 0, 
+                    "NFC": 0, 
+                    "LOCATION_INFORMATION": 0, 
+                    "BUNDLE": 0, 
+                    "BROWSER_INFORMATION": 0, 
+                    "SYSTEM_SETTINGS": 0, 
+                    "AUDIO": 0, 
+                    "PHONE_STATE": 0, 
+                    "IPC": 0, 
+                    "NOT_EXISTING": 0, 
+                    "ACCOUNT_INFORMATION": 0, 
+                    "BLUETOOTH": 0, 
+                    "CONTACT_INFORMATION": 0, 
+                    "NO_CATEGORY": 0, 
+                    "NETWORK_INFORMATION": 0, 
+                    "NETWORK": 0
+                }, 
+                "FILE_INFORMATION": {
+                    "SMS_MMS": 0, 
+                    "FILE_INFORMATION": 0, 
+                    "UNIQUE_IDENTIFIER": 0, 
+                    "FILE": 0, 
+                    "SYNCHRONIZATION_DATA": 0, 
+                    "BLUETOOTH_INFORMATION": 0, 
+                    "EMAIL": 0, 
+                    "VOIP": 0, 
+                    "LOG": 0, 
+                    "IMAGE": 0, 
+                    "DATABASE_INFORMATION": 0, 
+                    "ACCOUNT_SETTINGS": 0, 
+                    "VIDEO": 0, 
+                    "PHONE_CONNECTION": 0, 
+                    "CALENDAR_INFORMATION": 0, 
+                    "WIDGET": 0, 
+                    "NFC": 0, 
+                    "LOCATION_INFORMATION": 0, 
+                    "BUNDLE": 0, 
+                    "BROWSER_INFORMATION": 0, 
+                    "SYSTEM_SETTINGS": 0, 
+                    "AUDIO": 0, 
+                    "PHONE_STATE": 0, 
+                    "IPC": 0, 
+                    "NOT_EXISTING": 0, 
+                    "ACCOUNT_INFORMATION": 0, 
+                    "BLUETOOTH": 0, 
+                    "CONTACT_INFORMATION": 0, 
+                    "NO_CATEGORY": 0, 
+                    "NETWORK_INFORMATION": 0, 
+                    "NETWORK": 0
+                }, 
+                "UNIQUE_IDENTIFIER": {
+                    "SMS_MMS": 0, 
+                    "FILE_INFORMATION": 0, 
+                    "UNIQUE_IDENTIFIER": 0, 
+                    "FILE": 0, 
+                    "SYNCHRONIZATION_DATA": 0, 
+                    "BLUETOOTH_INFORMATION": 0, 
+                    "EMAIL": 0, 
+                    "VOIP": 0, 
+                    "LOG": 0, 
+                    "IMAGE": 0, 
+                    "DATABASE_INFORMATION": 0, 
+                    "ACCOUNT_SETTINGS": 0, 
+                    "VIDEO": 0, 
+                    "PHONE_CONNECTION": 0, 
+                    "CALENDAR_INFORMATION": 0, 
+                    "WIDGET": 0, 
+                    "NFC": 0, 
+                    "LOCATION_INFORMATION": 0, 
+                    "BUNDLE": 0, 
+                    "BROWSER_INFORMATION": 0, 
+                    "SYSTEM_SETTINGS": 0, 
+                    "AUDIO": 0, 
+                    "PHONE_STATE": 0, 
+                    "IPC": 0, 
+                    "NOT_EXISTING": 0, 
+                    "ACCOUNT_INFORMATION": 0, 
+                    "BLUETOOTH": 0, 
+                    "CONTACT_INFORMATION": 0, 
+                    "NO_CATEGORY": 0, 
+                    "NETWORK_INFORMATION": 0, 
+                    "NETWORK": 0
+                }, 
+                "FILE": {
+                    "SMS_MMS": 0, 
+                    "FILE_INFORMATION": 0, 
+                    "UNIQUE_IDENTIFIER": 0, 
+                    "FILE": 0, 
+                    "SYNCHRONIZATION_DATA": 0, 
+                    "BLUETOOTH_INFORMATION": 0, 
+                    "EMAIL": 0, 
+                    "VOIP": 0, 
+                    "LOG": 0, 
+                    "IMAGE": 0, 
+                    "DATABASE_INFORMATION": 0, 
+                    "ACCOUNT_SETTINGS": 0, 
+                    "VIDEO": 0, 
+                    "PHONE_CONNECTION": 0, 
+                    "CALENDAR_INFORMATION": 0, 
+                    "WIDGET": 0, 
+                    "NFC": 0, 
+                    "LOCATION_INFORMATION": 0, 
+                    "BUNDLE": 0, 
+                    "BROWSER_INFORMATION": 0, 
+                    "SYSTEM_SETTINGS": 0, 
+                    "AUDIO": 0, 
+                    "PHONE_STATE": 0, 
+                    "IPC": 0, 
+                    "NOT_EXISTING": 0, 
+                    "ACCOUNT_INFORMATION": 0, 
+                    "BLUETOOTH": 0, 
+                    "CONTACT_INFORMATION": 0, 
+                    "NO_CATEGORY": 0, 
+                    "NETWORK_INFORMATION": 0, 
+                    "NETWORK": 0
+                }, 
+                "SYNCHRONIZATION_DATA": {
+                    "SMS_MMS": 0, 
+                    "FILE_INFORMATION": 0, 
+                    "UNIQUE_IDENTIFIER": 0, 
+                    "FILE": 0, 
+                    "SYNCHRONIZATION_DATA": 0, 
+                    "BLUETOOTH_INFORMATION": 0, 
+                    "EMAIL": 0, 
+                    "VOIP": 0, 
+                    "LOG": 0, 
+                    "IMAGE": 0, 
+                    "DATABASE_INFORMATION": 0, 
+                    "ACCOUNT_SETTINGS": 0, 
+                    "VIDEO": 0, 
+                    "PHONE_CONNECTION": 0, 
+                    "CALENDAR_INFORMATION": 0, 
+                    "WIDGET": 0, 
+                    "NFC": 0, 
+                    "LOCATION_INFORMATION": 0, 
+                    "BUNDLE": 0, 
+                    "BROWSER_INFORMATION": 0, 
+                    "SYSTEM_SETTINGS": 0, 
+                    "AUDIO": 0, 
+                    "PHONE_STATE": 0, 
+                    "IPC": 0, 
+                    "NOT_EXISTING": 0, 
+                    "ACCOUNT_INFORMATION": 0, 
+                    "BLUETOOTH": 0, 
+                    "CONTACT_INFORMATION": 0, 
+                    "NO_CATEGORY": 0, 
+                    "NETWORK_INFORMATION": 0, 
+                    "NETWORK": 0
+                }, 
+                "BLUETOOTH_INFORMATION": {
+                    "SMS_MMS": 0, 
+                    "FILE_INFORMATION": 0, 
+                    "UNIQUE_IDENTIFIER": 0, 
+                    "FILE": 0, 
+                    "SYNCHRONIZATION_DATA": 0, 
+                    "BLUETOOTH_INFORMATION": 0, 
+                    "EMAIL": 0, 
+                    "VOIP": 0, 
+                    "LOG": 0, 
+                    "IMAGE": 0, 
+                    "DATABASE_INFORMATION": 0, 
+                    "ACCOUNT_SETTINGS": 0, 
+                    "VIDEO": 0, 
+                    "PHONE_CONNECTION": 0, 
+                    "CALENDAR_INFORMATION": 0, 
+                    "WIDGET": 0, 
+                    "NFC": 0, 
+                    "LOCATION_INFORMATION": 0, 
+                    "BUNDLE": 0, 
+                    "BROWSER_INFORMATION": 0, 
+                    "SYSTEM_SETTINGS": 0, 
+                    "AUDIO": 0, 
+                    "PHONE_STATE": 0, 
+                    "IPC": 0, 
+                    "NOT_EXISTING": 0, 
+                    "ACCOUNT_INFORMATION": 0, 
+                    "BLUETOOTH": 0, 
+                    "CONTACT_INFORMATION": 0, 
+                    "NO_CATEGORY": 0, 
+                    "NETWORK_INFORMATION": 0, 
+                    "NETWORK": 0
+                }, 
+                "EMAIL": {
+                    "SMS_MMS": 0, 
+                    "FILE_INFORMATION": 0, 
+                    "UNIQUE_IDENTIFIER": 0, 
+                    "FILE": 0, 
+                    "SYNCHRONIZATION_DATA": 0, 
+                    "BLUETOOTH_INFORMATION": 0, 
+                    "EMAIL": 0, 
+                    "VOIP": 0, 
+                    "LOG": 0, 
+                    "IMAGE": 0, 
+                    "DATABASE_INFORMATION": 0, 
+                    "ACCOUNT_SETTINGS": 0, 
+                    "VIDEO": 0, 
+                    "PHONE_CONNECTION": 0, 
+                    "CALENDAR_INFORMATION": 0, 
+                    "WIDGET": 0, 
+                    "NFC": 0, 
+                    "LOCATION_INFORMATION": 0, 
+                    "BUNDLE": 0, 
+                    "BROWSER_INFORMATION": 0, 
+                    "SYSTEM_SETTINGS": 0, 
+                    "AUDIO": 0, 
+                    "PHONE_STATE": 0, 
+                    "IPC": 0, 
+                    "NOT_EXISTING": 0, 
+                    "ACCOUNT_INFORMATION": 0, 
+                    "BLUETOOTH": 0, 
+                    "CONTACT_INFORMATION": 0, 
+                    "NO_CATEGORY": 0, 
+                    "NETWORK_INFORMATION": 0, 
+                    "NETWORK": 0
+                }, 
+                "VOIP": {
+                    "SMS_MMS": 0, 
+                    "FILE_INFORMATION": 0, 
+                    "UNIQUE_IDENTIFIER": 0, 
+                    "FILE": 0, 
+                    "SYNCHRONIZATION_DATA": 0, 
+                    "BLUETOOTH_INFORMATION": 0, 
+                    "EMAIL": 0, 
+                    "VOIP": 0, 
+                    "LOG": 0, 
+                    "IMAGE": 0, 
+                    "DATABASE_INFORMATION": 0, 
+                    "ACCOUNT_SETTINGS": 0, 
+                    "VIDEO": 0, 
+                    "PHONE_CONNECTION": 0, 
+                    "CALENDAR_INFORMATION": 0, 
+                    "WIDGET": 0, 
+                    "NFC": 0, 
+                    "LOCATION_INFORMATION": 0, 
+                    "BUNDLE": 0, 
+                    "BROWSER_INFORMATION": 0, 
+                    "SYSTEM_SETTINGS": 0, 
+                    "AUDIO": 0, 
+                    "PHONE_STATE": 0, 
+                    "IPC": 0, 
+                    "NOT_EXISTING": 0, 
+                    "ACCOUNT_INFORMATION": 0, 
+                    "BLUETOOTH": 0, 
+                    "CONTACT_INFORMATION": 0, 
+                    "NO_CATEGORY": 0, 
+                    "NETWORK_INFORMATION": 0, 
+                    "NETWORK": 0
+                }, 
+                "LOG": {
+                    "SMS_MMS": 0, 
+                    "FILE_INFORMATION": 0, 
+                    "UNIQUE_IDENTIFIER": 0, 
+                    "FILE": 0, 
+                    "SYNCHRONIZATION_DATA": 0, 
+                    "BLUETOOTH_INFORMATION": 0, 
+                    "EMAIL": 0, 
+                    "VOIP": 0, 
+                    "LOG": 0, 
+                    "IMAGE": 0, 
+                    "DATABASE_INFORMATION": 0, 
+                    "ACCOUNT_SETTINGS": 0, 
+                    "VIDEO": 0, 
+                    "PHONE_CONNECTION": 0, 
+                    "CALENDAR_INFORMATION": 0, 
+                    "WIDGET": 0, 
+                    "NFC": 0, 
+                    "LOCATION_INFORMATION": 0, 
+                    "BUNDLE": 0, 
+                    "BROWSER_INFORMATION": 0, 
+                    "SYSTEM_SETTINGS": 0, 
+                    "AUDIO": 0, 
+                    "PHONE_STATE": 0, 
+                    "IPC": 0, 
+                    "NOT_EXISTING": 0, 
+                    "ACCOUNT_INFORMATION": 0, 
+                    "BLUETOOTH": 0, 
+                    "CONTACT_INFORMATION": 0, 
+                    "NO_CATEGORY": 0, 
+                    "NETWORK_INFORMATION": 0, 
+                    "NETWORK": 0
+                }, 
+                "IMAGE": {
+                    "SMS_MMS": 0, 
+                    "FILE_INFORMATION": 0, 
+                    "UNIQUE_IDENTIFIER": 0, 
+                    "FILE": 0, 
+                    "SYNCHRONIZATION_DATA": 0, 
+                    "BLUETOOTH_INFORMATION": 0, 
+                    "EMAIL": 0, 
+                    "VOIP": 0, 
+                    "LOG": 0, 
+                    "IMAGE": 0, 
+                    "DATABASE_INFORMATION": 0, 
+                    "ACCOUNT_SETTINGS": 0, 
+                    "VIDEO": 0, 
+                    "PHONE_CONNECTION": 0, 
+                    "CALENDAR_INFORMATION": 0, 
+                    "WIDGET": 0, 
+                    "NFC": 0, 
+                    "LOCATION_INFORMATION": 0, 
+                    "BUNDLE": 0, 
+                    "BROWSER_INFORMATION": 0, 
+                    "SYSTEM_SETTINGS": 0, 
+                    "AUDIO": 0, 
+                    "PHONE_STATE": 0, 
+                    "IPC": 0, 
+                    "NOT_EXISTING": 0, 
+                    "ACCOUNT_INFORMATION": 0, 
+                    "BLUETOOTH": 0, 
+                    "CONTACT_INFORMATION": 0, 
+                    "NO_CATEGORY": 0, 
+                    "NETWORK_INFORMATION": 0, 
+                    "NETWORK": 0
+                }, 
+                "DATABASE_INFORMATION": {
+                    "SMS_MMS": 0, 
+                    "FILE_INFORMATION": 0, 
+                    "UNIQUE_IDENTIFIER": 0, 
+                    "FILE": 0, 
+                    "SYNCHRONIZATION_DATA": 0, 
+                    "BLUETOOTH_INFORMATION": 0, 
+                    "EMAIL": 0, 
+                    "VOIP": 0, 
+                    "LOG": 0, 
+                    "IMAGE": 0, 
+                    "DATABASE_INFORMATION": 0, 
+                    "ACCOUNT_SETTINGS": 0, 
+                    "VIDEO": 0, 
+                    "PHONE_CONNECTION": 0, 
+                    "CALENDAR_INFORMATION": 0, 
+                    "WIDGET": 0, 
+                    "NFC": 0, 
+                    "LOCATION_INFORMATION": 0, 
+                    "BUNDLE": 0, 
+                    "BROWSER_INFORMATION": 0, 
+                    "SYSTEM_SETTINGS": 0, 
+                    "AUDIO": 0, 
+                    "PHONE_STATE": 0, 
+                    "IPC": 0, 
+                    "NOT_EXISTING": 0, 
+                    "ACCOUNT_INFORMATION": 0, 
+                    "BLUETOOTH": 0, 
+                    "CONTACT_INFORMATION": 0, 
+                    "NO_CATEGORY": 0, 
+                    "NETWORK_INFORMATION": 0, 
+                    "NETWORK": 0
+                }, 
+                "ACCOUNT_SETTINGS": {
+                    "SMS_MMS": 0, 
+                    "FILE_INFORMATION": 0, 
+                    "UNIQUE_IDENTIFIER": 0, 
+                    "FILE": 0, 
+                    "SYNCHRONIZATION_DATA": 0, 
+                    "BLUETOOTH_INFORMATION": 0, 
+                    "EMAIL": 0, 
+                    "VOIP": 0, 
+                    "LOG": 0, 
+                    "IMAGE": 0, 
+                    "DATABASE_INFORMATION": 0, 
+                    "ACCOUNT_SETTINGS": 0, 
+                    "VIDEO": 0, 
+                    "PHONE_CONNECTION": 0, 
+                    "CALENDAR_INFORMATION": 0, 
+                    "WIDGET": 0, 
+                    "NFC": 0, 
+                    "LOCATION_INFORMATION": 0, 
+                    "BUNDLE": 0, 
+                    "BROWSER_INFORMATION": 0, 
+                    "SYSTEM_SETTINGS": 0, 
+                    "AUDIO": 0, 
+                    "PHONE_STATE": 0, 
+                    "IPC": 0, 
+                    "NOT_EXISTING": 0, 
+                    "ACCOUNT_INFORMATION": 0, 
+                    "BLUETOOTH": 0, 
+                    "CONTACT_INFORMATION": 0, 
+                    "NO_CATEGORY": 0, 
+                    "NETWORK_INFORMATION": 0, 
+                    "NETWORK": 0
+                }, 
+                "VIDEO": {
+                    "SMS_MMS": 0, 
+                    "FILE_INFORMATION": 0, 
+                    "UNIQUE_IDENTIFIER": 0, 
+                    "FILE": 0, 
+                    "SYNCHRONIZATION_DATA": 0, 
+                    "BLUETOOTH_INFORMATION": 0, 
+                    "EMAIL": 0, 
+                    "VOIP": 0, 
+                    "LOG": 0, 
+                    "IMAGE": 0, 
+                    "DATABASE_INFORMATION": 0, 
+                    "ACCOUNT_SETTINGS": 0, 
+                    "VIDEO": 0, 
+                    "PHONE_CONNECTION": 0, 
+                    "CALENDAR_INFORMATION": 0, 
+                    "WIDGET": 0, 
+                    "NFC": 0, 
+                    "LOCATION_INFORMATION": 0, 
+                    "BUNDLE": 0, 
+                    "BROWSER_INFORMATION": 0, 
+                    "SYSTEM_SETTINGS": 0, 
+                    "AUDIO": 0, 
+                    "PHONE_STATE": 0, 
+                    "IPC": 0, 
+                    "NOT_EXISTING": 0, 
+                    "ACCOUNT_INFORMATION": 0, 
+                    "BLUETOOTH": 0, 
+                    "CONTACT_INFORMATION": 0, 
+                    "NO_CATEGORY": 0, 
+                    "NETWORK_INFORMATION": 0, 
+                    "NETWORK": 0
+                }, 
+                "PHONE_CONNECTION": {
+                    "SMS_MMS": 0, 
+                    "FILE_INFORMATION": 0, 
+                    "UNIQUE_IDENTIFIER": 0, 
+                    "FILE": 0, 
+                    "SYNCHRONIZATION_DATA": 0, 
+                    "BLUETOOTH_INFORMATION": 0, 
+                    "EMAIL": 0, 
+                    "VOIP": 0, 
+                    "LOG": 0, 
+                    "IMAGE": 0, 
+                    "DATABASE_INFORMATION": 0, 
+                    "ACCOUNT_SETTINGS": 0, 
+                    "VIDEO": 0, 
+                    "PHONE_CONNECTION": 0, 
+                    "CALENDAR_INFORMATION": 0, 
+                    "WIDGET": 0, 
+                    "NFC": 0, 
+                    "LOCATION_INFORMATION": 0, 
+                    "BUNDLE": 0, 
+                    "BROWSER_INFORMATION": 0, 
+                    "SYSTEM_SETTINGS": 0, 
+                    "AUDIO": 0, 
+                    "PHONE_STATE": 0, 
+                    "IPC": 0, 
+                    "NOT_EXISTING": 0, 
+                    "ACCOUNT_INFORMATION": 0, 
+                    "BLUETOOTH": 0, 
+                    "CONTACT_INFORMATION": 0, 
+                    "NO_CATEGORY": 0, 
+                    "NETWORK_INFORMATION": 0, 
+                    "NETWORK": 0
+                }, 
+                "CALENDAR_INFORMATION": {
+                    "SMS_MMS": 0, 
+                    "FILE_INFORMATION": 0, 
+                    "UNIQUE_IDENTIFIER": 0, 
+                    "FILE": 0, 
+                    "SYNCHRONIZATION_DATA": 0, 
+                    "BLUETOOTH_INFORMATION": 0, 
+                    "EMAIL": 0, 
+                    "VOIP": 0, 
+                    "LOG": 0, 
+                    "IMAGE": 0, 
+                    "DATABASE_INFORMATION": 0, 
+                    "ACCOUNT_SETTINGS": 0, 
+                    "VIDEO": 0, 
+                    "PHONE_CONNECTION": 0, 
+                    "CALENDAR_INFORMATION": 0, 
+                    "WIDGET": 0, 
+                    "NFC": 0, 
+                    "LOCATION_INFORMATION": 0, 
+                    "BUNDLE": 0, 
+                    "BROWSER_INFORMATION": 0, 
+                    "SYSTEM_SETTINGS": 0, 
+                    "AUDIO": 0, 
+                    "PHONE_STATE": 0, 
+                    "IPC": 0, 
+                    "NOT_EXISTING": 0, 
+                    "ACCOUNT_INFORMATION": 0, 
+                    "BLUETOOTH": 0, 
+                    "CONTACT_INFORMATION": 0, 
+                    "NO_CATEGORY": 0, 
+                    "NETWORK_INFORMATION": 0, 
+                    "NETWORK": 0
+                }, 
+                "WIDGET": {
+                    "SMS_MMS": 0, 
+                    "FILE_INFORMATION": 0, 
+                    "UNIQUE_IDENTIFIER": 0, 
+                    "FILE": 0, 
+                    "SYNCHRONIZATION_DATA": 0, 
+                    "BLUETOOTH_INFORMATION": 0, 
+                    "EMAIL": 0, 
+                    "VOIP": 0, 
+                    "LOG": 0, 
+                    "IMAGE": 0, 
+                    "DATABASE_INFORMATION": 0, 
+                    "ACCOUNT_SETTINGS": 0, 
+                    "VIDEO": 0, 
+                    "PHONE_CONNECTION": 0, 
+                    "CALENDAR_INFORMATION": 0, 
+                    "WIDGET": 0, 
+                    "NFC": 0, 
+                    "LOCATION_INFORMATION": 0, 
+                    "BUNDLE": 0, 
+                    "BROWSER_INFORMATION": 0, 
+                    "SYSTEM_SETTINGS": 0, 
+                    "AUDIO": 0, 
+                    "PHONE_STATE": 0, 
+                    "IPC": 0, 
+                    "NOT_EXISTING": 0, 
+                    "ACCOUNT_INFORMATION": 0, 
+                    "BLUETOOTH": 0, 
+                    "CONTACT_INFORMATION": 0, 
+                    "NO_CATEGORY": 0, 
+                    "NETWORK_INFORMATION": 0, 
+                    "NETWORK": 0
+                }, 
+                "NFC": {
+                    "SMS_MMS": 0, 
+                    "FILE_INFORMATION": 0, 
+                    "UNIQUE_IDENTIFIER": 0, 
+                    "FILE": 0, 
+                    "SYNCHRONIZATION_DATA": 0, 
+                    "BLUETOOTH_INFORMATION": 0, 
+                    "EMAIL": 0, 
+                    "VOIP": 0, 
+                    "LOG": 0, 
+                    "IMAGE": 0, 
+                    "DATABASE_INFORMATION": 0, 
+                    "ACCOUNT_SETTINGS": 0, 
+                    "VIDEO": 0, 
+                    "PHONE_CONNECTION": 0, 
+                    "CALENDAR_INFORMATION": 0, 
+                    "WIDGET": 0, 
+                    "NFC": 0, 
+                    "LOCATION_INFORMATION": 0, 
+                    "BUNDLE": 0, 
+                    "BROWSER_INFORMATION": 0, 
+                    "SYSTEM_SETTINGS": 0, 
+                    "AUDIO": 0, 
+                    "PHONE_STATE": 0, 
+                    "IPC": 0, 
+                    "NOT_EXISTING": 0, 
+                    "ACCOUNT_INFORMATION": 0, 
+                    "BLUETOOTH": 0, 
+                    "CONTACT_INFORMATION": 0, 
+                    "NO_CATEGORY": 0, 
+                    "NETWORK_INFORMATION": 0, 
+                    "NETWORK": 0
+                }, 
+                "LOCATION_INFORMATION": {
+                    "SMS_MMS": 0, 
+                    "FILE_INFORMATION": 0, 
+                    "UNIQUE_IDENTIFIER": 0, 
+                    "FILE": 0, 
+                    "SYNCHRONIZATION_DATA": 0, 
+                    "BLUETOOTH_INFORMATION": 0, 
+                    "EMAIL": 0, 
+                    "VOIP": 0, 
+                    "LOG": 0, 
+                    "IMAGE": 0, 
+                    "DATABASE_INFORMATION": 0, 
+                    "ACCOUNT_SETTINGS": 0, 
+                    "VIDEO": 0, 
+                    "PHONE_CONNECTION": 0, 
+                    "CALENDAR_INFORMATION": 0, 
+                    "WIDGET": 0, 
+                    "NFC": 0, 
+                    "LOCATION_INFORMATION": 0, 
+                    "BUNDLE": 0, 
+                    "BROWSER_INFORMATION": 0, 
+                    "SYSTEM_SETTINGS": 0, 
+                    "AUDIO": 0, 
+                    "PHONE_STATE": 0, 
+                    "IPC": 0, 
+                    "NOT_EXISTING": 0, 
+                    "ACCOUNT_INFORMATION": 0, 
+                    "BLUETOOTH": 0, 
+                    "CONTACT_INFORMATION": 0, 
+                    "NO_CATEGORY": 0, 
+                    "NETWORK_INFORMATION": 0, 
+                    "NETWORK": 0
+                }, 
+                "BUNDLE": {
+                    "SMS_MMS": 0, 
+                    "FILE_INFORMATION": 0, 
+                    "UNIQUE_IDENTIFIER": 0, 
+                    "FILE": 0, 
+                    "SYNCHRONIZATION_DATA": 0, 
+                    "BLUETOOTH_INFORMATION": 0, 
+                    "EMAIL": 0, 
+                    "VOIP": 0, 
+                    "LOG": 0, 
+                    "IMAGE": 0, 
+                    "DATABASE_INFORMATION": 0, 
+                    "ACCOUNT_SETTINGS": 0, 
+                    "VIDEO": 0, 
+                    "PHONE_CONNECTION": 0, 
+                    "CALENDAR_INFORMATION": 0, 
+                    "WIDGET": 0, 
+                    "NFC": 0, 
+                    "LOCATION_INFORMATION": 0, 
+                    "BUNDLE": 0, 
+                    "BROWSER_INFORMATION": 0, 
+                    "SYSTEM_SETTINGS": 0, 
+                    "AUDIO": 0, 
+                    "PHONE_STATE": 0, 
+                    "IPC": 0, 
+                    "NOT_EXISTING": 0, 
+                    "ACCOUNT_INFORMATION": 0, 
+                    "BLUETOOTH": 0, 
+                    "CONTACT_INFORMATION": 0, 
+                    "NO_CATEGORY": 0, 
+                    "NETWORK_INFORMATION": 0, 
+                    "NETWORK": 0
+                }, 
+                "BROWSER_INFORMATION": {
+                    "SMS_MMS": 0, 
+                    "FILE_INFORMATION": 0, 
+                    "UNIQUE_IDENTIFIER": 0, 
+                    "FILE": 0, 
+                    "SYNCHRONIZATION_DATA": 0, 
+                    "BLUETOOTH_INFORMATION": 0, 
+                    "EMAIL": 0, 
+                    "VOIP": 0, 
+                    "LOG": 0, 
+                    "IMAGE": 0, 
+                    "DATABASE_INFORMATION": 0, 
+                    "ACCOUNT_SETTINGS": 0, 
+                    "VIDEO": 0, 
+                    "PHONE_CONNECTION": 0, 
+                    "CALENDAR_INFORMATION": 0, 
+                    "WIDGET": 0, 
+                    "NFC": 0, 
+                    "LOCATION_INFORMATION": 0, 
+                    "BUNDLE": 0, 
+                    "BROWSER_INFORMATION": 0, 
+                    "SYSTEM_SETTINGS": 0, 
+                    "AUDIO": 0, 
+                    "PHONE_STATE": 0, 
+                    "IPC": 0, 
+                    "NOT_EXISTING": 0, 
+                    "ACCOUNT_INFORMATION": 0, 
+                    "BLUETOOTH": 0, 
+                    "CONTACT_INFORMATION": 0, 
+                    "NO_CATEGORY": 0, 
+                    "NETWORK_INFORMATION": 0, 
+                    "NETWORK": 0
+                }, 
+                "SYSTEM_SETTINGS": {
+                    "SMS_MMS": 0, 
+                    "FILE_INFORMATION": 0, 
+                    "UNIQUE_IDENTIFIER": 0, 
+                    "FILE": 0, 
+                    "SYNCHRONIZATION_DATA": 0, 
+                    "BLUETOOTH_INFORMATION": 0, 
+                    "EMAIL": 0, 
+                    "VOIP": 0, 
+                    "LOG": 0, 
+                    "IMAGE": 0, 
+                    "DATABASE_INFORMATION": 0, 
+                    "ACCOUNT_SETTINGS": 0, 
+                    "VIDEO": 0, 
+                    "PHONE_CONNECTION": 0, 
+                    "CALENDAR_INFORMATION": 0, 
+                    "WIDGET": 0, 
+                    "NFC": 0, 
+                    "LOCATION_INFORMATION": 0, 
+                    "BUNDLE": 0, 
+                    "BROWSER_INFORMATION": 0, 
+                    "SYSTEM_SETTINGS": 0, 
+                    "AUDIO": 0, 
+                    "PHONE_STATE": 0, 
+                    "IPC": 0, 
+                    "NOT_EXISTING": 0, 
+                    "ACCOUNT_INFORMATION": 0, 
+                    "BLUETOOTH": 0, 
+                    "CONTACT_INFORMATION": 0, 
+                    "NO_CATEGORY": 0, 
+                    "NETWORK_INFORMATION": 0, 
+                    "NETWORK": 0
+                }, 
+                "AUDIO": {
+                    "SMS_MMS": 0, 
+                    "FILE_INFORMATION": 0, 
+                    "UNIQUE_IDENTIFIER": 0, 
+                    "FILE": 0, 
+                    "SYNCHRONIZATION_DATA": 0, 
+                    "BLUETOOTH_INFORMATION": 0, 
+                    "EMAIL": 0, 
+                    "VOIP": 0, 
+                    "LOG": 0, 
+                    "IMAGE": 0, 
+                    "DATABASE_INFORMATION": 0, 
+                    "ACCOUNT_SETTINGS": 0, 
+                    "VIDEO": 0, 
+                    "PHONE_CONNECTION": 0, 
+                    "CALENDAR_INFORMATION": 0, 
+                    "WIDGET": 0, 
+                    "NFC": 0, 
+                    "LOCATION_INFORMATION": 0, 
+                    "BUNDLE": 0, 
+                    "BROWSER_INFORMATION": 0, 
+                    "SYSTEM_SETTINGS": 0, 
+                    "AUDIO": 0, 
+                    "PHONE_STATE": 0, 
+                    "IPC": 0, 
+                    "NOT_EXISTING": 0, 
+                    "ACCOUNT_INFORMATION": 0, 
+                    "BLUETOOTH": 0, 
+                    "CONTACT_INFORMATION": 0, 
+                    "NO_CATEGORY": 0, 
+                    "NETWORK_INFORMATION": 0, 
+                    "NETWORK": 0
+                }, 
+                "PHONE_STATE": {
+                    "SMS_MMS": 0, 
+                    "FILE_INFORMATION": 0, 
+                    "UNIQUE_IDENTIFIER": 0, 
+                    "FILE": 0, 
+                    "SYNCHRONIZATION_DATA": 0, 
+                    "BLUETOOTH_INFORMATION": 0, 
+                    "EMAIL": 0, 
+                    "VOIP": 0, 
+                    "LOG": 0, 
+                    "IMAGE": 0, 
+                    "DATABASE_INFORMATION": 0, 
+                    "ACCOUNT_SETTINGS": 0, 
+                    "VIDEO": 0, 
+                    "PHONE_CONNECTION": 0, 
+                    "CALENDAR_INFORMATION": 0, 
+                    "WIDGET": 0, 
+                    "NFC": 0, 
+                    "LOCATION_INFORMATION": 0, 
+                    "BUNDLE": 0, 
+                    "BROWSER_INFORMATION": 0, 
+                    "SYSTEM_SETTINGS": 0, 
+                    "AUDIO": 0, 
+                    "PHONE_STATE": 0, 
+                    "IPC": 0, 
+                    "NOT_EXISTING": 0, 
+                    "ACCOUNT_INFORMATION": 0, 
+                    "BLUETOOTH": 0, 
+                    "CONTACT_INFORMATION": 0, 
+                    "NO_CATEGORY": 0, 
+                    "NETWORK_INFORMATION": 0, 
+                    "NETWORK": 0
+                }, 
+                "IPC": {
+                    "SMS_MMS": 0, 
+                    "FILE_INFORMATION": 0, 
+                    "UNIQUE_IDENTIFIER": 0, 
+                    "FILE": 0, 
+                    "SYNCHRONIZATION_DATA": 0, 
+                    "BLUETOOTH_INFORMATION": 0, 
+                    "EMAIL": 0, 
+                    "VOIP": 0, 
+                    "LOG": 0, 
+                    "IMAGE": 0, 
+                    "DATABASE_INFORMATION": 0, 
+                    "ACCOUNT_SETTINGS": 0, 
+                    "VIDEO": 0, 
+                    "PHONE_CONNECTION": 0, 
+                    "CALENDAR_INFORMATION": 0, 
+                    "WIDGET": 0, 
+                    "NFC": 0, 
+                    "LOCATION_INFORMATION": 0, 
+                    "BUNDLE": 0, 
+                    "BROWSER_INFORMATION": 0, 
+                    "SYSTEM_SETTINGS": 0, 
+                    "AUDIO": 0, 
+                    "PHONE_STATE": 0, 
+                    "IPC": 0, 
+                    "NOT_EXISTING": 0, 
+                    "ACCOUNT_INFORMATION": 0, 
+                    "BLUETOOTH": 0, 
+                    "CONTACT_INFORMATION": 0, 
+                    "NO_CATEGORY": 0, 
+                    "NETWORK_INFORMATION": 0, 
+                    "NETWORK": 0
+                }, 
+                "NOT_EXISTING": {
+                    "SMS_MMS": 0, 
+                    "FILE_INFORMATION": 0, 
+                    "UNIQUE_IDENTIFIER": 0, 
+                    "FILE": 0, 
+                    "SYNCHRONIZATION_DATA": 0, 
+                    "BLUETOOTH_INFORMATION": 0, 
+                    "EMAIL": 0, 
+                    "VOIP": 0, 
+                    "LOG": 0, 
+                    "IMAGE": 0, 
+                    "DATABASE_INFORMATION": 0, 
+                    "ACCOUNT_SETTINGS": 0, 
+                    "VIDEO": 0, 
+                    "PHONE_CONNECTION": 0, 
+                    "CALENDAR_INFORMATION": 0, 
+                    "WIDGET": 0, 
+                    "NFC": 0, 
+                    "LOCATION_INFORMATION": 0, 
+                    "BUNDLE": 0, 
+                    "BROWSER_INFORMATION": 0, 
+                    "SYSTEM_SETTINGS": 0, 
+                    "AUDIO": 0, 
+                    "PHONE_STATE": 0, 
+                    "IPC": 0, 
+                    "NOT_EXISTING": 0, 
+                    "ACCOUNT_INFORMATION": 0, 
+                    "BLUETOOTH": 0, 
+                    "CONTACT_INFORMATION": 0, 
+                    "NO_CATEGORY": 0, 
+                    "NETWORK_INFORMATION": 0, 
+                    "NETWORK": 0
+                }, 
+                "ACCOUNT_INFORMATION": {
+                    "SMS_MMS": 0, 
+                    "FILE_INFORMATION": 0, 
+                    "UNIQUE_IDENTIFIER": 0, 
+                    "FILE": 0, 
+                    "SYNCHRONIZATION_DATA": 0, 
+                    "BLUETOOTH_INFORMATION": 0, 
+                    "EMAIL": 0, 
+                    "VOIP": 0, 
+                    "LOG": 0, 
+                    "IMAGE": 0, 
+                    "DATABASE_INFORMATION": 0, 
+                    "ACCOUNT_SETTINGS": 0, 
+                    "VIDEO": 0, 
+                    "PHONE_CONNECTION": 0, 
+                    "CALENDAR_INFORMATION": 0, 
+                    "WIDGET": 0, 
+                    "NFC": 0, 
+                    "LOCATION_INFORMATION": 0, 
+                    "BUNDLE": 0, 
+                    "BROWSER_INFORMATION": 0, 
+                    "SYSTEM_SETTINGS": 0, 
+                    "AUDIO": 0, 
+                    "PHONE_STATE": 0, 
+                    "IPC": 0, 
+                    "NOT_EXISTING": 0, 
+                    "ACCOUNT_INFORMATION": 0, 
+                    "BLUETOOTH": 0, 
+                    "CONTACT_INFORMATION": 0, 
+                    "NO_CATEGORY": 0, 
+                    "NETWORK_INFORMATION": 0, 
+                    "NETWORK": 0
+                }, 
+                "BLUETOOTH": {
+                    "SMS_MMS": 0, 
+                    "FILE_INFORMATION": 0, 
+                    "UNIQUE_IDENTIFIER": 0, 
+                    "FILE": 0, 
+                    "SYNCHRONIZATION_DATA": 0, 
+                    "BLUETOOTH_INFORMATION": 0, 
+                    "EMAIL": 0, 
+                    "VOIP": 0, 
+                    "LOG": 0, 
+                    "IMAGE": 0, 
+                    "DATABASE_INFORMATION": 0, 
+                    "ACCOUNT_SETTINGS": 0, 
+                    "VIDEO": 0, 
+                    "PHONE_CONNECTION": 0, 
+                    "CALENDAR_INFORMATION": 0, 
+                    "WIDGET": 0, 
+                    "NFC": 0, 
+                    "LOCATION_INFORMATION": 0, 
+                    "BUNDLE": 0, 
+                    "BROWSER_INFORMATION": 0, 
+                    "SYSTEM_SETTINGS": 0, 
+                    "AUDIO": 0, 
+                    "PHONE_STATE": 0, 
+                    "IPC": 0, 
+                    "NOT_EXISTING": 0, 
+                    "ACCOUNT_INFORMATION": 0, 
+                    "BLUETOOTH": 0, 
+                    "CONTACT_INFORMATION": 0, 
+                    "NO_CATEGORY": 0, 
+                    "NETWORK_INFORMATION": 0, 
+                    "NETWORK": 0
+                }, 
+                "CONTACT_INFORMATION": {
+                    "SMS_MMS": 0, 
+                    "FILE_INFORMATION": 0, 
+                    "UNIQUE_IDENTIFIER": 0, 
+                    "FILE": 0, 
+                    "SYNCHRONIZATION_DATA": 0, 
+                    "BLUETOOTH_INFORMATION": 0, 
+                    "EMAIL": 0, 
+                    "VOIP": 0, 
+                    "LOG": 0, 
+                    "IMAGE": 0, 
+                    "DATABASE_INFORMATION": 0, 
+                    "ACCOUNT_SETTINGS": 0, 
+                    "VIDEO": 0, 
+                    "PHONE_CONNECTION": 0, 
+                    "CALENDAR_INFORMATION": 0, 
+                    "WIDGET": 0, 
+                    "NFC": 0, 
+                    "LOCATION_INFORMATION": 0, 
+                    "BUNDLE": 0, 
+                    "BROWSER_INFORMATION": 0, 
+                    "SYSTEM_SETTINGS": 0, 
+                    "AUDIO": 0, 
+                    "PHONE_STATE": 0, 
+                    "IPC": 0, 
+                    "NOT_EXISTING": 0, 
+                    "ACCOUNT_INFORMATION": 0, 
+                    "BLUETOOTH": 0, 
+                    "CONTACT_INFORMATION": 0, 
+                    "NO_CATEGORY": 0, 
+                    "NETWORK_INFORMATION": 0, 
+                    "NETWORK": 0
+                }, 
+                "NO_CATEGORY": {
+                    "SMS_MMS": 0, 
+                    "FILE_INFORMATION": 0, 
+                    "UNIQUE_IDENTIFIER": 0, 
+                    "FILE": 0, 
+                    "SYNCHRONIZATION_DATA": 0, 
+                    "BLUETOOTH_INFORMATION": 0, 
+                    "EMAIL": 0, 
+                    "VOIP": 0, 
+                    "LOG": 0, 
+                    "IMAGE": 0, 
+                    "DATABASE_INFORMATION": 0, 
+                    "ACCOUNT_SETTINGS": 0, 
+                    "VIDEO": 0, 
+                    "PHONE_CONNECTION": 0, 
+                    "CALENDAR_INFORMATION": 0, 
+                    "WIDGET": 0, 
+                    "NFC": 0, 
+                    "LOCATION_INFORMATION": 0, 
+                    "BUNDLE": 0, 
+                    "BROWSER_INFORMATION": 0, 
+                    "SYSTEM_SETTINGS": 0, 
+                    "AUDIO": 0, 
+                    "PHONE_STATE": 0, 
+                    "IPC": 0, 
+                    "NOT_EXISTING": 0, 
+                    "ACCOUNT_INFORMATION": 0, 
+                    "BLUETOOTH": 0, 
+                    "CONTACT_INFORMATION": 0, 
+                    "NO_CATEGORY": 0, 
+                    "NETWORK_INFORMATION": 0, 
+                    "NETWORK": 0
+                }, 
+                "NETWORK_INFORMATION": {
+                    "SMS_MMS": 0, 
+                    "FILE_INFORMATION": 0, 
+                    "UNIQUE_IDENTIFIER": 0, 
+                    "FILE": 0, 
+                    "SYNCHRONIZATION_DATA": 0, 
+                    "BLUETOOTH_INFORMATION": 0, 
+                    "EMAIL": 0, 
+                    "VOIP": 0, 
+                    "LOG": 0, 
+                    "IMAGE": 0, 
+                    "DATABASE_INFORMATION": 0, 
+                    "ACCOUNT_SETTINGS": 0, 
+                    "VIDEO": 0, 
+                    "PHONE_CONNECTION": 0, 
+                    "CALENDAR_INFORMATION": 0, 
+                    "WIDGET": 0, 
+                    "NFC": 0, 
+                    "LOCATION_INFORMATION": 0, 
+                    "BUNDLE": 0, 
+                    "BROWSER_INFORMATION": 0, 
+                    "SYSTEM_SETTINGS": 0, 
+                    "AUDIO": 0, 
+                    "PHONE_STATE": 0, 
+                    "IPC": 0, 
+                    "NOT_EXISTING": 0, 
+                    "ACCOUNT_INFORMATION": 0, 
+                    "BLUETOOTH": 0, 
+                    "CONTACT_INFORMATION": 0, 
+                    "NO_CATEGORY": 0, 
+                    "NETWORK_INFORMATION": 0, 
+                    "NETWORK": 0
+                }, 
+                "NETWORK": {
+                    "SMS_MMS": 0, 
+                    "FILE_INFORMATION": 0, 
+                    "UNIQUE_IDENTIFIER": 0, 
+                    "FILE": 0, 
+                    "SYNCHRONIZATION_DATA": 0, 
+                    "BLUETOOTH_INFORMATION": 0, 
+                    "EMAIL": 0, 
+                    "VOIP": 0, 
+                    "LOG": 0, 
+                    "IMAGE": 0, 
+                    "DATABASE_INFORMATION": 0, 
+                    "ACCOUNT_SETTINGS": 0, 
+                    "VIDEO": 0, 
+                    "PHONE_CONNECTION": 0, 
+                    "CALENDAR_INFORMATION": 0, 
+                    "WIDGET": 0, 
+                    "NFC": 0, 
+                    "LOCATION_INFORMATION": 0, 
+                    "BUNDLE": 0, 
+                    "BROWSER_INFORMATION": 0, 
+                    "SYSTEM_SETTINGS": 0, 
+                    "AUDIO": 0, 
+                    "PHONE_STATE": 0, 
+                    "IPC": 0, 
+                    "NOT_EXISTING": 0, 
+                    "ACCOUNT_INFORMATION": 0, 
+                    "BLUETOOTH": 0, 
+                    "CONTACT_INFORMATION": 0, 
+                    "NO_CATEGORY": 0, 
+                    "NETWORK_INFORMATION": 0, 
+                    "NETWORK": 0
+                }
+            }
+        }, 
+        "Dynamic_analysis": {
+            "Droidbox": {
+                "apkName": "/apks/samples//BW/ed700935c8433ac680507f50c04acc08a7a526f8c3374fd1eb8f3b209bea7e9d.apk", 
+                "enfperm": [], 
+                "recvnet": {}, 
+                "cryptousage": {}, 
+                "recvsaction": {}, 
+                "servicestart": {
+                    "105.07393193244934": {
+                        "type": "service", 
+                        "name": "com.android.music.MediaPlaybackService"
+                    }, 
+                    "101.28593802452087": {
+                        "type": "service", 
+                        "name": "com.android.music.MediaPlaybackService"
+                    }, 
+                    "188.95612788200378": {
+                        "type": "service", 
+                        "name": "com.android.music.MediaPlaybackService"
+                    }, 
+                    "22.695394039154053": {
+                        "type": "service", 
+                        "name": "com.android.music.MediaPlaybackService"
+                    }, 
+                    "32.99597787857056": {
+                        "type": "service", 
+                        "name": "com.android.music.MediaPlaybackService"
+                    }, 
+                    "213.04559087753296": {
+                        "type": "service", 
+                        "name": "com.android.music.MediaPlaybackService"
+                    }, 
+                    "137.31461000442505": {
+                        "type": "service", 
+                        "name": "com.android.music.MediaPlaybackService"
+                    }, 
+                    "186.81200289726257": {
+                        "type": "service", 
+                        "name": "com.android.music.MediaPlaybackService"
+                    }, 
+                    "204.22709703445435": {
+                        "type": "service", 
+                        "name": "com.android.music.MediaPlaybackService"
+                    }, 
+                    "14.776434898376465": {
+                        "type": "service", 
+                        "name": "com.android.music.MediaPlaybackService"
+                    }, 
+                    "116.43957805633545": {
+                        "type": "service", 
+                        "name": "com.android.music.MediaPlaybackService"
+                    }, 
+                    "188.95009183883667": {
+                        "type": "service", 
+                        "name": "com.android.music.MediaPlaybackService"
+                    }, 
+                    "105.08452486991882": {
+                        "type": "service", 
+                        "name": "com.android.music.MediaPlaybackService"
+                    }, 
+                    "66.81607389450073": {
+                        "type": "service", 
+                        "name": "com.android.music.MediaPlaybackService"
+                    }, 
+                    "107.174880027771": {
+                        "type": "service", 
+                        "name": "com.android.music.MediaPlaybackService"
+                    }, 
+                    "87.83315706253052": {
+                        "type": "service", 
+                        "name": "com.android.music.MediaPlaybackService"
+                    }, 
+                    "30.12594199180603": {
+                        "type": "service", 
+                        "name": "com.android.music.MediaPlaybackService"
+                    }, 
+                    "87.82778191566467": {
+                        "type": "service", 
+                        "name": "com.android.music.MediaPlaybackService"
+                    }, 
+                    "30.12009286880493": {
+                        "type": "service", 
+                        "name": "com.android.music.MediaPlaybackService"
+                    }, 
+                    "14.77036190032959": {
+                        "type": "service", 
+                        "name": "com.android.music.MediaPlaybackService"
+                    }, 
+                    "22.68963885307312": {
+                        "type": "service", 
+                        "name": "com.android.music.MediaPlaybackService"
+                    }, 
+                    "186.81815385818481": {
+                        "type": "service", 
+                        "name": "com.android.music.MediaPlaybackService"
+                    }, 
+                    "213.05158495903015": {
+                        "type": "service", 
+                        "name": "com.android.music.MediaPlaybackService"
+                    }, 
+                    "167.91382098197937": {
+                        "type": "service", 
+                        "name": "com.android.music.MediaPlaybackService"
+                    }, 
+                    "54.61748194694519": {
+                        "type": "service", 
+                        "name": "com.android.music.MediaPlaybackService"
+                    }, 
+                    "116.43352198600769": {
+                        "type": "service", 
+                        "name": "com.android.music.MediaPlaybackService"
+                    }, 
+                    "101.29231595993042": {
+                        "type": "service", 
+                        "name": "com.android.music.MediaPlaybackService"
+                    }, 
+                    "169.43897604942322": {
+                        "type": "service", 
+                        "name": "com.android.music.MediaPlaybackService"
+                    }, 
+                    "169.43291091918945": {
+                        "type": "service", 
+                        "name": "com.android.music.MediaPlaybackService"
+                    }, 
+                    "137.33448100090027": {
+                        "type": "service", 
+                        "name": "com.android.music.MediaPlaybackService"
+                    }, 
+                    "204.2344310283661": {
+                        "type": "service", 
+                        "name": "com.android.music.MediaPlaybackService"
+                    }, 
+                    "167.91959500312805": {
+                        "type": "service", 
+                        "name": "com.android.music.MediaPlaybackService"
+                    }, 
+                    "32.99376106262207": {
+                        "type": "service", 
+                        "name": "com.android.music.MediaPlaybackService"
+                    }, 
+                    "107.16953897476196": {
+                        "type": "service", 
+                        "name": "com.android.music.MediaPlaybackService"
+                    }, 
+                    "54.61221885681152": {
+                        "type": "service", 
+                        "name": "com.android.music.MediaPlaybackService"
+                    }, 
+                    "66.83386492729187": {
+                        "type": "service", 
+                        "name": "com.android.music.MediaPlaybackService"
+                    }
+                }, 
+                "sendnet": {}, 
+                "sendsms": {}, 
+                "accessedfiles": {
+                    "1863044494": "/proc/meminfo", 
+                    "756609275": "/proc/meminfo", 
+                    "1910953401": "/proc/meminfo", 
+                    "1050927516": "/proc/meminfo", 
+                    "1779116969": "/proc/meminfo", 
+                    "785193742": "/data/data/com.android.gallery3d/shared_prefs/com.android.gallery3d_preferences.xml", 
+                    "614984540": "/proc/meminfo", 
+                    "2104592297": "/proc/1042/cmdline", 
+                    "1179204882": "/proc/meminfo", 
+                    "2037629385": "/proc/meminfo", 
+                    "1285705023": "/proc/meminfo", 
+                    "831313714": "/proc/meminfo", 
+                    "904487473": "/proc/meminfo", 
+                    "874855177": "/proc/meminfo", 
+                    "294542317": "/proc/meminfo", 
+                    "1841418428": "/proc/meminfo", 
+                    "1907935109": "/proc/meminfo", 
+                    "1235096688": "/proc/meminfo", 
+                    "589178749": "/proc/meminfo", 
+                    "186374699": "/dev/input/event0", 
+                    "741343096": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                    "342607586": "/proc/meminfo", 
+                    "1587798464": "/proc/meminfo", 
+                    "907921443": "/proc/meminfo", 
+                    "1576095503": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                    "2004771643": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                    "1437054446": "/proc/meminfo", 
+                    "692744404": "/dev/input/event0", 
+                    "1840673157": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                    "1480753929": "/proc/meminfo", 
+                    "741797830": "/data/data/com.android.inputmethod.latin/files/contacts.en_US.dict.temp", 
+                    "979007897": "/proc/990/cmdline", 
+                    "1914838015": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                    "479988991": "/proc/meminfo", 
+                    "760088257": "/proc/meminfo", 
+                    "1336298517": "/proc/meminfo", 
+                    "2035006344": "/proc/meminfo", 
+                    "2082958223": "/dev/input/event0", 
+                    "2135503410": "/proc/meminfo", 
+                    "57673505": "/proc/meminfo", 
+                    "1051442726": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                    "384834517": "/proc/meminfo", 
+                    "1672384189": "/data/data/com.android.gallery3d/shared_prefs/com.android.gallery3d_preferences.xml", 
+                    "1903134518": "/proc/223/net/xt_qtaguid/iface_stat_all", 
+                    "1371932218": "/dev/input/event0", 
+                    "1527426094": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                    "1552290016": "/dev/input/event0", 
+                    "1535514709": "/proc/meminfo", 
+                    "1446553875": "/proc/meminfo", 
+                    "594656493": "/proc/meminfo", 
+                    "159364679": "/dev/input/event0", 
+                    "843121170": "/proc/meminfo", 
+                    "1068907255": "/proc/meminfo", 
+                    "942145404": "/proc/meminfo", 
+                    "1876441590": "/proc/meminfo", 
+                    "8900792": "/proc/meminfo", 
+                    "357158875": "/proc/meminfo", 
+                    "579110347": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                    "1601241849": "/proc/meminfo", 
+                    "669184018": "/proc/meminfo", 
+                    "437999630": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                    "1651563891": "/proc/meminfo", 
+                    "2078021930": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                    "185793997": "/proc/meminfo", 
+                    "261991246": "/proc/meminfo", 
+                    "12273114": "/proc/meminfo", 
+                    "1590250315": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                    "850375793": "/proc/meminfo", 
+                    "1902304623": "/dev/input/event0", 
+                    "308682350": "/proc/meminfo", 
+                    "1482040097": "/dev/input/event0", 
+                    "14108875": "/proc/meminfo", 
+                    "383524935": "/proc/meminfo", 
+                    "36034020": "/proc/meminfo", 
+                    "1299818758": "/proc/meminfo", 
+                    "783682338": "/proc/meminfo", 
+                    "787960232": "/proc/meminfo", 
+                    "1127309979": "/proc/meminfo", 
+                    "387194362": "/proc/meminfo", 
+                    "872598596": "/proc/meminfo", 
+                    "542307509": "/proc/meminfo", 
+                    "829253433": "/proc/meminfo", 
+                    "1322387598": "/proc/meminfo", 
+                    "254712166": "/proc/meminfo", 
+                    "1140138337": "/data/data/com.android.gallery3d/shared_prefs/com.android.gallery3d_preferences.xml", 
+                    "157207913": "/proc/meminfo", 
+                    "1706678365": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                    "1618200002": "/proc/meminfo", 
+                    "606108884": "/proc/meminfo", 
+                    "1533129522": "/data/data/com.android.providers.contacts/shared_prefs/com.android.providers.contacts_preferences.xml", 
+                    "1168132329": "/proc/meminfo", 
+                    "94591866": "/proc/meminfo", 
+                    "672302010": "/proc/meminfo", 
+                    "895691913": "/proc/meminfo", 
+                    "896998330": "/proc/meminfo", 
+                    "1505840071": "/proc/meminfo", 
+                    "1231976649": "/proc/meminfo", 
+                    "505337650": "/proc/meminfo", 
+                    "2010637249": "/proc/meminfo", 
+                    "301866373": "/proc/meminfo", 
+                    "1657429773": "/proc/meminfo", 
+                    "771957838": "/proc/meminfo", 
+                    "2105921959": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                    "417464718": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                    "18169095": "/proc/meminfo", 
+                    "712340362": "/proc/meminfo", 
+                    "1499102295": "/proc/meminfo", 
+                    "1202404528": "/proc/meminfo", 
+                    "2040018521": "/proc/meminfo", 
+                    "1493160286": "/dev/input/event0", 
+                    "1995680945": "/proc/meminfo", 
+                    "2147181992": "/proc/meminfo", 
+                    "1370072487": "/proc/meminfo", 
+                    "1294728352": "/proc/meminfo", 
+                    "1858843506": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                    "2114063838": "/proc/meminfo", 
+                    "404920553": "/dev/input/event0", 
+                    "1638434804": "/proc/meminfo", 
+                    "1636401324": "/proc/meminfo", 
+                    "1332687204": "/proc/meminfo", 
+                    "131014407": "/proc/meminfo", 
+                    "1452758523": "/proc/meminfo", 
+                    "2133541729": "/data/data/com.android.email/shared_prefs/AndroidMail.Main.xml", 
+                    "165993145": "/proc/meminfo", 
+                    "594638259": "/proc/meminfo", 
+                    "1374683156": "/proc/meminfo", 
+                    "730463774": "/proc/meminfo", 
+                    "16338233": "/proc/meminfo", 
+                    "1184220178": "/proc/meminfo", 
+                    "158049161": "/proc/meminfo", 
+                    "230640252": "/dev/input/event0", 
+                    "1307822845": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                    "518284324": "/proc/meminfo", 
+                    "1373194873": "/proc/meminfo", 
+                    "224525199": "/proc/meminfo", 
+                    "1112394894": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                    "252119930": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                    "1744068963": "/proc/meminfo", 
+                    "1252402074": "/proc/meminfo", 
+                    "909960460": "/proc/meminfo", 
+                    "2104022107": "/proc/meminfo", 
+                    "584649902": "/proc/meminfo", 
+                    "464286570": "/dev/input/event0", 
+                    "598391320": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                    "165498927": "/proc/meminfo", 
+                    "1247996897": "/proc/meminfo", 
+                    "1476166684": "/proc/meminfo", 
+                    "863001007": "/proc/meminfo", 
+                    "1392404662": "/proc/meminfo", 
+                    "897292442": "/proc/meminfo", 
+                    "442633784": "/proc/meminfo", 
+                    "1893387168": "/dev/input/event0", 
+                    "1201335015": "/proc/meminfo", 
+                    "1125386175": "/proc/meminfo", 
+                    "1353866615": "/proc/meminfo", 
+                    "1897257550": "/proc/meminfo", 
+                    "758507029": "/proc/meminfo", 
+                    "731788274": "/proc/meminfo", 
+                    "2101734413": "/proc/meminfo", 
+                    "1407506311": "/proc/meminfo", 
+                    "1918541212": "/data/data/com.android.launcher/shared_prefs/com.android.launcher2.prefs.xml", 
+                    "496101684": "/proc/meminfo", 
+                    "332717838": "/proc/meminfo", 
+                    "92828568": "/data/data/com.android.inputmethod.latin/files/contacts.en_US.dict.temp", 
+                    "2017014460": "/proc/meminfo", 
+                    "1316497299": "/proc/meminfo", 
+                    "1574165205": "/proc/meminfo", 
+                    "2046241404": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                    "1624999835": "/dev/input/event0", 
+                    "270175624": "/proc/meminfo", 
+                    "1142446825": "/proc/meminfo", 
+                    "1796610271": "/proc/meminfo", 
+                    "1828457918": "/dev/input/event0", 
+                    "91259461": "/dev/input/event0", 
+                    "765701523": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                    "1951708881": "/proc/meminfo", 
+                    "865616615": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                    "1126984022": "/dev/input/event0", 
+                    "802847245": "/proc/meminfo", 
+                    "550176004": "/proc/meminfo", 
+                    "679982101": "/proc/meminfo", 
+                    "357627471": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                    "2072757393": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                    "1705513398": "/proc/meminfo", 
+                    "1553101986": "/dev/input/event0", 
+                    "1577104214": "/proc/meminfo", 
+                    "602128094": "/dev/input/event0", 
+                    "763357950": "/proc/223/net/xt_qtaguid/iface_stat_all", 
+                    "1860596479": "/proc/meminfo", 
+                    "1508634677": "/proc/meminfo", 
+                    "132755660": "/data/data/com.android.launcher/shared_prefs/com.android.launcher2.prefs.xml", 
+                    "1363558232": "/proc/meminfo", 
+                    "615143193": "/dev/input/event0", 
+                    "1054694183": "/proc/meminfo", 
+                    "123520726": "/proc/meminfo", 
+                    "950248658": "/proc/meminfo", 
+                    "1101412429": "/proc/meminfo", 
+                    "1296551498": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                    "122509998": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                    "55128838": "/data/data/com.android.music/shared_prefs/Music.xml", 
+                    "1921773598": "/dev/input/event0", 
+                    "294611903": "/proc/meminfo", 
+                    "1828703758": "/proc/meminfo", 
+                    "1205487362": "/proc/meminfo", 
+                    "720213501": "/proc/meminfo", 
+                    "1368339157": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                    "432153839": "/proc/meminfo", 
+                    "1608436170": "/proc/meminfo", 
+                    "882505397": "/proc/meminfo", 
+                    "830451678": "/proc/meminfo", 
+                    "1155297537": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                    "1877903075": "/proc/meminfo", 
+                    "943854395": "/dev/input/event0", 
+                    "1349183908": "/proc/meminfo", 
+                    "22300685": "/proc/meminfo", 
+                    "1098726070": "/proc/meminfo", 
+                    "2067996649": "/proc/meminfo", 
+                    "1026135065": "/proc/meminfo"
+                }, 
+                "fdaccess": {
+                    "142.95949983596802": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343535363532206b420a427566666572733a20202020202020202020202035363736206b420a4361636865643a202020202020202020", 
+                        "id": "36034020", 
+                        "type": "file read"
+                    }, 
+                    "63.521815061569214": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343533343430206b420a427566666572733a20202020202020202020202035353038206b420a4361636865643a202020202020202020", 
+                        "id": "802847245", 
+                        "type": "file read"
+                    }, 
+                    "91.53361797332764": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343630313132206b420a427566666572733a20202020202020202020202035353536206b420a4361636865643a202020202020202020", 
+                        "id": "301866373", 
+                        "type": "file read"
+                    }, 
+                    "15.13620901107788": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343539373038206b420a427566666572733a20202020202020202020202035333336206b420a4361636865643a202020202020202020", 
+                        "id": "165993145", 
+                        "type": "file read"
+                    }, 
+                    "0.4145660400390625": {
+                        "path": "/data/data/com.android.gallery3d/shared_prefs/com.android.gallery3d_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c696e74206e616d653d227061636b616765732d76657273696f6e222076616c75653d2237", 
+                        "id": "1672384189", 
+                        "type": "file write"
+                    }, 
+                    "176.32284998893738": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343538343830206b420a427566666572733a20202020202020202020202035373430206b420a4361636865643a202020202020202020", 
+                        "id": "1508634677", 
+                        "type": "file read"
+                    }, 
+                    "194.47072196006775": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343532313430206b420a427566666572733a20202020202020202020202035373634206b420a4361636865643a202020202020202020", 
+                        "id": "1505840071", 
+                        "type": "file read"
+                    }, 
+                    "176.36875295639038": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343538343830206b420a427566666572733a20202020202020202020202035373430206b420a4361636865643a202020202020202020", 
+                        "id": "1907935109", 
+                        "type": "file read"
+                    }, 
+                    "0.1372990608215332": {
+                        "path": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c737472696e67206e616d653d2278626d635f76617269616e74223e6f72672e78626d632e", 
+                        "id": "598391320", 
+                        "type": "file write"
+                    }, 
+                    "92.16528987884521": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343537353038206b420a427566666572733a20202020202020202020202035353536206b420a4361636865643a202020202020202020", 
+                        "id": "1363558232", 
+                        "type": "file read"
+                    }, 
+                    "18.075264930725098": {
+                        "path": "/data/data/com.android.music/shared_prefs/Music.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c737472696e67206e616d653d227175657565223e3c2f737472696e673e0a3c696e74206e", 
+                        "id": "55128838", 
+                        "type": "file write"
+                    }, 
+                    "150.86554598808289": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343537373532206b420a427566666572733a20202020202020202020202035373030206b420a4361636865643a202020202020202020", 
+                        "id": "904487473", 
+                        "type": "file read"
+                    }, 
+                    "10.252190828323364": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343630333038206b420a427566666572733a20202020202020202020202035303430206b420a4361636865643a202020202020202020", 
+                        "id": "1638434804", 
+                        "type": "file read"
+                    }, 
+                    "15.500907897949219": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343539343630206b420a427566666572733a20202020202020202020202035333336206b420a4361636865643a202020202020202020", 
+                        "id": "1876441590", 
+                        "type": "file read"
+                    }, 
+                    "153.6668598651886": {
+                        "path": "/dev/input/event0", 
+                        "operation": "write", 
+                        "data": "efbfbd060000efbfbdefbfbd0c000500000000000000", 
+                        "id": "186374699", 
+                        "type": "file write"
+                    }, 
+                    "206.28638887405396": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343535323536206b420a427566666572733a20202020202020202020202035373838206b420a4361636865643a202020202020202020", 
+                        "id": "829253433", 
+                        "type": "file read"
+                    }, 
+                    "39.005393981933594": {
+                        "path": "/proc/1042/cmdline", 
+                        "operation": "read", 
+                        "data": "636f6d2e616e64726f69642e6d75736963000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000034666431656238663362323039626561376539642e61706b", 
+                        "id": "2104592297", 
+                        "type": "file read"
+                    }, 
+                    "62.82149600982666": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343534393238206b420a427566666572733a20202020202020202020202035353038206b420a4361636865643a202020202020202020", 
+                        "id": "16338233", 
+                        "type": "file read"
+                    }, 
+                    "143.47371792793274": {
+                        "path": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c737472696e67206e616d653d2278626d635f76617269616e74223e6f72672e7669646f6e", 
+                        "id": "1155297537", 
+                        "type": "file write"
+                    }, 
+                    "63.33709096908569": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343533353634206b420a427566666572733a20202020202020202020202035353038206b420a4361636865643a202020202020202020", 
+                        "id": "185793997", 
+                        "type": "file read"
+                    }, 
+                    "192.35435700416565": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343537393834206b420a427566666572733a20202020202020202020202035373634206b420a4361636865643a202020202020202020", 
+                        "id": "909960460", 
+                        "type": "file read"
+                    }, 
+                    "196.55792689323425": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343538323136206b420a427566666572733a20202020202020202020202035373732206b420a4361636865643a202020202020202020", 
+                        "id": "1285705023", 
+                        "type": "file read"
+                    }, 
+                    "183.58772492408752": {
+                        "path": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c737472696e67206e616d653d2278626d635f76617269616e74223e636f6d2e706c657861", 
+                        "id": "741343096", 
+                        "type": "file write"
+                    }, 
+                    "62.982292890548706": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343534393238206b420a427566666572733a20202020202020202020202035353038206b420a4361636865643a202020202020202020", 
+                        "id": "1201335015", 
+                        "type": "file read"
+                    }, 
+                    "92.27894592285156": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343538353030206b420a427566666572733a20202020202020202020202035353536206b420a4361636865643a202020202020202020", 
+                        "id": "950248658", 
+                        "type": "file read"
+                    }, 
+                    "209.81515383720398": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343531363532206b420a427566666572733a20202020202020202020202035373838206b420a4361636865643a202020202020202020", 
+                        "id": "1407506311", 
+                        "type": "file read"
+                    }, 
+                    "108.1231198310852": {
+                        "path": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c737472696e67206e616d653d2278626d635f76617269616e74223e636f6d2e776574656b", 
+                        "id": "2105921959", 
+                        "type": "file write"
+                    }, 
+                    "203.8243269920349": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343536363230206b420a427566666572733a20202020202020202020202035373830206b420a4361636865643a202020202020202020", 
+                        "id": "123520726", 
+                        "type": "file read"
+                    }, 
+                    "206.67773699760437": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343535313332206b420a427566666572733a20202020202020202020202035373838206b420a4361636865643a202020202020202020", 
+                        "id": "332717838", 
+                        "type": "file read"
+                    }, 
+                    "74.48784494400024": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343530383336206b420a427566666572733a20202020202020202020202035353234206b420a4361636865643a202020202020202020", 
+                        "id": "158049161", 
+                        "type": "file read"
+                    }, 
+                    "177.02117085456848": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343539373336206b420a427566666572733a20202020202020202020202035373430206b420a4361636865643a202020202020202020", 
+                        "id": "907921443", 
+                        "type": "file read"
+                    }, 
+                    "197.4487328529358": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343536393932206b420a427566666572733a20202020202020202020202035373732206b420a4361636865643a202020202020202020", 
+                        "id": "1601241849", 
+                        "type": "file read"
+                    }, 
+                    "49.63465094566345": {
+                        "path": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c737472696e67206e616d653d2278626d635f76617269616e74223e6f72672e7669646f6e", 
+                        "id": "1914838015", 
+                        "type": "file write"
+                    }, 
+                    "85.80352902412415": {
+                        "path": "/dev/input/event0", 
+                        "operation": "write", 
+                        "data": "efbfbd060000efbfbdefbfbd0c000500000000000000", 
+                        "id": "1828457918", 
+                        "type": "file write"
+                    }, 
+                    "173.74759006500244": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343539353936206b420a427566666572733a20202020202020202020202035373332206b420a4361636865643a202020202020202020", 
+                        "id": "1299818758", 
+                        "type": "file read"
+                    }, 
+                    "155.785395860672": {
+                        "path": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c737472696e67206e616d653d2278626d635f76617269616e74223e636f6d2e706c657861", 
+                        "id": "437999630", 
+                        "type": "file write"
+                    }, 
+                    "62.940438985824585": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343534393238206b420a427566666572733a20202020202020202020202035353038206b420a4361636865643a202020202020202020", 
+                        "id": "1332687204", 
+                        "type": "file read"
+                    }, 
+                    "192.87825083732605": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343535303038206b420a427566666572733a20202020202020202020202035373634206b420a4361636865643a202020202020202020", 
+                        "id": "2017014460", 
+                        "type": "file read"
+                    }, 
+                    "26.009687900543213": {
+                        "path": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c737472696e67206e616d653d2278626d635f76617269616e74223e61672e74766164646f", 
+                        "id": "252119930", 
+                        "type": "file write"
+                    }, 
+                    "197.37437295913696": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343536393932206b420a427566666572733a20202020202020202020202035373732206b420a4361636865643a202020202020202020", 
+                        "id": "1142446825", 
+                        "type": "file read"
+                    }, 
+                    "91.70652103424072": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343538383732206b420a427566666572733a20202020202020202020202035353536206b420a4361636865643a202020202020202020", 
+                        "id": "712340362", 
+                        "type": "file read"
+                    }, 
+                    "197.7554109096527": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343536393932206b420a427566666572733a20202020202020202020202035373732206b420a4361636865643a202020202020202020", 
+                        "id": "1499102295", 
+                        "type": "file read"
+                    }, 
+                    "74.73756694793701": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343530353830206b420a427566666572733a20202020202020202020202035353234206b420a4361636865643a202020202020202020", 
+                        "id": "57673505", 
+                        "type": "file read"
+                    }, 
+                    "148.70150995254517": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343535313438206b420a427566666572733a20202020202020202020202035363932206b420a4361636865643a202020202020202020", 
+                        "id": "550176004", 
+                        "type": "file read"
+                    }, 
+                    "93.85643005371094": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343538383838206b420a427566666572733a20202020202020202020202035353634206b420a4361636865643a202020202020202020", 
+                        "id": "730463774", 
+                        "type": "file read"
+                    }, 
+                    "74.80935096740723": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343530353830206b420a427566666572733a20202020202020202020202035353234206b420a4361636865643a202020202020202020", 
+                        "id": "1863044494", 
+                        "type": "file read"
+                    }, 
+                    "86.1110908985138": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343536333932206b420a427566666572733a20202020202020202020202035353438206b420a4361636865643a202020202020202020", 
+                        "id": "1370072487", 
+                        "type": "file read"
+                    }, 
+                    "13.756707906723022": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343539333736206b420a427566666572733a20202020202020202020202035303536206b420a4361636865643a202020202020202020", 
+                        "id": "1860596479", 
+                        "type": "file read"
+                    }, 
+                    "87.55045890808105": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343631363030206b420a427566666572733a20202020202020202020202035353536206b420a4361636865643a202020202020202020", 
+                        "id": "2035006344", 
+                        "type": "file read"
+                    }, 
+                    "54.297163009643555": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343536313834206b420a427566666572733a20202020202020202020202035343834206b420a4361636865643a202020202020202020", 
+                        "id": "843121170", 
+                        "type": "file read"
+                    }, 
+                    "73.0552659034729": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343530393630206b420a427566666572733a20202020202020202020202035353234206b420a4361636865643a202020202020202020", 
+                        "id": "542307509", 
+                        "type": "file read"
+                    }, 
+                    "87.5657069683075": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343631363030206b420a427566666572733a20202020202020202020202035353536206b420a4361636865643a202020202020202020", 
+                        "id": "1744068963", 
+                        "type": "file read"
+                    }, 
+                    "93.59573292732239": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343538323638206b420a427566666572733a20202020202020202020202035353634206b420a4361636865643a202020202020202020", 
+                        "id": "850375793", 
+                        "type": "file read"
+                    }, 
+                    "169.81123805046082": {
+                        "path": "/dev/input/event0", 
+                        "operation": "write", 
+                        "data": "efbfbd060000efbfbdefbfbd0c000500000000000000", 
+                        "id": "230640252", 
+                        "type": "file write"
+                    }, 
+                    "74.33523988723755": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343530383336206b420a427566666572733a20202020202020202020202035353234206b420a4361636865643a202020202020202020", 
+                        "id": "1828703758", 
+                        "type": "file read"
+                    }, 
+                    "63.664549827575684": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343533313932206b420a427566666572733a20202020202020202020202035353038206b420a4361636865643a202020202020202020", 
+                        "id": "672302010", 
+                        "type": "file read"
+                    }, 
+                    "42.74874401092529": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343533333136206b420a427566666572733a20202020202020202020202035343630206b420a4361636865643a202020202020202020", 
+                        "id": "1179204882", 
+                        "type": "file read"
+                    }, 
+                    "78.3244800567627": {
+                        "path": "/data/data/com.android.launcher/shared_prefs/com.android.launcher2.prefs.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c626f6f6c65616e206e616d653d22636c696e672e776f726b73706163652e6469736d6973", 
+                        "id": "132755660", 
+                        "type": "file write"
+                    }, 
+                    "78.24515986442566": {
+                        "path": "/data/data/com.android.launcher/shared_prefs/com.android.launcher2.prefs.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c626f6f6c65616e206e616d653d22636c696e672e776f726b73706163652e6469736d6973", 
+                        "id": "1918541212", 
+                        "type": "file write"
+                    }, 
+                    "160.93417882919312": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343538383736206b420a427566666572733a20202020202020202020202035373136206b420a4361636865643a202020202020202020", 
+                        "id": "131014407", 
+                        "type": "file read"
+                    }, 
+                    "93.78753900527954": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343538383838206b420a427566666572733a20202020202020202020202035353634206b420a4361636865643a202020202020202020", 
+                        "id": "771957838", 
+                        "type": "file read"
+                    }, 
+                    "72.67755889892578": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343533393336206b420a427566666572733a20202020202020202020202035353234206b420a4361636865643a202020202020202020", 
+                        "id": "254712166", 
+                        "type": "file read"
+                    }, 
+                    "13.525843858718872": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343539363634206b420a427566666572733a20202020202020202020202035303536206b420a4361636865643a202020202020202020", 
+                        "id": "18169095", 
+                        "type": "file read"
+                    }, 
+                    "207.5752558708191": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343533343034206b420a427566666572733a20202020202020202020202035373838206b420a4361636865643a202020202020202020", 
+                        "id": "942145404", 
+                        "type": "file read"
+                    }, 
+                    "91.3768949508667": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343630313132206b420a427566666572733a20202020202020202020202035353536206b420a4361636865643a202020202020202020", 
+                        "id": "863001007", 
+                        "type": "file read"
+                    }, 
+                    "210.64547991752625": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343538373230206b420a427566666572733a20202020202020202020202035373838206b420a4361636865643a202020202020202020", 
+                        "id": "606108884", 
+                        "type": "file read"
+                    }, 
+                    "161.11304998397827": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343538383630206b420a427566666572733a20202020202020202020202035373136206b420a4361636865643a202020202020202020", 
+                        "id": "1127309979", 
+                        "type": "file read"
+                    }, 
+                    "192.1689260005951": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343630373132206b420a427566666572733a20202020202020202020202035373634206b420a4361636865643a202020202020202020", 
+                        "id": "2147181992", 
+                        "type": "file read"
+                    }, 
+                    "142.7934069633484": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343537363336206b420a427566666572733a20202020202020202020202035363736206b420a4361636865643a202020202020202020", 
+                        "id": "1796610271", 
+                        "type": "file read"
+                    }, 
+                    "59.41875100135803": {
+                        "path": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c737472696e67206e616d653d2278626d635f76617269616e74223e636f6d2e73656d7065", 
+                        "id": "2046241404", 
+                        "type": "file write"
+                    }, 
+                    "13.365296840667725": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343630303834206b420a427566666572733a20202020202020202020202035303536206b420a4361636865643a202020202020202020", 
+                        "id": "1294728352", 
+                        "type": "file read"
+                    }, 
+                    "34.42502999305725": {
+                        "path": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c737472696e67206e616d653d2278626d635f76617269616e74223e6f72672e7669646f6e", 
+                        "id": "765701523", 
+                        "type": "file write"
+                    }, 
+                    "64.0044379234314": {
+                        "path": "/proc/223/net/xt_qtaguid/iface_stat_all", 
+                        "operation": "read", 
+                        "data": "33330a342033330a33330a342033330a330a330a330a330a330a33330a342033330a3232342033330a342033330a3232342033330a330a330a330a330a330a342033330a0000000000000000000000000000000000000000000000000000000000000000", 
+                        "id": "763357950", 
+                        "type": "file read"
+                    }, 
+                    "196.91525101661682": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343536393932206b420a427566666572733a20202020202020202020202035373732206b420a4361636865643a202020202020202020", 
+                        "id": "1235096688", 
+                        "type": "file read"
+                    }, 
+                    "135.15512204170227": {
+                        "path": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c737472696e67206e616d653d2278626d635f76617269616e74223e61672e74766164646f", 
+                        "id": "579110347", 
+                        "type": "file write"
+                    }, 
+                    "7.715889930725098": {
+                        "path": "/dev/input/event0", 
+                        "operation": "write", 
+                        "data": "7f060000efbfbd3901000500000001000000", 
+                        "id": "1482040097", 
+                        "type": "file write"
+                    }, 
+                    "4.1631879806518555": {
+                        "path": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c737472696e67206e616d653d2278626d635f76617269616e74223e636f6d2e73656d7065", 
+                        "id": "1296551498", 
+                        "type": "file write"
+                    }, 
+                    "15.63432788848877": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343538353834206b420a427566666572733a20202020202020202020202035333336206b420a4361636865643a202020202020202020", 
+                        "id": "1392404662", 
+                        "type": "file read"
+                    }, 
+                    "206.24590682983398": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343536373434206b420a427566666572733a20202020202020202020202035373838206b420a4361636865643a202020202020202020", 
+                        "id": "1026135065", 
+                        "type": "file read"
+                    }, 
+                    "106.47106885910034": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343633353936206b420a427566666572733a20202020202020202020202035363034206b420a4361636865643a202020202020202020", 
+                        "id": "1574165205", 
+                        "type": "file read"
+                    }, 
+                    "42.94236493110657": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343533333136206b420a427566666572733a20202020202020202020202035343630206b420a4361636865643a202020202020202020", 
+                        "id": "1247996897", 
+                        "type": "file read"
+                    }, 
+                    "152.0161838531494": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343537353034206b420a427566666572733a20202020202020202020202035373030206b420a4361636865643a202020202020202020", 
+                        "id": "1349183908", 
+                        "type": "file read"
+                    }, 
+                    "150.63186502456665": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343537373532206b420a427566666572733a20202020202020202020202035373030206b420a4361636865643a202020202020202020", 
+                        "id": "1101412429", 
+                        "type": "file read"
+                    }, 
+                    "72.98625493049622": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343532353732206b420a427566666572733a20202020202020202020202035353234206b420a4361636865643a202020202020202020", 
+                        "id": "831313714", 
+                        "type": "file read"
+                    }, 
+                    "63.218055963516235": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343533353634206b420a427566666572733a20202020202020202020202035353038206b420a4361636865643a202020202020202020", 
+                        "id": "614984540", 
+                        "type": "file read"
+                    }, 
+                    "150.5536448955536": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343538373434206b420a427566666572733a20202020202020202020202035373030206b420a4361636865643a202020202020202020", 
+                        "id": "308682350", 
+                        "type": "file read"
+                    }, 
+                    "152.08468198776245": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343537353034206b420a427566666572733a20202020202020202020202035373030206b420a4361636865643a202020202020202020", 
+                        "id": "442633784", 
+                        "type": "file read"
+                    }, 
+                    "145.30572485923767": {
+                        "path": "/dev/input/event0", 
+                        "operation": "write", 
+                        "data": "7f060000efbfbd3901000500000001000000", 
+                        "id": "1921773598", 
+                        "type": "file write"
+                    }, 
+                    "65.32495284080505": {
+                        "path": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c737472696e67206e616d653d2278626d635f76617269616e74223e6f72672e7669646f6e", 
+                        "id": "1527426094", 
+                        "type": "file write"
+                    }, 
+                    "172.11517095565796": {
+                        "path": "/dev/input/event0", 
+                        "operation": "write", 
+                        "data": "7f060000efbfbd3901000500000001000000", 
+                        "id": "2082958223", 
+                        "type": "file write"
+                    }, 
+                    "152.16909384727478": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343537353034206b420a427566666572733a20202020202020202020202035373030206b420a4361636865643a202020202020202020", 
+                        "id": "874855177", 
+                        "type": "file read"
+                    }, 
+                    "54.10833287239075": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343536393238206b420a427566666572733a20202020202020202020202035343834206b420a4361636865643a202020202020202020", 
+                        "id": "669184018", 
+                        "type": "file read"
+                    }, 
+                    "210.53762984275818": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343537333536206b420a427566666572733a20202020202020202020202035373838206b420a4361636865643a202020202020202020", 
+                        "id": "1054694183", 
+                        "type": "file read"
+                    }, 
+                    "161.99853587150574": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343538343838206b420a427566666572733a20202020202020202020202035373234206b420a4361636865643a202020202020202020", 
+                        "id": "384834517", 
+                        "type": "file read"
+                    }, 
+                    "152.0902349948883": {
+                        "path": "/dev/input/event0", 
+                        "operation": "write", 
+                        "data": "efbfbd060000efbfbdefbfbd0c000500000000000000", 
+                        "id": "615143193", 
+                        "type": "file write"
+                    }, 
+                    "194.09897899627686": {
+                        "path": "/dev/input/event0", 
+                        "operation": "write", 
+                        "data": "efbfbd060000efbfbdefbfbd0c000500000000000000", 
+                        "id": "464286570", 
+                        "type": "file write"
+                    }, 
+                    "15.319048881530762": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343539353834206b420a427566666572733a20202020202020202020202035333336206b420a4361636865643a202020202020202020", 
+                        "id": "357158875", 
+                        "type": "file read"
+                    }, 
+                    "61.69760584831238": {
+                        "path": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c737472696e67206e616d653d2278626d635f76617269616e74223e6f72672e7761737365", 
+                        "id": "2004771643", 
+                        "type": "file write"
+                    }, 
+                    "11.11923885345459": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343631303434206b420a427566666572733a20202020202020202020202035303536206b420a4361636865643a202020202020202020", 
+                        "id": "897292442", 
+                        "type": "file read"
+                    }, 
+                    "150.80338406562805": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343537373532206b420a427566666572733a20202020202020202020202035373030206b420a4361636865643a202020202020202020", 
+                        "id": "2104022107", 
+                        "type": "file read"
+                    }, 
+                    "106.9213559627533": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343631393834206b420a427566666572733a20202020202020202020202035363034206b420a4361636865643a202020202020202020", 
+                        "id": "882505397", 
+                        "type": "file read"
+                    }, 
+                    "148.8195960521698": {
+                        "path": "/dev/input/event0", 
+                        "operation": "write", 
+                        "data": "efbfbd060000efbfbdefbfbd0c000500000000000000", 
+                        "id": "1902304623", 
+                        "type": "file write"
+                    }, 
+                    "209.6881070137024": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343531363532206b420a427566666572733a20202020202020202020202035373838206b420a4361636865643a202020202020202020", 
+                        "id": "1322387598", 
+                        "type": "file read"
+                    }, 
+                    "39.1833438873291": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343533343332206b420a427566666572733a20202020202020202020202035343438206b420a4361636865643a202020202020202020", 
+                        "id": "1951708881", 
+                        "type": "file read"
+                    }, 
+                    "15.768630981445312": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343537333434206b420a427566666572733a20202020202020202020202035333336206b420a4361636865643a202020202020202020", 
+                        "id": "2135503410", 
+                        "type": "file read"
+                    }, 
+                    "93.66761183738708": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343538383838206b420a427566666572733a20202020202020202020202035353634206b420a4361636865643a202020202020202020", 
+                        "id": "22300685", 
+                        "type": "file read"
+                    }, 
+                    "91.56169295310974": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343630313132206b420a427566666572733a20202020202020202020202035353536206b420a4361636865643a202020202020202020", 
+                        "id": "1910953401", 
+                        "type": "file read"
+                    }, 
+                    "203.87316989898682": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343536363230206b420a427566666572733a20202020202020202020202035373830206b420a4361636865643a202020202020202020", 
+                        "id": "1480753929", 
+                        "type": "file read"
+                    }, 
+                    "3.872756004333496": {
+                        "path": "/proc/990/cmdline", 
+                        "operation": "read", 
+                        "data": "73652e626c756e64656e2e78626d636c61756e63686572000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000034666431656238663362323039626561376539642e61706b", 
+                        "id": "979007897", 
+                        "type": "file read"
+                    }, 
+                    "207.42799186706543": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343533343034206b420a427566666572733a20202020202020202020202035373838206b420a4361636865643a202020202020202020", 
+                        "id": "14108875", 
+                        "type": "file read"
+                    }, 
+                    "191.8011429309845": {
+                        "path": "/dev/input/event0", 
+                        "operation": "write", 
+                        "data": "7f060000efbfbd3901000500000001000000", 
+                        "id": "602128094", 
+                        "type": "file write"
+                    }, 
+                    "15.723604917526245": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343537343638206b420a427566666572733a20202020202020202020202035333336206b420a4361636865643a202020202020202020", 
+                        "id": "1336298517", 
+                        "type": "file read"
+                    }, 
+                    "0.0024650096893310547": {
+                        "path": "/data/data/com.android.gallery3d/shared_prefs/com.android.gallery3d_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c696e74206e616d653d227061636b616765732d76657273696f6e222076616c75653d2235", 
+                        "id": "785193742", 
+                        "type": "file write"
+                    }, 
+                    "151.90324592590332": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343537353034206b420a427566666572733a20202020202020202020202035373030206b420a4361636865643a202020202020202020", 
+                        "id": "1068907255", 
+                        "type": "file read"
+                    }, 
+                    "74.14810991287231": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343530383336206b420a427566666572733a20202020202020202020202035353234206b420a4361636865643a202020202020202020", 
+                        "id": "1373194873", 
+                        "type": "file read"
+                    }, 
+                    "0.0008080005645751953": {
+                        "path": "/dev/input/event0", 
+                        "operation": "write", 
+                        "data": "efbfbd060000efbfbdefbfbd0c000500000000000000", 
+                        "id": "1553101986", 
+                        "type": "file write"
+                    }, 
+                    "176.19905805587769": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343538343830206b420a427566666572733a20202020202020202020202035373430206b420a4361636865643a202020202020202020", 
+                        "id": "895691913", 
+                        "type": "file read"
+                    }, 
+                    "210.99608087539673": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343537363034206b420a427566666572733a20202020202020202020202035373936206b420a4361636865643a202020202020202020", 
+                        "id": "383524935", 
+                        "type": "file read"
+                    }, 
+                    "173.91525983810425": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343537363132206b420a427566666572733a20202020202020202020202035373332206b420a4361636865643a202020202020202020", 
+                        "id": "1184220178", 
+                        "type": "file read"
+                    }, 
+                    "14.813910961151123": {
+                        "path": "/data/data/com.android.email/shared_prefs/AndroidMail.Main.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c696e74206e616d653d226f6e6554696d65496e697469616c697a6174696f6e50726f6772", 
+                        "id": "2133541729", 
+                        "type": "file write"
+                    }, 
+                    "206.71537590026855": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343535303038206b420a427566666572733a20202020202020202020202035373838206b420a4361636865643a202020202020202020", 
+                        "id": "2114063838", 
+                        "type": "file read"
+                    }, 
+                    "167.65729689598083": {
+                        "path": "/dev/input/event0", 
+                        "operation": "write", 
+                        "data": "7f060000efbfbd3901000500000001000000", 
+                        "id": "692744404", 
+                        "type": "file write"
+                    }, 
+                    "0.11506891250610352": {
+                        "path": "/data/data/com.android.gallery3d/shared_prefs/com.android.gallery3d_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c696e74206e616d653d227061636b616765732d76657273696f6e222076616c75653d2236", 
+                        "id": "1140138337", 
+                        "type": "file write"
+                    }, 
+                    "194.62167692184448": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343532313430206b420a427566666572733a20202020202020202020202035373634206b420a4361636865643a202020202020202020", 
+                        "id": "387194362", 
+                        "type": "file read"
+                    }, 
+                    "73.25928401947021": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343530383336206b420a427566666572733a20202020202020202020202035353234206b420a4361636865643a202020202020202020", 
+                        "id": "1452758523", 
+                        "type": "file read"
+                    }, 
+                    "168.38781189918518": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343537373434206b420a427566666572733a20202020202020202020202035373234206b420a4361636865643a202020202020202020", 
+                        "id": "1841418428", 
+                        "type": "file read"
+                    }, 
+                    "75.00531792640686": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343530353838206b420a427566666572733a20202020202020202020202035353234206b420a4361636865643a202020202020202020", 
+                        "id": "1657429773", 
+                        "type": "file read"
+                    }, 
+                    "63.85118794441223": {
+                        "path": "/proc/223/net/xt_qtaguid/iface_stat_all", 
+                        "operation": "read", 
+                        "data": "65746830203120302030203020302031393031303320313732382033373031353720313633330a6c6f20312030203020302030203232323420333320323232342033330a0000000000000000000000000000000000000000000000000000000000000000", 
+                        "id": "1903134518", 
+                        "type": "file read"
+                    }, 
+                    "86.00816202163696": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343531353536206b420a427566666572733a20202020202020202020202035353438206b420a4361636865643a202020202020202020", 
+                        "id": "2037629385", 
+                        "type": "file read"
+                    }, 
+                    "206.66757893562317": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343535313332206b420a427566666572733a20202020202020202020202035373838206b420a4361636865643a202020202020202020", 
+                        "id": "760088257", 
+                        "type": "file read"
+                    }, 
+                    "151.235093832016": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343537353034206b420a427566666572733a20202020202020202020202035373030206b420a4361636865643a202020202020202020", 
+                        "id": "1231976649", 
+                        "type": "file read"
+                    }, 
+                    "203.7266490459442": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343538313038206b420a427566666572733a20202020202020202020202035373830206b420a4361636865643a202020202020202020", 
+                        "id": "872598596", 
+                        "type": "file read"
+                    }, 
+                    "150.10513496398926": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343534363532206b420a427566666572733a20202020202020202020202035363932206b420a4361636865643a202020202020202020", 
+                        "id": "1587798464", 
+                        "type": "file read"
+                    }, 
+                    "211.03810095787048": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343537363034206b420a427566666572733a20202020202020202020202035373936206b420a4361636865643a202020202020202020", 
+                        "id": "1535514709", 
+                        "type": "file read"
+                    }, 
+                    "209.59502601623535": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343531363532206b420a427566666572733a20202020202020202020202035373838206b420a4361636865643a202020202020202020", 
+                        "id": "594638259", 
+                        "type": "file read"
+                    }, 
+                    "195.50361394882202": {
+                        "path": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c737472696e67206e616d653d2278626d635f76617269616e74223e6f72672e7669646f6e", 
+                        "id": "1840673157", 
+                        "type": "file write"
+                    }, 
+                    "15.694790840148926": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343537353932206b420a427566666572733a20202020202020202020202035333336206b420a4361636865643a202020202020202020", 
+                        "id": "1205487362", 
+                        "type": "file read"
+                    }, 
+                    "106.39882302284241": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343633353936206b420a427566666572733a20202020202020202020202035363034206b420a4361636865643a202020202020202020", 
+                        "id": "165498927", 
+                        "type": "file read"
+                    }, 
+                    "87.27044987678528": {
+                        "path": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c737472696e67206e616d653d2278626d635f76617269616e74223e6f72672e78626d632e", 
+                        "id": "1576095503", 
+                        "type": "file write"
+                    }, 
+                    "10.269824028015137": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343630333038206b420a427566666572733a20202020202020202020202035303430206b420a4361636865643a202020202020202020", 
+                        "id": "2040018521", 
+                        "type": "file read"
+                    }, 
+                    "37.3150110244751": {
+                        "path": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c737472696e67206e616d653d2278626d635f76617269616e74223e61672e74766164646f", 
+                        "id": "1858843506", 
+                        "type": "file write"
+                    }, 
+                    "74.2170820236206": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343530383336206b420a427566666572733a20202020202020202020202035353234206b420a4361636865643a202020202020202020", 
+                        "id": "1125386175", 
+                        "type": "file read"
+                    }, 
+                    "210.65171194076538": {
+                        "path": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c737472696e67206e616d653d2278626d635f76617269616e74223e61672e74766164646f", 
+                        "id": "1307822845", 
+                        "type": "file write"
+                    }, 
+                    "161.78405904769897": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343537343936206b420a427566666572733a20202020202020202020202035373234206b420a4361636865643a202020202020202020", 
+                        "id": "1877903075", 
+                        "type": "file read"
+                    }, 
+                    "73.13496088981628": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343530393532206b420a427566666572733a20202020202020202020202035353234206b420a4361636865643a202020202020202020", 
+                        "id": "261991246", 
+                        "type": "file read"
+                    }, 
+                    "113.20098090171814": {
+                        "path": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c737472696e67206e616d653d2278626d635f76617269616e74223e6f72672e78626d632e", 
+                        "id": "1112394894", 
+                        "type": "file write"
+                    }, 
+                    "173.73552298545837": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343539353936206b420a427566666572733a20202020202020202020202035373332206b420a4361636865643a202020202020202020", 
+                        "id": "1446553875", 
+                        "type": "file read"
+                    }, 
+                    "91.87140083312988": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343537353038206b420a427566666572733a20202020202020202020202035353536206b420a4361636865643a202020202020202020", 
+                        "id": "1374683156", 
+                        "type": "file read"
+                    }, 
+                    "177.0361099243164": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343539383630206b420a427566666572733a20202020202020202020202035373430206b420a4361636865643a202020202020202020", 
+                        "id": "1897257550", 
+                        "type": "file read"
+                    }, 
+                    "34.28091096878052": {
+                        "path": "/dev/input/event0", 
+                        "operation": "write", 
+                        "data": "efbfbd060000efbfbdefbfbd0c000500000000000000", 
+                        "id": "159364679", 
+                        "type": "file write"
+                    }, 
+                    "16.054930925369263": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343537323230206b420a427566666572733a20202020202020202020202035333336206b420a4361636865643a202020202020202020", 
+                        "id": "1651563891", 
+                        "type": "file read"
+                    }, 
+                    "179.03092885017395": {
+                        "path": "/dev/input/event0", 
+                        "operation": "write", 
+                        "data": "efbfbd060000efbfbdefbfbd0c000500000000000000", 
+                        "id": "1893387168", 
+                        "type": "file write"
+                    }, 
+                    "4.363821029663086": {
+                        "path": "/data/data/com.android.inputmethod.latin/files/contacts.en_US.dict.temp", 
+                        "operation": "write", 
+                        "data": "00", 
+                        "id": "92828568", 
+                        "type": "file write"
+                    }, 
+                    "72.93384790420532": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343533393336206b420a427566666572733a20202020202020202020202035353234206b420a4361636865643a202020202020202020", 
+                        "id": "1353866615", 
+                        "type": "file read"
+                    }, 
+                    "150.66648387908936": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343537373532206b420a427566666572733a20202020202020202020202035373030206b420a4361636865643a202020202020202020", 
+                        "id": "1476166684", 
+                        "type": "file read"
+                    }, 
+                    "168.5409460067749": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343537393932206b420a427566666572733a20202020202020202020202035373234206b420a4361636865643a202020202020202020", 
+                        "id": "157207913", 
+                        "type": "file read"
+                    }, 
+                    "99.36287093162537": {
+                        "path": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c737472696e67206e616d653d2278626d635f76617269616e74223e6f72672e7761737365", 
+                        "id": "417464718", 
+                        "type": "file write"
+                    }, 
+                    "207.84621691703796": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343533313536206b420a427566666572733a20202020202020202020202035373838206b420a4361636865643a202020202020202020", 
+                        "id": "8900792", 
+                        "type": "file read"
+                    }, 
+                    "14.192553043365479": {
+                        "path": "/data/data/com.android.providers.contacts/shared_prefs/com.android.providers.contacts_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c737472696e67206e616d653d226c6f63616c65223e656e5f55533c2f737472696e673e0a", 
+                        "id": "1533129522", 
+                        "type": "file write"
+                    }, 
+                    "152.74724292755127": {
+                        "path": "/dev/input/event0", 
+                        "operation": "write", 
+                        "data": "7f060000efbfbd3901000500000001000000", 
+                        "id": "1624999835", 
+                        "type": "file write"
+                    }, 
+                    "192.32752799987793": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343537393834206b420a427566666572733a20202020202020202020202035373634206b420a4361636865643a202020202020202020", 
+                        "id": "270175624", 
+                        "type": "file read"
+                    }, 
+                    "150.73648405075073": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343537373532206b420a427566666572733a20202020202020202020202035373030206b420a4361636865643a202020202020202020", 
+                        "id": "1316497299", 
+                        "type": "file read"
+                    }, 
+                    "150.24195003509521": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343537333830206b420a427566666572733a20202020202020202020202035363932206b420a4361636865643a202020202020202020", 
+                        "id": "518284324", 
+                        "type": "file read"
+                    }, 
+                    "63.7654869556427": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343532303736206b420a427566666572733a20202020202020202020202035353038206b420a4361636865643a202020202020202020", 
+                        "id": "1608436170", 
+                        "type": "file read"
+                    }, 
+                    "97.56371593475342": {
+                        "path": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c737472696e67206e616d653d2278626d635f76617269616e74223e636f6d2e706c657861", 
+                        "id": "865616615", 
+                        "type": "file write"
+                    }, 
+                    "207.5811369419098": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343533343034206b420a427566666572733a20202020202020202020202035373838206b420a4361636865643a202020202020202020", 
+                        "id": "1168132329", 
+                        "type": "file read"
+                    }, 
+                    "199.79671096801758": {
+                        "path": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c737472696e67206e616d653d2278626d635f76617269616e74223e6f72672e7669646f6e", 
+                        "id": "122509998", 
+                        "type": "file write"
+                    }, 
+                    "151.17246198654175": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343537353034206b420a427566666572733a20202020202020202020202035373030206b420a4361636865643a202020202020202020", 
+                        "id": "1779116969", 
+                        "type": "file read"
+                    }, 
+                    "203.46765184402466": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343538323332206b420a427566666572733a20202020202020202020202035373830206b420a4361636865643a202020202020202020", 
+                        "id": "1202404528", 
+                        "type": "file read"
+                    }, 
+                    "150.4937539100647": {
+                        "path": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c737472696e67206e616d653d2278626d635f76617269616e74223e6f72672e78626d632e", 
+                        "id": "2072757393", 
+                        "type": "file write"
+                    }, 
+                    "103.7466390132904": {
+                        "path": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c737472696e67206e616d653d2278626d635f76617269616e74223e636f6d2e706c657861", 
+                        "id": "1368339157", 
+                        "type": "file write"
+                    }, 
+                    "10.787646055221558": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343632353332206b420a427566666572733a20202020202020202020202035303430206b420a4361636865643a202020202020202020", 
+                        "id": "294542317", 
+                        "type": "file read"
+                    }, 
+                    "209.75398302078247": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343531363532206b420a427566666572733a20202020202020202020202035373838206b420a4361636865643a202020202020202020", 
+                        "id": "294611903", 
+                        "type": "file read"
+                    }, 
+                    "142.49168801307678": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343631333536206b420a427566666572733a20202020202020202020202035363736206b420a4361636865643a202020202020202020", 
+                        "id": "505337650", 
+                        "type": "file read"
+                    }, 
+                    "149.78526091575623": {
+                        "path": "/dev/input/event0", 
+                        "operation": "write", 
+                        "data": "7f060000efbfbd3901000500000001000000", 
+                        "id": "943854395", 
+                        "type": "file write"
+                    }, 
+                    "86.38387298583984": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343536333932206b420a427566666572733a20202020202020202020202035353438206b420a4361636865643a202020202020202020", 
+                        "id": "2010637249", 
+                        "type": "file read"
+                    }, 
+                    "90.54217791557312": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343631343736206b420a427566666572733a20202020202020202020202035353536206b420a4361636865643a202020202020202020", 
+                        "id": "1098726070", 
+                        "type": "file read"
+                    }, 
+                    "90.53071784973145": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343631343736206b420a427566666572733a20202020202020202020202035353536206b420a4361636865643a202020202020202020", 
+                        "id": "758507029", 
+                        "type": "file read"
+                    }, 
+                    "174.41386890411377": {
+                        "path": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c737472696e67206e616d653d2278626d635f76617269616e74223e636f6d2e706c657861", 
+                        "id": "357627471", 
+                        "type": "file write"
+                    }, 
+                    "209.53560590744019": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343531363532206b420a427566666572733a20202020202020202020202035373838206b420a4361636865643a202020202020202020", 
+                        "id": "731788274", 
+                        "type": "file read"
+                    }, 
+                    "40.60170292854309": {
+                        "path": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c737472696e67206e616d653d2278626d635f76617269616e74223e6e65742e6d61747269", 
+                        "id": "2078021930", 
+                        "type": "file write"
+                    }, 
+                    "196.66745495796204": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343537323430206b420a427566666572733a20202020202020202020202035373732206b420a4361636865643a202020202020202020", 
+                        "id": "12273114", 
+                        "type": "file read"
+                    }, 
+                    "178.67359590530396": {
+                        "path": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c737472696e67206e616d653d2278626d635f76617269616e74223e636f6d2e73656d7065", 
+                        "id": "1590250315", 
+                        "type": "file write"
+                    }, 
+                    "160.9640998840332": {
+                        "path": "/dev/input/event0", 
+                        "operation": "write", 
+                        "data": "7f060000efbfbd3901000500000001000000", 
+                        "id": "404920553", 
+                        "type": "file write"
+                    }, 
+                    "74.42499494552612": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343530383238206b420a427566666572733a20202020202020202020202035353234206b420a4361636865643a202020202020202020", 
+                        "id": "342607586", 
+                        "type": "file read"
+                    }, 
+                    "197.20292401313782": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343536393932206b420a427566666572733a20202020202020202020202035373732206b420a4361636865643a202020202020202020", 
+                        "id": "432153839", 
+                        "type": "file read"
+                    }, 
+                    "86.16806602478027": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343536333932206b420a427566666572733a20202020202020202020202035353438206b420a4361636865643a202020202020202020", 
+                        "id": "783682338", 
+                        "type": "file read"
+                    }, 
+                    "151.94535398483276": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343537353034206b420a427566666572733a20202020202020202020202035373030206b420a4361636865643a202020202020202020", 
+                        "id": "1636401324", 
+                        "type": "file read"
+                    }, 
+                    "148.36494994163513": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343535333936206b420a427566666572733a20202020202020202020202035363834206b420a4361636865643a202020202020202020", 
+                        "id": "679982101", 
+                        "type": "file read"
+                    }, 
+                    "3.7108139991760254": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343630353438206b420a427566666572733a20202020202020202020202034383932206b420a4361636865643a202020202020202020", 
+                        "id": "1995680945", 
+                        "type": "file read"
+                    }, 
+                    "194.7414789199829": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343532313430206b420a427566666572733a20202020202020202020202035373634206b420a4361636865643a202020202020202020", 
+                        "id": "830451678", 
+                        "type": "file read"
+                    }, 
+                    "148.89230585098267": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343533373834206b420a427566666572733a20202020202020202020202035363932206b420a4361636865643a202020202020202020", 
+                        "id": "756609275", 
+                        "type": "file read"
+                    }, 
+                    "196.54424786567688": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343538323136206b420a427566666572733a20202020202020202020202035373732206b420a4361636865643a202020202020202020", 
+                        "id": "589178749", 
+                        "type": "file read"
+                    }, 
+                    "73.17533302307129": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343530393630206b420a427566666572733a20202020202020202020202035353234206b420a4361636865643a202020202020202020", 
+                        "id": "496101684", 
+                        "type": "file read"
+                    }, 
+                    "151.00438404083252": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343537353034206b420a427566666572733a20202020202020202020202035373030206b420a4361636865643a202020202020202020", 
+                        "id": "94591866", 
+                        "type": "file read"
+                    }, 
+                    "148.37894701957703": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343535333936206b420a427566666572733a20202020202020202020202035363834206b420a4361636865643a202020202020202020", 
+                        "id": "584649902", 
+                        "type": "file read"
+                    }, 
+                    "165.17487382888794": {
+                        "path": "/dev/input/event0", 
+                        "operation": "write", 
+                        "data": "efbfbd060000efbfbdefbfbd0c000500000000000000", 
+                        "id": "1552290016", 
+                        "type": "file write"
+                    }, 
+                    "161.21309995651245": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343537343936206b420a427566666572733a20202020202020202020202035373136206b420a4361636865643a202020202020202020", 
+                        "id": "479988991", 
+                        "type": "file read"
+                    }, 
+                    "28.794676065444946": {
+                        "path": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c737472696e67206e616d653d2278626d635f76617269616e74223e74762e6f7579612e78", 
+                        "id": "1051442726", 
+                        "type": "file write"
+                    }, 
+                    "197.6414680480957": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343536393932206b420a427566666572733a20202020202020202020202035373732206b420a4361636865643a202020202020202020", 
+                        "id": "1437054446", 
+                        "type": "file read"
+                    }, 
+                    "168.3780038356781": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343537373434206b420a427566666572733a20202020202020202020202035373234206b420a4361636865643a202020202020202020", 
+                        "id": "720213501", 
+                        "type": "file read"
+                    }, 
+                    "4.357866048812866": {
+                        "path": "/data/data/com.android.inputmethod.latin/files/contacts.en_US.dict.temp", 
+                        "operation": "write", 
+                        "data": "78efbfbd010000", 
+                        "id": "741797830", 
+                        "type": "file write"
+                    }, 
+                    "53.928415060043335": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343536393238206b420a427566666572733a20202020202020202020202035343834206b420a4361636865643a202020202020202020", 
+                        "id": "787960232", 
+                        "type": "file read"
+                    }, 
+                    "208.6976490020752": {
+                        "path": "/dev/input/event0", 
+                        "operation": "write", 
+                        "data": "7f060000efbfbd3901000500000001000000", 
+                        "id": "1126984022", 
+                        "type": "file write"
+                    }, 
+                    "150.20901703834534": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343537333830206b420a427566666572733a20202020202020202020202035363932206b420a4361636865643a202020202020202020", 
+                        "id": "896998330", 
+                        "type": "file read"
+                    }, 
+                    "145.3004949092865": {
+                        "path": "/dev/input/event0", 
+                        "operation": "write", 
+                        "data": "efbfbd060000efbfbdefbfbd0c000500000000000000", 
+                        "id": "91259461", 
+                        "type": "file write"
+                    }, 
+                    "126.00104284286499": {
+                        "path": "/data/data/se.blunden.xbmclauncher/shared_prefs/se.blunden.xbmclauncher_preferences.xml", 
+                        "operation": "write", 
+                        "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c737472696e67206e616d653d2278626d635f76617269616e74223e74762e6f7579612e78", 
+                        "id": "1706678365", 
+                        "type": "file write"
+                    }, 
+                    "39.152019023895264": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343533343332206b420a427566666572733a20202020202020202020202035343438206b420a4361636865643a202020202020202020", 
+                        "id": "224525199", 
+                        "type": "file read"
+                    }, 
+                    "75.12322688102722": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343530353838206b420a427566666572733a20202020202020202020202035353234206b420a4361636865643a202020202020202020", 
+                        "id": "594656493", 
+                        "type": "file read"
+                    }, 
+                    "57.06909894943237": {
+                        "path": "/dev/input/event0", 
+                        "operation": "write", 
+                        "data": "7f060000efbfbd3901000500000001000000", 
+                        "id": "1493160286", 
+                        "type": "file write"
+                    }, 
+                    "64.16513705253601": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343531373034206b420a427566666572733a20202020202020202020202035353038206b420a4361636865643a202020202020202020", 
+                        "id": "2067996649", 
+                        "type": "file read"
+                    }, 
+                    "72.88087105751038": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343533393336206b420a427566666572733a20202020202020202020202035353234206b420a4361636865643a202020202020202020", 
+                        "id": "2101734413", 
+                        "type": "file read"
+                    }, 
+                    "203.67838287353516": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343538313038206b420a427566666572733a20202020202020202020202035373830206b420a4361636865643a202020202020202020", 
+                        "id": "1577104214", 
+                        "type": "file read"
+                    }, 
+                    "142.6503448486328": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343539393932206b420a427566666572733a20202020202020202020202035363736206b420a4361636865643a202020202020202020", 
+                        "id": "1705513398", 
+                        "type": "file read"
+                    }, 
+                    "63.09527897834778": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343534393238206b420a427566666572733a20202020202020202020202035353038206b420a4361636865643a202020202020202020", 
+                        "id": "1618200002", 
+                        "type": "file read"
+                    }, 
+                    "192.71290493011475": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343536343936206b420a427566666572733a20202020202020202020202035373634206b420a4361636865643a202020202020202020", 
+                        "id": "1252402074", 
+                        "type": "file read"
+                    }, 
+                    "129.67645382881165": {
+                        "path": "/dev/input/event0", 
+                        "operation": "write", 
+                        "data": "7f060000efbfbd3901000500000001000000", 
+                        "id": "1371932218", 
+                        "type": "file write"
+                    }, 
+                    "10.082653045654297": {
+                        "path": "/proc/meminfo", 
+                        "operation": "read", 
+                        "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343631373936206b420a427566666572733a20202020202020202020202035303430206b420a4361636865643a202020202020202020", 
+                        "id": "1050927516", 
+                        "type": "file read"
+                    }
+                }, 
+                "dataleaks": {}, 
+                "opennet": {}, 
+                "dexclass": {
+                    "0.001695871353149414": {
+                        "path": "/data/app/se.blunden.xbmclauncher-1.apk", 
+                        "type": "dexload"
+                    }, 
+                    "14.387047052383423": {
+                        "path": "/system/app/Music.apk", 
+                        "type": "dexload"
+                    }
+                }, 
+                "hashes": [
+                    "39a8fbd6be8016b56ccb4b73873f0d2f", 
+                    "d70bf805bb4d8dd665f6219e9433a54dec8554c3", 
+                    "ed700935c8433ac680507f50c04acc08a7a526f8c3374fd1eb8f3b209bea7e9d"
+                ], 
+                "closenet": {}, 
+                "phonecalls": {}
+            }, 
+            "Strace": "/apks/Dynamic/Strace/ed700935c8433ac680507f50c04acc08a7a526f8c3374fd1eb8f3b209bea7e9d.csv"
+        }, 
+        "VirusTotal": {
+            "scan_id": "ed700935c8433ac680507f50c04acc08a7a526f8c3374fd1eb8f3b209bea7e9d-1506619576", 
+            "sha1": "d70bf805bb4d8dd665f6219e9433a54dec8554c3", 
+            "resource": "ed700935c8433ac680507f50c04acc08a7a526f8c3374fd1eb8f3b209bea7e9d", 
+            "response_code": 1, 
+            "scan_date": "2017-09-28 17:26:16", 
+            "permalink": "https://www.virustotal.com/gui/file/ed700935c8433ac680507f50c04acc08a7a526f8c3374fd1eb8f3b209bea7e9d/detection/f-ed700935c8433ac680507f50c04acc08a7a526f8c3374fd1eb8f3b209bea7e9d-1506619576", 
+            "verbose_msg": "Scan finished, information embedded", 
+            "sha256": "ed700935c8433ac680507f50c04acc08a7a526f8c3374fd1eb8f3b209bea7e9d", 
+            "positives": 0, 
+            "total": 62, 
+            "md5": "39a8fbd6be8016b56ccb4b73873f0d2f", 
+            "scans": {
+                "Lionic": {
+                    "detected": false, 
+                    "version": "4.2", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "TotalDefense": {
+                    "detected": false, 
+                    "version": "37.1.62.1", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "MicroWorld-eScan": {
+                    "detected": false, 
+                    "version": "12.0.250.0", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "nProtect": {
+                    "detected": false, 
+                    "version": "2017-09-28.02", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "CMC": {
+                    "detected": false, 
+                    "version": "1.1.0.977", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "CAT-QuickHeal": {
+                    "detected": false, 
+                    "version": "14.00", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "ALYac": {
+                    "detected": false, 
+                    "version": "1.1.1.2", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "Malwarebytes": {
+                    "detected": false, 
+                    "version": "2.1.1.1115", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "VIPRE": {
+                    "detected": false, 
+                    "version": "61336", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "TheHacker": {
+                    "detected": false, 
+                    "version": "6.8.0.5.1962", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "BitDefender": {
+                    "detected": false, 
+                    "version": "7.2", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "K7GW": {
+                    "detected": false, 
+                    "version": "10.27.24771", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "K7AntiVirus": {
+                    "detected": false, 
+                    "version": "10.27.24769", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "Baidu": {
+                    "detected": false, 
+                    "version": "1.0.0.2", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "Cyren": {
+                    "detected": false, 
+                    "version": "5.4.30.7", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "SymantecMobileInsight": {
+                    "detected": false, 
+                    "version": "1.0.0.35_220", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "Symantec": {
+                    "detected": false, 
+                    "version": "1.4.0.0", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "ESET-NOD32": {
+                    "detected": false, 
+                    "version": "16156", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "TrendMicro-HouseCall": {
+                    "detected": false, 
+                    "version": "9.950.0.1006", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "Avast": {
+                    "detected": false, 
+                    "version": "17.6.3625.0", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "ClamAV": {
+                    "detected": false, 
+                    "version": "0.99.2.0", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "GData": {
+                    "detected": false, 
+                    "version": "A:25.14328B:25.10534", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "Kaspersky": {
+                    "detected": false, 
+                    "version": "15.0.1.13", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "Alibaba": {
+                    "detected": false, 
+                    "version": "1.0", 
+                    "result": null, 
+                    "update": "20170911"
+                }, 
+                "NANO-Antivirus": {
+                    "detected": false, 
+                    "version": "1.0.98.19134", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "ViRobot": {
+                    "detected": false, 
+                    "version": "2014.3.20.0", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "Rising": {
+                    "detected": false, 
+                    "version": "25.0.0.1", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "Ad-Aware": {
+                    "detected": false, 
+                    "version": "3.0.3.1010", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "Trustlook": {
+                    "detected": false, 
+                    "version": "2", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "Sophos": {
+                    "detected": false, 
+                    "version": "4.98.0", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "Comodo": {
+                    "detected": false, 
+                    "version": "27823", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "F-Secure": {
+                    "detected": false, 
+                    "version": "11.0.19100.45", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "DrWeb": {
+                    "detected": false, 
+                    "version": "7.0.28.2020", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "Zillya": {
+                    "detected": false, 
+                    "version": "2.0.0.3394", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "TrendMicro": {
+                    "detected": false, 
+                    "version": "9.862.0.1074", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "McAfee-GW-Edition": {
+                    "detected": false, 
+                    "version": "v2015", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "Emsisoft": {
+                    "detected": false, 
+                    "version": "4.0.1.883", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "F-Prot": {
+                    "detected": false, 
+                    "version": "4.7.1.166", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "Jiangmin": {
+                    "detected": false, 
+                    "version": "16.0.100", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "Webroot": {
+                    "detected": false, 
+                    "version": "1.0.0.207", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "Avira": {
+                    "detected": false, 
+                    "version": "8.3.3.4", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "Antiy-AVL": {
+                    "detected": false, 
+                    "version": "3.0.0.1", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "Kingsoft": {
+                    "detected": false, 
+                    "version": "2013.8.14.323", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "Microsoft": {
+                    "detected": false, 
+                    "version": "1.1.14202.0", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "Arcabit": {
+                    "detected": false, 
+                    "version": "1.0.0.827", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "SUPERAntiSpyware": {
+                    "detected": false, 
+                    "version": "5.6.0.1032", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "ZoneAlarm": {
+                    "detected": false, 
+                    "version": "1.0", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "Avast-Mobile": {
+                    "detected": false, 
+                    "version": "170928-00", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "AhnLab-V3": {
+                    "detected": false, 
+                    "version": "3.10.0.18797", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "McAfee": {
+                    "detected": false, 
+                    "version": "6.0.6.653", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "AVware": {
+                    "detected": false, 
+                    "version": "1.5.0.42", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "MAX": {
+                    "detected": false, 
+                    "version": "2017.6.26.1", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "VBA32": {
+                    "detected": false, 
+                    "version": "3.12.26.4", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "WhiteArmor": {
+                    "detected": false, 
+                    "version": null, 
+                    "result": null, 
+                    "update": "20170927"
+                }, 
+                "Zoner": {
+                    "detected": false, 
+                    "version": "1.0", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "Tencent": {
+                    "detected": false, 
+                    "version": "1.0.0.1", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "Yandex": {
+                    "detected": false, 
+                    "version": "5.5.1.3", 
+                    "result": null, 
+                    "update": "20170908"
+                }, 
+                "Ikarus": {
+                    "detected": false, 
+                    "version": "0.1.5.2", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "Fortinet": {
+                    "detected": false, 
+                    "version": "5.4.247.0", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "AVG": {
+                    "detected": false, 
+                    "version": "17.6.3625.0", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "Panda": {
+                    "detected": false, 
+                    "version": "4.6.4.2", 
+                    "result": null, 
+                    "update": "20170928"
+                }, 
+                "Qihoo-360": {
+                    "detected": false, 
+                    "version": "1.0.0.1120", 
+                    "result": null, 
+                    "update": "20170928"
+                }
+            }
+        }
+    }
+}
